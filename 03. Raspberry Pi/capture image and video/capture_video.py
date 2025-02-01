@@ -9,4 +9,4 @@ print("Recording started...")
 sleep(10)
 # Stop the recording
 camera.stop_recording()
-print("Recording stopped. Video saved as video.h2
+print("Recording stopped. Video saved as video.h264")
