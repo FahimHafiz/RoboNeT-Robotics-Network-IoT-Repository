@@ -5,6 +5,7 @@ Objective: To guide beginners through the process of capturing a single image, m
 Step 1: Create a Project Folder
 On your Raspberry Pi desktop, right-click and create a new folder. Name it camera_project.
 Open the folder, and create three subfolders by right clicking:
+
   single_image
   image_loop
   video_capture
