@@ -11,12 +11,10 @@ Breadboard
 Step 2: Connect the LED to Raspberry Pi
 Place the LED on the breadboard.
 
-
     The longer leg is the positive (anode).
     The shorter leg is the negative (cathode).
     Connect the positive leg of the LED to GPIO14 (Pin 8) on the Raspberry Pi using a jumper wire.
     Connect the negative leg of the LED to one end of the 220Ω resistor.
-
 
 Connect the other end of the resistor to a GND pin (Pin 6) on the Raspberry Pi.
 
@@ -26,7 +24,6 @@ Open a terminal and install the GPIO library:
 
   sudo apt update
   sudo apt install python3-gpiozero
-
 
 Step 4: Create a Folder for the Project
 
@@ -42,13 +39,11 @@ Paste the following code into led_blink.py:
 Step 6: Run the Program
 Open Thonny and load the led_blink.py file.
 
-
 Click the Run button (green triangle) to execute the program.
 
 The LED will blink ON and OFF every second.
 
 To stop the program, press Ctrl+C in the terminal or click the Stop button in Thonny.
-
 
 Step 7: Clean Up
 
