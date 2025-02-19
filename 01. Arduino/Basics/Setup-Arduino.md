@@ -59,7 +59,7 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 ## After connecting copy paste the following code there:
 
-'''bash
+'''python
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); 
 }
