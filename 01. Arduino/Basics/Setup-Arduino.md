@@ -34,7 +34,7 @@ You’ll need arduino IDE to get started with the arduino and esp32 programming.
 ## Arduino pin diagram : 
 
 <div align="center">
-  ![Image](https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf)
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf" />
 </div>
 
 
