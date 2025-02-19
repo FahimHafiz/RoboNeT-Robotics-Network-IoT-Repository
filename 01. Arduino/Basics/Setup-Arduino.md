@@ -47,7 +47,7 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 
 
-##The Pin Diagram:
+## The Pin Diagram:
 ![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
 
 
@@ -59,8 +59,7 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 ## After connecting copy paste the following code there:
 
-'''
-bash
+'''bash
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); 
 }
