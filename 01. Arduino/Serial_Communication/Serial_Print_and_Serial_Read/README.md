@@ -12,7 +12,7 @@ This guide explains how to use Serial Print and Serial Read functions in Arduino
 ### Required Library
 * No additional libraries are required. Serial communication is built into the Arduino core library.
 
-##Purpose
+## Purpose
 Serial communication is used to:
 * Send and receive data between the Arduino and a computer.
 * Debug programs by printing messages to the Serial Monitor.
