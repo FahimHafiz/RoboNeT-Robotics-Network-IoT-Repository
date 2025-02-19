@@ -69,7 +69,6 @@ void loop() {
  Waits another 1 second before restarting the loop.
 
 
-### How to write and upload the code to Arduino:  [Upload Code Guide](https://youtu.be/xQfC72VeV7Y?si=Ls96MXAMnVyEDich)
 
 
 # Conclusion: 
