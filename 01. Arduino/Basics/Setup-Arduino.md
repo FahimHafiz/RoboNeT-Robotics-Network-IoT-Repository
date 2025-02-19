@@ -55,7 +55,7 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 
 <div align="center">
-  ![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf" />
 </div>
 
 
