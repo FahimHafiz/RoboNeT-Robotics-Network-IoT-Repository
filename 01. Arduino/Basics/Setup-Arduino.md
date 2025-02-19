@@ -14,9 +14,9 @@ This documentation aims to provide a beginner-friendly guide to getting started 
 ## Arduino Launch History :  
 You’ll need arduino IDE to get started with the arduino and esp32 programming. To get the latest version of the IDE follow this link and follow the instructions.
 
-[IDE download link]([https://www.google.com](https://www.arduino.cc/en/software))
-[Installation Guide link for Windows]([https://www.google.com](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/))
-[Installation Guide Link for macOS]([https://www.google.com](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/))
+[IDE download link](https://www.arduino.cc/en/software))
+[Installation Guide link for Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/))
+[Installation Guide Link for macOS](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/))
 [Learn Arduino code](https://docs.arduino.cc/language-reference/?_gl=1*1fzdi51*_up*MQ..*_ga*MzMyOTcyNjE2LjE3MzY2MjQ1ODc.*_ga_NEXN8H46L5*MTczNjYyNDU4NC4xLjEuMTczNjYyNDU4OS4wLjAuNTMzMjg0MTkx)
 
 
@@ -31,7 +31,7 @@ You’ll need arduino IDE to get started with the arduino and esp32 programming.
 * Large Community and Documentation
 
 
-Arduino pin diagram : 
+## Arduino pin diagram : 
 ![Image](https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf)
 
 
@@ -47,7 +47,7 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 
 
-The Pin Diagram:
+##The Pin Diagram:
 ![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
 
 
@@ -57,7 +57,24 @@ The Pin Diagram:
 
 
 
-After connecting copy paste the following code there:
+## After connecting copy paste the following code there:
+
+'''
+bash
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT); 
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
+}
+
+'''
+
+
 Code:
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); 
