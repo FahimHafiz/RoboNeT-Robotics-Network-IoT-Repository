@@ -18,3 +18,16 @@ A sensor is a device that detects changes in the environment (e.g., temperature,
   * Temperature Sensor (LM35) → Outputs voltage based on temperature.
   * Ultrasonic Sensor (HC-SR04) → Measures distance using sound waves.
   * Potentiometer → Changes resistance based on knob rotation.
+
+
+
+
+
+## Motor Control in Arduino
+A motor is an actuator that converts electrical energy into mechanical motion.
+
+### Types of Motors & How They Work
+
+* DC Motor (Rotates in one direction, controlled via PWM).
+* Servo Motor (Rotates to a specific angle, controlled via signals).
+* Stepper Motor (Moves in precise steps, controlled via pulses).
