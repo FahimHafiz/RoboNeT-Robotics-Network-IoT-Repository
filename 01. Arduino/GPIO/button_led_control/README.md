@@ -67,14 +67,13 @@ void loop() {
 * No Serial Output: Verify the baud rate in the Serial Monitor (9600).
 ## Diagram
 Below is a block diagram explaining the system:
-+-----------------+      +------------------+
-|  Arduino Board  | <--> | Button & LED     |
-+-----------------+      +------------------+
-         |                          |
-       D2 (Input)                  Button
-       D13 (Output)                 LED
-       GND                          GND
-       5V                           VCC
+
+|  Arduino Board       | Button & LED         |
+|----------------------|----------------------|
+|       D2 (Input)     |            Button    |
+|       D13 (Output)   |              LED     |
+|       GND            |              GND     |
+|       5V             |              VCC     |
 
 This setup helps in understanding digital inputs and outputs in Arduino.
 
