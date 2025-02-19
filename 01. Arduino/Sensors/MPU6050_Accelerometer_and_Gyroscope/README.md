@@ -80,6 +80,7 @@ void loop() {
 Below is a block diagram explaining the system:
 
 |  Arduino Board  |   MPU6050 Sensor    |
+|-----------------|---------------------|
 |         VCC     |           VCC       |
 |         GND     |           GND       |
 |         SDA     |           SDA       |
