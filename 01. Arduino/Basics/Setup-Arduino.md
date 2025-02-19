@@ -32,13 +32,17 @@ You’ll need arduino IDE to get started with the arduino and esp32 programming.
 
 
 ## Arduino pin diagram : 
-![Image](https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf)
+
+<div align="center">
+  ![Image](https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf)
+</div>
 
 
 
 
 ## Blinking LED with Arduino Uno: 
 This example shows the simplest thing you can do with an Arduino to see physical output: it blinks the on-board LED.
+
 ## Hardware Required :
 * Arduino Uno
 * LED
@@ -48,9 +52,11 @@ This example shows the simplest thing you can do with an Arduino to see physical
 
 
 ## The Pin Diagram:
-![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
 
 
+<div align="center">
+  ![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
+</div>
 
 
 
@@ -73,36 +79,35 @@ void loop() {
 ```
 
 ## Explanation:
-```void setup():```
+* ```void setup():```
  This runs once when the Arduino starts. Here, we tell the Arduino to treat the onboard LED pin as an "output" so we can control it.
 
 
-```void loop():```
+* ```void loop():```
  This runs repeatedly in a loop. It alternates between turning the LED on and off, each time waiting for 1 second.
 
 
-```pinMode(LED_BUILTIN, OUTPUT);:```
+* ```pinMode(LED_BUILTIN, OUTPUT);:```
  Prepares the built-in LED pin (connected to LED_BUILTIN) to send signals (ON/OFF).
 
 
-```digitalWrite(LED_BUILTIN, HIGH);:```
+* ```digitalWrite(LED_BUILTIN, HIGH);:```
  Sends power to the LED, turning it ON.
 
 
-```delay(1000);:```
+* ```delay(1000);:```
  Pauses the program for 1 second (1000 milliseconds) before continuing.
 
 
-```digitalWrite(LED_BUILTIN, LOW);:```
+* ```digitalWrite(LED_BUILTIN, LOW);:```
  Stops sending power to the LED, turning it OFF.
 
 
-```delay(1000);:```
+* ```delay(1000);:```
  Waits another 1 second before restarting the loop.
 
 
-### How to write and upload the code to Arduino:
-[Upload Code Guide](https://youtu.be/xQfC72VeV7Y?si=Ls96MXAMnVyEDich)
+### How to write and upload the code to Arduino:  [Upload Code Guide](https://youtu.be/xQfC72VeV7Y?si=Ls96MXAMnVyEDich)
 
 
 # Conclusion: 
