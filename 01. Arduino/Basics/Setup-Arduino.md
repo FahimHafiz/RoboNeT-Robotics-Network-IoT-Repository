@@ -4,52 +4,51 @@
 
 
 
-# UNITED INTERNATIONAL UNIVERSITY (UIU)
-## Dept. of Computer Science & Engineering
+
+# Experiment : Introduction to Arduino UNO.
+
+## Objective: 
+This documentation aims to provide a beginner-friendly guide to getting started with Arduino and ESP32 development. It covers the installation of the Arduino IDE, initial setup for Arduino and ESP32 boards, and testing with a simple "Blink" program to ensure the setup works correctly. The goal is to empower students to build confidence in using these platforms for future projects.
 
 
+## Arduino Launch History :  
+You’ll need arduino IDE to get started with the arduino and esp32 programming. To get the latest version of the IDE follow this link and follow the instructions.
 
-Experiment : Introduction to Arduino UNO.
-
-Objective: This documentation aims to provide a beginner-friendly guide to getting started with Arduino and ESP32 development. It covers the installation of the Arduino IDE, initial setup for Arduino and ESP32 boards, and testing with a simple "Blink" program to ensure the setup works correctly. The goal is to empower students to build confidence in using these platforms for future projects.
-
-
-Arduino Launch History :  You’ll need arduino IDE to get started with the arduino and esp32 programming. To get the latest version of the IDE follow this link and follow the instructions.
-Latest Version of the IDE: IDE download link
-Installation Guide: Guide link for Windows
-Installation Guide: Guide Link for macOS
-
-Learn Arduino Code
+[IDE download link]([https://www.google.com](https://www.arduino.cc/en/software))
+[Installation Guide link for Windows]([https://www.google.com](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/))
+[Installation Guide Link for macOS]([https://www.google.com](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/))
+[Learn Arduino code](https://docs.arduino.cc/language-reference/?_gl=1*1fzdi51*_up*MQ..*_ga*MzMyOTcyNjE2LjE3MzY2MjQ1ODc.*_ga_NEXN8H46L5*MTczNjYyNDU4NC4xLjEuMTczNjYyNDU4OS4wLjAuNTMzMjg0MTkx)
 
 
-Features of Arduino: 
-Open-Source Hardware and Software
-Cross-Platform Support
-Easy-to-Use Programming
-Wide Range of Boards
-Input/Output (I/O) Capabilities
-Serial Communication
-Expandability with Shields
-Large Community and Documentation
+## Features of Arduino: 
+* Open-Source Hardware and Software
+* Cross-Platform Support
+* Easy-to-Use Programming
+* Wide Range of Boards
+* Input/Output (I/O) Capabilities
+* Serial Communication
+* Expandability with Shields
+* Large Community and Documentation
 
 
 Arduino pin diagram : 
-    
+![Image](https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf)
 
 
 
 
-Blinking LED with Arduino Uno: This example shows the simplest thing you can do with an Arduino to see physical output: it blinks the on-board LED.
-Hardware Required :
-Arduino Uno
-LED
-220 ohm resistor
+## Blinking LED with Arduino Uno: 
+This example shows the simplest thing you can do with an Arduino to see physical output: it blinks the on-board LED.
+## Hardware Required :
+* Arduino Uno
+* LED
+* 220 ohm resistor
 
 
 
 
 The Pin Diagram:
-
+![Image](https://github.com/user-attachments/assets/43a8a878-8f5a-4146-942c-bbf5c1788acf)
 
 
 
