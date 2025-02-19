@@ -81,6 +81,7 @@ Below is a block diagram explaining the system:
 |         VCC             |           VCC         |
 |         GND             |           GND         |
 |         Digital Pin 2   |           DATA        |
+
 This simple setup ensures the sensor communicates with the Arduino to measure temperature and humidity.
 
 Now you’re ready to use the DHT11 temperature and humidity sensor with Arduino! Enjoy building cool projects! 😊
