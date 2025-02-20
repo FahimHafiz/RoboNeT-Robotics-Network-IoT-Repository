@@ -59,8 +59,9 @@ void loop() {
 Below is a block diagram explaining the system:
 Follow the table below to connect the LDR to the Arduino:
 
-|    LDR Terminal    |    Arduino Pin    |    Additional Components    |
-|    One Terminal    |    5V             |    Connected directly to 5V |
+|    LDR Terminal    |    Arduino Pin    |    Additional Components               |
+|--------------------|-------------------|----------------------------------------|
+|    One Terminal    |    5V             |    Connected directly to 5V            |
 |    Other Terminal  |      A0           |  Connected via a 10kΩ resistor to GND  |
 
 ### Circuit Description:
