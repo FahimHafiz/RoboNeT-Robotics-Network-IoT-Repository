@@ -11,7 +11,7 @@ This guide explains how to integrate the RFID Module (RC522) with an Arduino boa
 ### Required Library
 * You will need the MFRC522 library to work with this module. Install it via the Arduino Library Manager.
 
-##cPurpose
+## Purpose
 * The RFID Module (RC522) is used to:
 * Read unique IDs from RFID cards or tags.
 * Build access control systems.
