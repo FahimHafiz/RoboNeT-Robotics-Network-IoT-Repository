@@ -68,11 +68,11 @@ void loop() {
 Below is a block diagram explaining the system:
 
 |  Arduino Board          |    DS18B20 Temperature Sensor |
-|_________________________|_______________________________|
+|-------------------------|-------------------------------|
 |         5V              |               VCC             |
 |         GND             |               GND             |
 |         Digital Pin 2   |               DATA            |
-|         Resistor between DATA and VCC    |  |
+|         Resistor between DATA and VCC    |  
 
 This simple setup ensures the sensor communicates with the Arduino to measure temperature accurately.
 
