@@ -57,7 +57,7 @@ Diagram
 Below is a block diagram explaining the system:
 
 |  Arduino Board          |        Force Sensitive Resistor        |
-|_________________________|________________________________________|
+|-------------------------|----------------------------------------|
 |         5V              |               One Pin                  |
 |         GND             |               Other Pin (via Resistor) |
 |         Analog Pin      |               A0                       |
