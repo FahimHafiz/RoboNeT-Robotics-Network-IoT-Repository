@@ -13,7 +13,7 @@ sending and receiving sensor data for IoT applications.
 * Internet connection for Raspberry Pi.
 * Monitor, keyboard, and mouse connected to Raspberry Pi.
 
-***Step 1: Update System and Install Tools**
+**Step 1: Update System and Install Tools**
 
 Open the terminal and update your system:
 
