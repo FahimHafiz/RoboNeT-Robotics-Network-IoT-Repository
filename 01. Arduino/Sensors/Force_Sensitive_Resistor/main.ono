@@ -1,0 +1,15 @@
+const int fsrPin = A0; // Pin connected to the FSR sensor
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("FSR Sensor Ready");
+}
+
+void loop() {
+  int fsrValue = analogRead(fsrPin); // Read the analog value from the FSR
+
+  Serial.print("Force Reading: ");
+  Serial.println(fsrValue);
+
+  delay(500); // Wait for 0.5 seconds before reading again
+}
