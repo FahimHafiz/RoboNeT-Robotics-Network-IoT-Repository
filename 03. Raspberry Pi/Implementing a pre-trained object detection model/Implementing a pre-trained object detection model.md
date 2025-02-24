@@ -184,5 +184,5 @@ python3 detect_objects.py
 
 ---
 
-This concludes the experiment on **Implementing a Pre-Trained Object Detection Model using TensorFlow Lite on Raspberry Pi**. 🚀
+This concludes the experiment on **Implementing a Pre-Trained Object Detection Model using TensorFlow Lite on Raspberry Pi**.
 
