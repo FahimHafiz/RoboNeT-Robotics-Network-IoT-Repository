@@ -20,6 +20,9 @@ To demonstrate the process of controlling an LED using the Raspberry Pi 4 by wri
 3. Connect the negative leg of the LED to one end of the 220Ω resistor.
 4. Connect the other end of the resistor to a GND pin (Pin 6) on the Raspberry Pi.
 
+   ![led_pi](https://github.com/user-attachments/assets/1377d0e4-3c31-44c7-86a3-cc0d489cf41e)
+
+
 ### Step 3: Enable GPIO Access
 Open a terminal and install the GPIO library:
 ```sh
