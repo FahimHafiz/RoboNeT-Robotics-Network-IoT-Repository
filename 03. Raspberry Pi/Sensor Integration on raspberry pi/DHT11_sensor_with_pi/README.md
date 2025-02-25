@@ -1,4 +1,3 @@
-```markdown
 # Experiment: Sensor Integration with Raspberry Pi: Reading Data from a DHT11 Sensor
 
 **Objective:** To demonstrate how to connect a DHT11 temperature and humidity sensor to a Raspberry Pi and use Python to read and display sensor data on the terminal.
