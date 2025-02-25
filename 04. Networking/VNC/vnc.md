@@ -1,4 +1,3 @@
-```markdown
 # Experiment: Introduction to VNC Protocol on Raspberry Pi
 
 **Objective:** To enable and use the VNC protocol on Raspberry Pi for remote desktop access.
