@@ -1,4 +1,3 @@
-```markdown
 # Experiment: Enable and use SSH on Raspberry Pi for secure remote access.
 
 **Objective:** To enable and use SSH on Raspberry Pi for secure remote access and file transfers.
