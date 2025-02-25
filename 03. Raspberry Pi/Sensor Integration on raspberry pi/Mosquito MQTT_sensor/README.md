@@ -1,4 +1,7 @@
-# Experiment: Set up Mosquitto MQTT Broker on Raspberry Pi to control IoT devices (Force sensitive sensor)
+# UNITED INTERNATIONAL UNIVERSITY (UIU)
+## Dept. of Computer Science & Engineering
+
+## Experiment: Set up Mosquitto MQTT Broker on Raspberry Pi to control IoT devices (Force sensitive sensor)
 
 **Objective:** To set up Mosquitto MQTT Broker on Raspberry Pi, connect a force-sensitive sensor, and demonstrate
 sending and receiving sensor data for IoT applications.
