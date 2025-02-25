@@ -2,7 +2,7 @@
 
    ![pi4_image](https://github.com/user-attachments/assets/f79757a5-d3be-484e-a057-6f3848889fb1)
 
-
+                                    [img_srce: https://img.drz.lazcdn.com/static/bd/p/65a831828e5f3b96deeb1968565b352c.jpg_720x720q80.jpg]
 ## What is Raspberry Pi?  
 The **Raspberry Pi** is a compact, affordable, and powerful **single-board computer (SBC)** developed by the **Raspberry Pi Foundation**. Originally designed to promote programming and digital skills, it has evolved into a versatile tool used in **education, research, industrial applications, and hobby projects**. It runs Linux-based operating systems like **Raspberry Pi OS**, supports various programming languages, and can interface with hardware components through its **GPIO (General Purpose Input/Output) pins**.  
 
