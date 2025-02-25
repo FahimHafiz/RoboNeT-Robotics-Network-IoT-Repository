@@ -23,6 +23,8 @@
 3. Connect the DATA pin of the DHT11 to GPIO4 (Pin 7) on the Raspberry Pi.
 4. Use a 10kΩ resistor between the VCC and DATA pins of the DHT11 for stable signal readings.
 
+   ![raspberry-pi-4-40-pin-description-](https://github.com/user-attachments/assets/4b2b60c6-51a0-4ff7-8cd4-ea0e6e35b746)
+
 **Step 3: Install Required Libraries**
 
 Open the terminal on your Raspberry Pi and install the `Adafruit_DHT` library for reading DHT11 data:
