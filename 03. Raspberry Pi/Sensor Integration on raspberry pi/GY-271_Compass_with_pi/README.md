@@ -21,7 +21,10 @@
 
    `Interfacing Options → I2C → Enable`
 
-3. Reboot the Raspberry Pi:
+   ![gy271_1](https://github.com/user-attachments/assets/128f15b4-d1b3-43ec-a5cd-884eef9dc30f)
+
+
+4. Reboot the Raspberry Pi:
 
    ```bash
    sudo reboot
@@ -37,6 +40,9 @@
 | SCL       | GPIO 3 (Pin 5)   |
 
 Connect using jumper wires.
+
+![raspberry-pi-4-40-pin-description-](https://github.com/user-attachments/assets/16df3eda-a5f1-488e-a807-6717e53d533c)
+
 
 **Step 3: Create Project Folder and Files**
 
