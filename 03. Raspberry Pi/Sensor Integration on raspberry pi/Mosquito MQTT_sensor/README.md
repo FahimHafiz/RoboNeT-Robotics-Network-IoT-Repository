@@ -91,6 +91,8 @@ pip3 install virtualenv
 3. Connect the second leg of the resistor to GND.
 4. Connect the junction of the resistor and sensor to GPIO pin 17 (physical pin 11).
 
+   ![raspberry-pi-4-40-pin-description-](https://github.com/user-attachments/assets/87843b0f-4351-44b1-ab4c-63ab6b3edebe)
+
 **Step 5: Write Python Scripts**
 
 **A. Sensor Data Publisher (`sensor_publisher.py`)**
