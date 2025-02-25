@@ -1,4 +1,7 @@
-# Beginner-Friendly Guide: Using the GY-271 (QMC5883L) Magnetometer (Compass) Sensor with Raspberry Pi
+# UNITED INTERNATIONAL UNIVERSITY (UIU)
+## Dept. of Computer Science & Engineering
+
+## Experiment: Using the GY-271 (QMC5883L) Magnetometer (Compass) Sensor with Raspberry Pi
 
 **Objective:** To connect the GY-271 sensor to Raspberry Pi, read data using I2C, and display direction (compass headings).
 
