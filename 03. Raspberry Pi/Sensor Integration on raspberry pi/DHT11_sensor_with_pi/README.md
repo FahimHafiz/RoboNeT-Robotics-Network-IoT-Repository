@@ -28,8 +28,6 @@
 
    ![raspberry-pi-4-40-pin-description-](https://github.com/user-attachments/assets/4b2b60c6-51a0-4ff7-8cd4-ea0e6e35b746)
 
-   DHT11 Sensor ![dht11](https://github.com/user-attachments/assets/d029e011-5413-46f4-93cd-af9bc9efb4a1)
-
 
 **Step 3: Install Required Libraries**
 
