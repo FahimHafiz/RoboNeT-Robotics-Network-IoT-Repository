@@ -1,6 +1,5 @@
-<div align="center">
-  <img width="659" alt="ESP32 Image" src="[https://github.com/user-attachments/assets/esp32_image.png](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/how-to-use-esp32-gpios.jpg?resize=828%2C466&quality=100&strip=all&ssl=1)" />
-</div>
+![esp32](https://github.com/user-attachments/assets/1cecad82-7354-42b6-be85-692708303225)
+
 
 # Experiment: Introduction to ESP32
 
@@ -83,7 +82,7 @@ To work with ESP32, install the required libraries:
 
 ## ESP32 Pin Diagram:
 <div align="center">
-  <img width="659" alt="ESP32 Pin Diagram" src="https://github.com/user-attachments/assets/esp32_pin_diagram.png" />
+  <img width="750" alt="ESP32 Pin Diagram" src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-36-GPIOs-updated.jpg?resize=750%2C538&quality=100&strip=all&ssl=1" />
 </div>
 
 This documentation should help beginners set up and start using the ESP32 in their projects efficiently.
