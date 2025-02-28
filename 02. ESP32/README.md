@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="659" alt="ESP32 Image" src="https://github.com/user-attachments/assets/esp32_image.png" />
+  ![esp32](https://github.com/user-attachments/assets/e29c9d60-fa24-4f92-ad37-aacb5135e300)
 </div>
 
 # Experiment: Introduction to ESP32
@@ -83,7 +83,7 @@ To work with ESP32, install the required libraries:
 
 ## ESP32 Pin Diagram:
 <div align="center">
-  <img width="659" alt="ESP32 Pin Diagram" src="https://github.com/user-attachments/assets/esp32_pin_diagram.png" />
+ ![esp_32_pin](https://github.com/user-attachments/assets/74e1d046-6dad-4639-8db1-56b7888397e1)
 </div>
 
 This documentation should help beginners set up and start using the ESP32 in their projects efficiently.
