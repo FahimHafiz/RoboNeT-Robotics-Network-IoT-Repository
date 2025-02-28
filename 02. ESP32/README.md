@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="659" alt="ESP32 Image" src="https://github.com/user-attachments/assets/esp32_image.png" />
+  <img width="659" alt="ESP32 Image" src="[https://github.com/user-attachments/assets/esp32_image.png](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/how-to-use-esp32-gpios.jpg?resize=828%2C466&quality=100&strip=all&ssl=1)" />
 </div>
 
 # Experiment: Introduction to ESP32
