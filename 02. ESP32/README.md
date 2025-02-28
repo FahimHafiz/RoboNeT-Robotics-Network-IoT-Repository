@@ -1,34 +1,90 @@
+<div align="center">
+  <img width="659" alt="ESP32 Image" src="https://github.com/user-attachments/assets/esp32_image.png" />
+</div>
 
-# Introduction to ESP32
-The ESP32 is a powerful, low-cost, and energy-efficient microcontroller with built-in Wi-Fi and Bluetooth capabilities, making it ideal for IoT (Internet of Things), smart home automation, robotics, and industrial applications.
+# Experiment: Introduction to ESP32
 
-# Code same as Aduino
+## Objective: 
+This documentation provides a beginner-friendly guide to getting started with ESP32 development. It covers the installation of the Arduino IDE, initial setup for ESP32 boards, and testing with a simple "Blink" program to ensure the setup works correctly. The goal is to empower students to build confidence in using ESP32 for future projects.
 
-## Key Features of ESP32
-* Dual-Core or Single-Core Processor: Runs at up to 240MHz, offering high processing power.
-* Built-in Wi-Fi and Bluetooth: Supports 802.11 b/g/n and Bluetooth 4.2 (Classic + BLE) for wireless communication.
-* Multiple I/O Interfaces: Includes GPIO, ADC, DAC, I2C, SPI, UART, and PWM for versatile hardware connectivity.
-* Deep Sleep & Low Power Modes: Ideal for battery-operated applications.
-* Large Flash & RAM: Typically comes with 4MB Flash and 520KB SRAM, sufficient for complex applications.
-* Security Features: Supports secure boot, encryption, and authentication.
-## Why Use ESP32?
-* Ideal for IoT Projects: Connects easily to cloud services and wireless networks.
-* More Processing Power than Arduino: Suitable for AI, edge computing, and real-time applications.
-* Low Power Consumption: Can run for long periods on battery power.
-* Affordable and Versatile: Supports a wide range of applications, from home automation to industrial monitoring.
-## ESP32 vs. Arduino
-|Feature	|ESP32	|Arduino Uno|
-|---------|-------|------------|
-|Processor	|Dual-core (240MHz)	|Single-core (16MHz)|
-|Wi-Fi & Bluetooth	|Yes|	No|
-|Analog Inputs|	18 ADC channels|	6 ADC channels|
-|Digital I/O Pins	|34|	14|
-|Flash Memory	|4MB (typical)	|32KB|
-|PWM Support	|Yes (Up to 16 channels)	|Yes (6 channels)|
-|Power Consumption	|Low-power modes available	|Higher power consumption|
+---
 
-## Getting Started with ESP32
-* Install the ESP32 Board in the Arduino IDE or use PlatformIO for advanced development.
-* Connect the ESP32 to a computer via USB and select the correct board and COM port.
-* Write & Upload Code using Arduino IDE or MicroPython.
-* With its rich features and robust performance, the ESP32 is a great choice for beginners and advanced users alike! 
+## ESP32 Setup Guide:
+### Step 1: Installing the ESP32 Board in Arduino IDE
+To program the ESP32 using the Arduino IDE, follow these steps:
+
+1. **Open Arduino IDE** (Ensure you have the latest version).
+2. **Add ESP32 Board Manager URL:**
+   - Open **File** → **Preferences**
+   - In the **Additional Board Manager URLs** field, paste the following link:
+     ```
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+     ```
+   - Click **OK** to save.
+3. **Install ESP32 Board:**
+   - Open **Tools** → **Board** → **Boards Manager**
+   - Search for `esp32`
+   - Select **ESP32 by Espressif Systems** and click **Install**
+4. **Restart Arduino IDE** to apply the changes.
+
+---
+
+### Step 2: Connecting ESP32 to Your Computer
+1. **Connect ESP32 using a USB cable.** Ensure it’s a data cable, not just a charging cable.
+2. **Check COM Port:**
+   - Go to **Tools** → **Port** and select the detected ESP32 port.
+3. **Select the ESP32 Board Model:**
+   - Go to **Tools** → **Board**
+   - Choose the appropriate ESP32 board model (e.g., **ESP32 Dev Module**).
+
+---
+
+### Step 3: Installing Required Libraries
+To work with ESP32, install the required libraries:
+
+- **WiFi Library:** Built-in for ESP32, no need to install separately.
+- **ESPAsyncWebServer** (for web applications):
+  - Open **Sketch** → **Include Library** → **Manage Libraries**
+  - Search for `ESPAsyncWebServer` and install.
+- **Adafruit Sensor Libraries** (for sensors like DHT11, BMP280, etc.):
+  - Install `Adafruit Unified Sensor` from the Library Manager.
+
+---
+
+### Step 4: Uploading the First Code (Blink)
+1. Open Arduino IDE and paste the following code:
+   ```cpp
+   void setup() {
+     pinMode(2, OUTPUT); // Built-in LED on ESP32
+   }
+   
+   void loop() {
+     digitalWrite(2, HIGH);
+     delay(1000);
+     digitalWrite(2, LOW);
+     delay(1000);
+   }
+   ```
+2. Click **Upload** and wait for the compilation and flashing process to complete.
+3. If you see an error, press and hold the **BOOT** button on ESP32 while uploading.
+4. Once uploaded, the built-in LED on GPIO2 should blink every second.
+
+---
+
+## ESP32 Features:
+* Dual-Core Processor
+* Built-in WiFi and Bluetooth
+* Multiple I/O Pins
+* Analog and Digital Inputs
+* Low Power Consumption
+* High Processing Power for IoT Applications
+
+---
+
+## ESP32 Pin Diagram:
+<div align="center">
+  <img width="659" alt="ESP32 Pin Diagram" src="https://github.com/user-attachments/assets/esp32_pin_diagram.png" />
+</div>
+
+This documentation should help beginners set up and start using the ESP32 in their projects efficiently.
+
