@@ -1,3 +1,5 @@
+#This code is not compatible right now with the raspbian OS, will be used with Ubuntu desktop OS
+
 import cv2
 cap = cv2.VideoCapture(0)
 for i in range(5):  # Capture 5 images
