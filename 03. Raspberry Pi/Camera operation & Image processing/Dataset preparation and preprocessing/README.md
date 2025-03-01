@@ -1,15 +1,18 @@
+Here is the updated version of your task with the part involving the USB webcam removed:
+
+---
 
 # UNITED INTERNATIONAL UNIVERSITY (UIU)
 ## Dept. of Computer Science & Engineering
 
-## Experiment: Dataset Preparation and Preprocessing using Raspberry Pi Camera and USB Webcam
+## Experiment: Dataset Preparation and Preprocessing using Raspberry Pi Camera
 
 ### Objective
-To capture images and videos using PiCamera and USB webcam, preprocess them (normalization, resizing, color conversion, etc.), and prepare datasets for basic machine learning tasks.
+To capture images and videos using PiCamera, preprocess them (normalization, resizing, color conversion, etc.), and prepare datasets for basic machine learning tasks.
 
 ## What You Need
 - Raspberry Pi 4B with Raspbian OS installed.
-- PiCamera or USB webcam.
+- PiCamera.
 - Internet connection for installing packages.
 - Monitor, keyboard, and mouse connected to Raspberry Pi.
 
@@ -91,35 +94,6 @@ Navigate to **Interface Options > Camera**, enable it, and reboot:
    ```
 5. The images will be saved in the current folder (`~/ImageProcessing`).
 
-### B. Using USB Webcam
-1. Create a Python script:
-   ```sh
-   nano capture_webcam.py
-   ```
-2. Paste the following code:
-   ```python
-   import cv2
-   cap = cv2.VideoCapture(0)
-
-   for i in range(5):  # Capture 5 images
-       ret, frame = cap.read()
-       if ret:
-           filename = f"webcam_image_{i}.jpg"
-           cv2.imwrite(filename, frame)
-           print(f"Saved: {filename}")
-       else:
-           print("Failed to capture image")
-
-   cap.release()
-   ```
-3. Save and exit:
-   - Press `CTRL+O`, hit `ENTER`, then press `CTRL+X`.
-4. Run the script:
-   ```sh
-   python3 capture_webcam.py
-   ```
-5. Captured images will also be saved in `~/ImageProcessing`.
-
 ---
 
 ## Part 2: Preprocessing Images
@@ -173,7 +147,7 @@ Navigate to **Interface Options > Camera**, enable it, and reboot:
    ```
 2. Move original images to `raw_images` folder:
    ```sh
-   mv picam_image_*.jpg webcam_image_*.jpg raw_images/
+   mv picam_image_*.jpg raw_images/
    ```
 3. Move processed images to `processed_images` folder:
    ```sh
@@ -205,4 +179,4 @@ Navigate to **Interface Options > Camera**, enable it, and reboot:
    ```
 5. The processed image will open in a window.
 
-
+---
