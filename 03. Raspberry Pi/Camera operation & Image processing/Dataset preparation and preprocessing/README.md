@@ -1,7 +1,3 @@
-Here is the updated version of your task with the part involving the USB webcam removed:
-
----
-
 # UNITED INTERNATIONAL UNIVERSITY (UIU)
 ## Dept. of Computer Science & Engineering
 
@@ -178,5 +174,3 @@ Navigate to **Interface Options > Camera**, enable it, and reboot:
    python3 verify_image.py
    ```
 5. The processed image will open in a window.
-
----
