@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/raspberry-pi-image-placeholder.png" />
+  ![UIU](https://github.com/user-attachments/assets/4e10a007-e618-4444-93e8-b37e7bcdb352)
 </div>
 
 # Experiment: Introduction to Raspberry Pi
@@ -30,6 +30,6 @@ The Raspberry Pi is a small, affordable, and powerful single-board computer deve
 ## Raspberry Pi Board Diagram:
 
 <div align="center">
-  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/raspberry-pi-diagram-placeholder.png" />
+  
 </div>
 
