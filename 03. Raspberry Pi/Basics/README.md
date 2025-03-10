@@ -1,6 +1,5 @@
-<div align="center">
+
   ![UIU](https://github.com/user-attachments/assets/4e10a007-e618-4444-93e8-b37e7bcdb352)
-</div>
 
 # Experiment: Introduction to Raspberry Pi
 
