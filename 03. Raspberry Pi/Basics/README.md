@@ -29,8 +29,8 @@ The Raspberry Pi is a small, affordable, and powerful single-board computer deve
 
 ## Raspberry Pi Board Diagram:
 
-<div align="center">
-  <img width="750" alt="Image" src="(https://github.com/user-attachments/assets/bc01db65-71ce-4eca-af93-0130ddbb148b" />
-</div>
+![Pi_4_pin_diagram](https://github.com/user-attachments/assets/ab0fb493-7868-4ecd-ab4d-685d05c49897)
+
+
 
 
