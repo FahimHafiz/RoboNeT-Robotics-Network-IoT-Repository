@@ -32,5 +32,12 @@ The Raspberry Pi is a small, affordable, and powerful single-board computer deve
 ![Pi_4_pin_diagram](https://github.com/user-attachments/assets/ab0fb493-7868-4ecd-ab4d-685d05c49897)
 
 
+Raspberry Pi GPIO Pinout Video:
+For a detailed understanding of the GPIO pinout of Raspberry Pi 4, watch the following video:
+📺 [Understanding Raspberry Pi 4 GPIO Pinout](https://youtu.be/6PuK9fh3aL8?si=zMYlmNrzOqUDaSqH)
+
+
+
+
 
 
