@@ -157,11 +157,6 @@ except KeyboardInterrupt:
     print("\nExiting the program.")
 ```
 
-✅ **Fixes applied:**  
-- Explicitly set **I2C bus** (`bus=1`) for compatibility.  
-- **Error handling** to avoid crashes.  
-- Added **a warning if data is not received** from the sensor.  
-
 ---
 
 ## **Step 7: Run the Program**  
@@ -223,6 +218,4 @@ This will run a **simple calibration** and adjust the sensor automatically.
 🔲 **Ensure `VCC` is connected to `5V` for best performance**  
 🔲 **Run script with `python3 compass_qmc5883l.py`**  
 🔲 **Perform sensor calibration for accuracy**  
-
-🎯 **Now even a beginner can complete this without any errors!** 🚀  
 
