@@ -34,7 +34,8 @@
 Open the terminal on your Raspberry Pi and install the `Adafruit_DHT` library for reading DHT11 data:
 
 ```bash
-pip install Adafruit_DHT
+sudo apt-get install python3-libgpiod
+pip install Adafruit-DHT
 ```
 
 **Step 4: Create a Project Folder**
@@ -49,7 +50,7 @@ Open Thonny and load the `read_dht11.py` file.
 Write the following code:
 
 ```python
-import Adafruit_DHT
+import Adafruit_DHT.DHT11 as DHT11 
 import time  # Import the time module
 
 # Define the sensor type and GPIO pin
