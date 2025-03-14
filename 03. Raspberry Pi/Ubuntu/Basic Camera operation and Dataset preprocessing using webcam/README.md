@@ -181,3 +181,56 @@ source venv/bin/activate
 ```
 
 ---
+
+#Errors and fixes
+##Here's the solution if the camera test doesn't work properly
+
+### 1. **Check Webcam Connection**  
+Ensure that the webcam is properly connected to your Raspberry Pi and recognized by the system.
+
+- Run `lsusb` to verify that the webcam is detected.
+- Check the video device by running `v4l2-ctl --list-devices`. You should see something like `/dev/video0` listed as a device.
+
+### 2. **Check Permissions**  
+Sometimes, permission issues can prevent access to the webcam.
+
+- Ensure the user has access to the `/dev/video0` device. Run:
+  ```sh
+  sudo usermod -aG video $(whoami)
+  ```
+  Then, log out and log back in for the changes to take effect.
+
+### 3. **Test with `v4l2-ctl`**  
+Try capturing an image using `v4l2-ctl` to ensure the webcam is functioning properly.
+
+- Run this command to capture a frame:
+  ```sh
+  v4l2-ctl --device=/dev/video0 --capture=1 --file=test_image.jpg
+  ```
+  This will check if the webcam can capture an image through the Video4Linux2 interface.
+
+### 4. **Update Webcam Drivers**  
+Ensure your system has the latest webcam drivers. You can update the system with:
+
+```sh
+sudo apt update
+sudo apt upgrade
+```
+
+### 5. **Try Lowering Resolution**  
+The `fswebcam` command might fail if the resolution is too high for the webcam or Pi's processing power. Try capturing at a lower resolution:
+
+```sh
+fswebcam -r 320x240 --jpeg 85 test_image.jpg
+```
+
+### 6. **Use a Different Webcam Software**  
+If `fswebcam` continues to have issues, you can try using other tools like `mplayer` or `ffmpeg` to capture images or video from the webcam.
+
+```sh
+ffmpeg -f v4l2 -i /dev/video0 -vframes 1 test_image.jpg
+```
+
+### 7. **Check for Conflicting Applications**  
+Make sure no other applications (e.g., video conferencing apps) are using the webcam, as this can block access for other programs like `fswebcam`.
+
