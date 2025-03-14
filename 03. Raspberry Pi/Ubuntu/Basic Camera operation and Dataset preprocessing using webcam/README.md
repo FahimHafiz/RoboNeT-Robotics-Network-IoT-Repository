@@ -234,3 +234,4 @@ ffmpeg -f v4l2 -i /dev/video0 -vframes 1 test_image.jpg
 ### 7. **Check for Conflicting Applications**  
 Make sure no other applications (e.g., video conferencing apps) are using the webcam, as this can block access for other programs like `fswebcam`.
 
+## [Note: copy the error message and ask Chatgpt for detailed solution of your problem]
