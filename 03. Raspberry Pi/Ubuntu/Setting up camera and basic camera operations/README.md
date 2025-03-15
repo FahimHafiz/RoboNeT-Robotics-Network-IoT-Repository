@@ -80,6 +80,8 @@
 
 ---  
 
+For Help regarding this experiment, follow this: [Link](https://youtu.be/_uVaZalaSbI?si=DrInA56fHJvOdKZl)
+
 ### Conclusion  
 By following these steps, you have successfully installed and configured a USB webcam on Raspberry Pi 4B, verified its detection, checked supported formats, and captured high-quality images using `fswebcam`. You can further extend this by recording videos or integrating the webcam into other applications like OpenCV.  
 
