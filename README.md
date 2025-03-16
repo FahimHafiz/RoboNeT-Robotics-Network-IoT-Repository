@@ -21,7 +21,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ## 🎯 Objectives
 
-✅ To introduce microcontrollers and microprocessors used in IoT systems.
+✅ - To introduce microcontrollers and microprocessors used in IoT systems.
 
 ✅ To guide users in setting up local network systems for IoT communication.
 
