@@ -19,12 +19,13 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ---
 
-## **Objectives**
-1. To introduce microcontrollers and microprocessors used in IoT systems.
-2. To guide students in creating local network systems for real-life tasks.
-3. To enable seamless integration of sensors and IoT devices for data transfer and control.
-4. To provide working examples for networking protocols and basic robotics.
-5. To promote data-driven decision-making using IoT-based systems.
+## 🎯 Objectives
+
+✅ To introduce microcontrollers and microprocessors used in IoT systems.
+✅ To guide users in setting up local network systems for IoT communication.
+✅ To enable the seamless integration of sensors and IoT devices for data transfer and control.
+✅ To provide practical examples of networking protocols and basic robotics.
+✅ To promote data-driven decision-making through IoT-based systems.
 
 ---
 
