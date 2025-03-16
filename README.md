@@ -41,23 +41,22 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ---
 
-### 2. **ESP32**
-- **Basics**: Wi-Fi setup, GPIO control, and Bluetooth communication.
-- **Sensors and Motors**: Real-life applications using sensors and motor drivers.
-- **Serial Communication**: ESP32-to-ESP32 or ESP32-to-Arduino data exchange.
+### 2️⃣ **ESP32**  
+- 🌐 **Basics**: Setting up Wi-Fi, controlling GPIOs, and enabling Bluetooth communication.  
+- 🤖 **Sensors & Motors**: Implementing real-world applications using sensors and motor drivers.  
+- 🔄 **Serial Communication**: Establishing ESP32-to-ESP32 and ESP32-to-Arduino data exchange.  
 
-[Explore ESP32 ➡️](./ESP32)
+➡️ [Explore ESP32](./02.%20ESP32)  
 
 ---
 
-### 3. **Raspberry Pi**
-- **Setup**: Installing Raspberry Pi OS, GPIO control, and basic Python scripting.
-- **Image Processing**: Capturing and processing images using the PiCamera or webcam.
-- **IoT**: Setting up MQTT for IoT applications and integrating local servers.
-- **Networking**: Implementing SSH, VNC, and local server hosting.
+### 3️⃣ **Raspberry Pi**  
+- 💻 **Setup**: Installing Raspberry Pi OS, configuring GPIO, and writing basic Python scripts.  
+- 📷 **Image Processing**: Capturing and processing images using **PiCamera** or a webcam.  
+- 🌍 **IoT**: Setting up **MQTT** for IoT applications and integrating local servers.  
+- 🔗 **Networking**: Implementing **SSH, VNC, and local server hosting** for remote access.  
 
-[Explore Raspberry Pi ➡️](./Raspberry_Pi)
-
+➡️ [Explore Raspberry Pi](./03.%20Raspberry_Pi)  
 ---
 
 ### 4. **Networking**
