@@ -81,7 +81,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🚗 **Car Robot Control**: Develop a remotely controlled robot car using **Raspberry Pi & Arduino**.  
 - 🛤️ **Line Following Robot**: Implement autonomous movement using **sensors & motor drivers**.  
 
-➡️ [Explore Projects](./06.%20Projects)  
+➡️ [Explore Projects](./Projects)  
 
 ---
 
