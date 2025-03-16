@@ -56,7 +56,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🌍 **IoT**: Setting up **MQTT** for IoT applications and integrating local servers.  
 - 🔗 **Networking**: Implementing **SSH, VNC, and local server hosting** for remote access.  
 
-➡️ [Explore Raspberry Pi](./03.%20Raspberry_Pi)  
+➡️ [Explore Raspberry Pi](./03.%20Raspberry%20Pi)  
 
 ---
 
