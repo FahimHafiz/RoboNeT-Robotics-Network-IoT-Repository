@@ -5,6 +5,11 @@
 
 # 🚀 NetIoT - IoT Networking & Data Communication Repository
 
+![GitHub stars](https://img.shields.io/github/stars/yourusername/NetIoT-Network-IOT-Repository)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/NetIoT-Network-IOT-Repository)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![MIT License](https://img.shields.io/badge/License-MIT-blue)
+
 Welcome to **NetIoT - IoT Networking & Data Communication** repository! 🎉
 
 This repository serves as a **comprehensive learning resource** for students, hobbyists, and professionals interested in **IoT (Internet of Things)**, **networking**, and **data communication** using microcontrollers such as:
