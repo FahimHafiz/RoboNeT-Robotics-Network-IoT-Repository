@@ -29,13 +29,13 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ---
 
-## **Repository Contents**
+## 📂 Repository Contents
 
-### 1. **Arduino**
-- **Basics**: Setting up the Arduino IDE, running your first program, and understanding pin configurations.
-- **GPIO Read/Write**: Examples of digital and analog input/output controls.
-- **Sensors and Motors**: Integration of sensors and motors for robotics and automation.
-- **Serial Communication**: Connecting multiple Arduino boards for data exchange.
+### 1️⃣ **Arduino**
+- 🛠️ **Basics**: Setting up the Arduino IDE, running your first program, and understanding pin configurations.  
+- ⚡ **GPIO Read/Write**: Controlling digital and analog input/output for real-world applications.  
+- 🤖 **Sensors & Motors**: Integrating sensors and motors for robotics and automation.  
+- 🔄 **Serial Communication**: Enabling data exchange between multiple Arduino boards.
 
 [Explore Arduino ➡️](./Arduino)
 
