@@ -6,6 +6,9 @@
 ## Overview
 This project is an ESP32-based autonomous vehicle that navigates to preset GPS coordinates. The car utilizes an ESP32 microcontroller to process GPS data and determine its location. It then controls the movement of motors via a motor driver module to reach the target location. A Bluetooth module is used to send status updates to a mobile device.
 
+![overview](https://github.com/user-attachments/assets/7c173e28-a579-42e4-b037-e9549250d14d)
+
+
 ## Features
 - **Autonomous navigation** using GPS coordinates
 - **Real-time location tracking** with GPS module
@@ -42,6 +45,8 @@ This project is an ESP32-based autonomous vehicle that navigates to preset GPS c
 | Enable A  | PWM GPIO |
 | Bluetooth TX | ESP32 RX |
 | Bluetooth RX | ESP32 TX |
+
+<img width="897" alt="diagram" src="https://github.com/user-attachments/assets/5ba249dc-792b-4837-8eb4-86a1ebd24553" />
 
 ## Code Explanation
 ### 1. Library Inclusions and Definitions
