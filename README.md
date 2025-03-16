@@ -90,3 +90,10 @@ Through structured tutorials and engaging projects, this repository will guide y
 1️⃣ **Clone the repository**  
 ```sh
 git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
+```
+2️⃣ Navigate to your area of interest
+```sh
+cd NetIoT-Network-IOT-Repository
+```
+3️⃣ Follow the tutorials & start building!
+
