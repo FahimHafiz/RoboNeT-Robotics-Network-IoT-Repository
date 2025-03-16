@@ -5,8 +5,8 @@
 
 # 🚀 NetIoT - IoT Networking & Data Communication Repository
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/NetIoT-Network-IOT-Repository)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/NetIoT-Network-IOT-Repository)
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY_NAME)
+![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPOSITORY_NAME)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 
