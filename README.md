@@ -57,30 +57,36 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🔗 **Networking**: Implementing **SSH, VNC, and local server hosting** for remote access.  
 
 ➡️ [Explore Raspberry Pi](./03.%20Raspberry_Pi)  
----
-
-### 4. **Networking**
-- Secure remote access using **SSH**.
-- Remote desktop using **VNC**.
-- Hosting a **local server** for IoT applications.
-
-[Explore Networking ➡️](./Networking)
 
 ---
 
-### 5. **GUI Development**
-- Building a basic GUI using Python’s `Tkinter` library.
-- Controlling IoT devices through a graphical dashboard.
+### 4️⃣ **Networking & Communication**  
+- 🔐 **Secure Remote Access**: Use **SSH** for remote control and administration.  
+- 🖥️ **Remote Desktop**: Connect to IoT devices via **VNC** for graphical access.  
+- 🌍 **Local Server Hosting**: Set up servers to manage IoT applications efficiently.  
 
-[Explore GUI ➡️](./GUI)
-
----
-
-### 6. **Projects**
-- **Car Robot Control**: Controlling a robot car via Raspberry Pi and Arduino.
-- **Line Following Robot**: Developing a line-following robot using sensors and motor drivers.
-
-[Explore Projects ➡️](./Projects)
+➡️ [Explore Networking](./04.%20Networking)  
 
 ---
 
+### 5️⃣ **GUI Development**  
+- 🎨 **Building Graphical Interfaces**: Create interactive dashboards using Python’s `Tkinter` library.  
+- 🖥️ **IoT Device Control**: Manage and monitor IoT devices through a custom graphical interface.  
+
+➡️ [Explore GUI](./05.%20GUI)  
+
+---
+
+### 6️⃣ **Projects & Real-World Applications**  
+- 🚗 **Car Robot Control**: Develop a remotely controlled robot car using **Raspberry Pi & Arduino**.  
+- 🛤️ **Line Following Robot**: Implement autonomous movement using **sensors & motor drivers**.  
+
+➡️ [Explore Projects](./06.%20Projects)  
+
+---
+
+## 🛠️ Getting Started
+
+1️⃣ **Clone the repository**  
+```sh
+git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
