@@ -97,3 +97,13 @@ cd NetIoT-Network-IOT-Repository
 ```
 3️⃣ Follow the tutorials & start building!
 
+---
+
+## 📢 Contributing
+
+We welcome contributions! Whether you're a beginner or an expert, you can help improve this repository. If you have:
+- ✔️ New project ideas
+- ✔️ Improvements for existing documentation
+- ✔️ Code optimizations
+
+Feel free to fork the repository, make your changes, and submit a Pull Request (PR)! 🚀
