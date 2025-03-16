@@ -37,7 +37,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🤖 **Sensors & Motors**: Integrating sensors and motors for robotics and automation.  
 - 🔄 **Serial Communication**: Enabling data exchange between multiple Arduino boards.
 
-[Explore Arduino ➡️](./Arduino)
+➡️ [Explore Arduino](./01.%20Arduino)  
 
 ---
 
