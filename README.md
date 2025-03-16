@@ -107,3 +107,18 @@ We welcome contributions! Whether you're a beginner or an expert, you can help i
 - ✔️ Code optimizations
 
 Feel free to fork the repository, make your changes, and submit a Pull Request (PR)! 🚀
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License, which means you are free to use, modify, and distribute it with proper attribution.
+
+---
+
+## ⭐ Stay Connected!
+
+If you find this repository useful, don’t forget to:
+- ✅ Star 🌟 this repository to support the project!
+- ✅ Fork 🍴 and contribute to make it better!
+- ✅ Share 📢 with fellow IoT enthusiasts and developers!
