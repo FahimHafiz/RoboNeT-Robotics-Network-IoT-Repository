@@ -18,7 +18,29 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 
 ---
 
+## 📂 Contents  
 
+### 1️⃣ **[Basics](./basics/)**
+- 🛠️ Setting up the **Arduino IDE**  
+- 📝 Writing & uploading your **first program**  
+- 📌 Understanding **pin configurations** and basic syntax  
+
+### 2️⃣ **[GPIO Read/Write](./gpio/)**
+- ⚡ Controlling **LEDs, buttons, and sensors**  
+- 📡 Understanding **digital & analog I/O**  
+- 🔌 Working with **Pulse Width Modulation (PWM)**  
+
+### 3️⃣ **[Sensors & Motors](./sensors_motors/)**
+- 🤖 Interfacing with **temperature, ultrasonic, and light sensors**  
+- 🚀 Controlling **servo motors, DC motors, and stepper motors**  
+- 🔗 Connecting **multiple components for automation**  
+
+### 4️⃣ **[Serial Communication](./serial_communication/)**
+- 🔄 Sending & receiving **data between Arduino boards**  
+- 📡 Establishing communication with **ESP32 & Raspberry Pi**  
+- 🔗 Using **I2C, SPI, and UART protocols**  
+
+---
 
 
 # Arduino
