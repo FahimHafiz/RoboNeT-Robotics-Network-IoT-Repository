@@ -30,3 +30,11 @@ cd NetIoT-Network-IOT-Repository
 ```
 3️⃣ Follow the tutorials & start building!
 
+---
+
+[Objectives](./docs/objectives.md)
+
+---
+
+
+
