@@ -22,7 +22,7 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 
 ### 1️⃣ **[Basics](./Basics/)**
 - 🛠️ Setting up the **Arduino IDE**  
-- 📝 Writing & uploading your **first program**  
+- 📝 Writing & uploading your **first program**
 - 📌 Understanding **pin configurations** and basic syntax  
 
 ### 2️⃣ **[GPIO Read/Write](./GPIO/)**
@@ -33,18 +33,10 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 ### 3️⃣ **[Sensors & Motors](./Sensors_Motors/)**
 - 🤖 Interfacing with **temperature, ultrasonic, and light sensors**  
 - 🚀 Controlling **servo motors, DC motors, and stepper motors**  
-- 🔗 Connecting **multiple components for automation**  
+- 🔗 Connecting **multiple components for robotics and automation**  
 
 ### 4️⃣ **[Serial Communication](./Serial_Communication/)**
 - 🔄 Sending & receiving **data between Arduino boards**  
 - 📡 Establishing communication with **ESP32 & Raspberry Pi**  
 - 🔗 Using **I2C, SPI, and UART protocols**  
 
----
-
-
-# Arduino
-- **Basics**: Setting up the Arduino IDE, running your first program, and understanding pin configurations.
-- **GPIO Read/Write**: Examples of digital and analog input/output controls.
-- **Sensors and Motors**: Integration of sensors and motors for robotics and automation.
-- **Serial Communication**: Connecting multiple Arduino boards for data exchange.
