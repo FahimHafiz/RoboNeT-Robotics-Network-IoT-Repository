@@ -1,5 +1,5 @@
 
-# 🚀 Arduino - Getting Started with IoT & Embedded Systems
+# 🛫 Arduino - Getting Started with IoT & Embedded Systems
 
 Welcome to the **Arduino** section of the NetIoT repository! 🎉  
 

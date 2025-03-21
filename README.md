@@ -3,7 +3,7 @@
 </div>
 
 
-# 🚀 NetIoT - IoT Networking & Data Communication Repository
+# 🛫 NetIoT - IoT Networking & Data Communication Repository
 
 Welcome to **NetIoT - IoT Networking & Data Communication** repository! 🎉
 
