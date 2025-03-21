@@ -131,19 +131,36 @@ Here’s a breakdown of the key pins found on an **Arduino Uno**:
    
 ---
 
-🛠️ Troubleshooting
-🔹 Error: "Pin Mode Not Set"
+# 🛠️ Troubleshooting
 
-Ensure you've called pinMode(pin, mode) in the setup() function for each pin used.
-🔹 Error: "Invalid Pin Value"
+When working with Arduino, you might encounter a few common errors. Here are some troubleshooting tips to help you resolve them quickly.
 
-Check that the correct pin number is being used for the type of pin (e.g., digital or analog).
-📢 Next Steps
-Now that you've learned about pin configurations, continue your learning journey:
+---
 
-✅ GPIO Read/Write – Learn how to control LEDs, buttons, and sensors.
-✅ Sensors & Motors – Explore how to use sensors and motors for automation.
-✅ Serial Communication – Learn how to communicate between Arduino boards.
+## 🔹 Error: "Pin Mode Not Set"  
+### **Solution**:  
+Ensure that you’ve called **pinMode(pin, mode)** for each pin in the **setup()** function before using the pin.  
+- **Example**:
+    ```cpp
+    void setup() {
+      pinMode(LED_BUILTIN, OUTPUT);  // Set pin as output for controlling LED
+    }
+    ```
+- This sets the pin mode to **OUTPUT**, allowing the pin to be used to send signals.
+
+---
+
+## 🔹 Error: "Invalid Pin Value"  
+### **Solution**:  
+Check that the correct **pin number** is being used for the type of pin. Ensure you are using a **digital pin** (D0 to D13) for **digital operations**, and **analog pins** (A0 to A5) for **analog inputs**.  
+- **Example**:
+    ```cpp
+    int sensorValue = analogRead(A0);  // Correct usage for reading analog values from A0
+    ```
+
+If you're using a **digital pin** in your code, make sure the pin number is correct:
+- **Digital Pins**: Use pin numbers from **D0 to D13**.
+- **Analog Pins**: Use pin numbers from **A0 to A5**.
 
 ---
 
@@ -151,23 +168,16 @@ Now that you've learned about pin configurations, continue your learning journey
 
 Now that you've learned about **pin configurations** and troubleshooting tips, you can continue exploring more advanced Arduino topics. Here are some important areas to continue your learning journey:
 
----
+  - ✅ **[GPIO Read/Write](../gpio/README.md)**  
+    - In this section, you'll learn how to control **LEDs, buttons, and sensors** using **digital and analog I/O pins**. You'll also learn how to read input values and output signals.
 
-## ✅ **[GPIO Read/Write](../gpio/README.md)**  
-In this section, you'll learn how to control **LEDs, buttons, and sensors** using **digital and analog I/O pins**. You'll also learn how to read input values and output signals.
+  - ✅ **[Sensors & Motors](../sensors_motors/README.md)**  
+    - Explore how to integrate **sensors** and **motors** with Arduino for projects such as **temperature monitoring, motion sensing, and automation**. Learn how to connect and control motors, servos, and sensor modules.
 
----
-
-## ✅ **[Sensors & Motors](../sensors_motors/README.md)**  
-Explore how to integrate **sensors** and **motors** with Arduino for projects such as **temperature monitoring, motion sensing, and automation**. Learn how to connect and control motors, servos, and sensor modules.
-
----
-
-## ✅ **[Serial Communication](../serial_communication/README.md)**  
-Learn how to establish **serial communication** between Arduino and other devices, such as connecting to **PCs, other Arduino boards**, or external sensors. This allows for real-time data exchange and control of your projects.
+  - ✅ **[Serial Communication](../serial_communication/README.md)**  
+    - Learn how to establish **serial communication** between Arduino and other devices, such as connecting to **PCs, other Arduino boards**, or external sensors. This allows for real-time data exchange and control of your projects.
 
 ---
-
 
 
 
