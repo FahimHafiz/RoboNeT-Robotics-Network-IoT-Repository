@@ -120,6 +120,7 @@ Here’s a breakdown of the key pins found on an **Arduino Uno**:
    - **3.3V**: Provides 3.3 volts, often used for low-voltage components.
    
 ---
+![Arduino Pinout](./images/Arduino_Pinout.png)
 
 <div align="center">
   <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
