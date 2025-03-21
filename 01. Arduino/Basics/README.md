@@ -74,13 +74,22 @@ void loop() {
 1. Click the Upload (→) button in the Arduino IDE to send the code to your Arduino.
 2. After uploading, the LED should start blinking every second!
 
-## 3️⃣ **Understanding Pin Configurations** 
+## 4️⃣ **Understanding Pin Configurations** 
 
-Arduino boards have a variety of **pins** that can be used for **input** (reading data) or **output** (sending data). Understanding how to use these pins is crucial for building projects and integrating sensors, actuators, and other devices.  
+Before diving into using pins, let's take a look at the **Arduino board** and understand its different pins and their functions.
 
 ---
 
-## 🎯 Types of Pins  
+## 🎯 Arduino Pinout Image
+
+![Arduino Pinout](https://www.arduino.cc/en/uploads/Tutorial/arduino_uno_pinout.png)  
+*Image Source: [Arduino Official](https://www.arduino.cc/)*
+
+This image shows the **pinout diagram** of an **Arduino Uno** board. The pins on your board will be used for both **input** (reading data) and **output** (sending data), which are essential for connecting sensors, motors, and other devices to your Arduino.
+
+---
+
+## 🎯 Types of Pins
 
 | **Pin Type**    | **Description**                                                       |
 |-----------------|-----------------------------------------------------------------------|
@@ -91,7 +100,9 @@ Arduino boards have a variety of **pins** that can be used for **input** (readin
 
 ---
 
-## 🎯 Pin Mapping (Arduino Uno)  
+## 🎯 Pin Mapping (Arduino Uno)
+
+Here’s a breakdown of the key pins found on an **Arduino Uno**:
 
 | **Pin Name**    | **Function**                        |
 |-----------------|-------------------------------------|
@@ -102,12 +113,13 @@ Arduino boards have a variety of **pins** that can be used for **input** (readin
 
 ### **🔹 Pin Descriptions**
 - **D0 - D13**: These are **digital I/O pins**. You can use them for both **input** (e.g., reading a button press) and **output** (e.g., controlling an LED).  
-- **A0 - A5**: These are **analog input pins** that can read analog values from sensors. They convert analog signals to **digital values** ranging from **0 to 1023**.  
-- **GND**: This is the **Ground** pin that provides a common reference voltage for all components.  
-- **5V, 3.3V**: These pins provide **5V** and **3.3V** to power your external sensors and actuators.
-
+- **A0 - A5**: These are **analog input pins**. They can read values from **0 to 1023**, which corresponds to an **analog signal** that can range from **0V to 5V**.  
+- **GND**: This is the **Ground** pin, providing a reference voltage (0V) for the circuit. It completes the electrical circuit by connecting to the negative side of external components.  
+- **5V, 3.3V**: These pins provide power for external devices:
+   - **5V**: Supplies 5 volts for most components (e.g., sensors).
+   - **3.3V**: Provides 3.3 volts, often used for low-voltage components.
+   
 ---
-
 
 <div align="center">
   <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
