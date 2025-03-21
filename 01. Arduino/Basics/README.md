@@ -74,6 +74,39 @@ void loop() {
 1. Click the Upload (→) button in the Arduino IDE to send the code to your Arduino.
 2. After uploading, the LED should start blinking every second!
 
+## 3️⃣ **Understanding Pin Configurations** 
+
+Arduino boards have a variety of **pins** that can be used for **input** (reading data) or **output** (sending data). Understanding how to use these pins is crucial for building projects and integrating sensors, actuators, and other devices.  
+
+---
+
+## 🎯 Types of Pins  
+
+| **Pin Type**    | **Description**                                                       |
+|-----------------|-----------------------------------------------------------------------|
+| **Digital Pins** | Used for **HIGH (1)** or **LOW (0)** signals.                        |
+| **Analog Pins**  | Used for **analog input** with values between **0 to 1023** (mapped to 0V to 5V). |
+| **PWM Pins**     | Digital pins that simulate **analog output** using **Pulse Width Modulation (PWM)**. |
+| **Power Pins**   | Provide **5V**, **3.3V**, and **Ground (GND)** for powering external components. |
+
+---
+
+## 🎯 Pin Mapping (Arduino Uno)  
+
+| **Pin Name**    | **Function**                        |
+|-----------------|-------------------------------------|
+| **D0 - D13**    | **Digital I/O pins**                |
+| **A0 - A5**     | **Analog input pins**               |
+| **GND**         | **Ground (0V)**                     |
+| **5V, 3.3V**    | **Power supply for components**     |
+
+### **🔹 Pin Descriptions**
+- **D0 - D13**: These are **digital I/O pins**. You can use them for both **input** (e.g., reading a button press) and **output** (e.g., controlling an LED).  
+- **A0 - A5**: These are **analog input pins** that can read analog values from sensors. They convert analog signals to **digital values** ranging from **0 to 1023**.  
+- **GND**: This is the **Ground** pin that provides a common reference voltage for all components.  
+- **5V, 3.3V**: These pins provide **5V** and **3.3V** to power your external sensors and actuators.
+
+---
 
 
 <div align="center">
