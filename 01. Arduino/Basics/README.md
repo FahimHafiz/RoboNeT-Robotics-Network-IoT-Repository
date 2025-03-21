@@ -64,7 +64,15 @@ void loop() {
   delay(1000);                       // Wait for 1 second
 }
 ```
+### **🔹 Program Explanation**  
 
+   - **setup():**  This function runs once when the Arduino is powered up or reset. It initializes the LED_BUILTIN pin as an output.
+   - **loop():** This function runs repeatedly, turning the LED on and off every 1 second (1000 milliseconds).
+
+### **🔹 Uploading Your Program** 
+
+1. Click the Upload (→) button in the Arduino IDE to send the code to your Arduino.
+2. After uploading, the LED should start blinking every second!
 
 
 
