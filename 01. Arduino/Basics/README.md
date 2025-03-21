@@ -131,13 +131,13 @@ Here’s a breakdown of the key pins found on an **Arduino Uno**:
    
 ---
 
-# 🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 When working with Arduino, you might encounter a few common errors. Here are some troubleshooting tips to help you resolve them quickly.
 
 ---
 
-## 🔹 Error: "Pin Mode Not Set"  
+### 🔹 Error: "Pin Mode Not Set"  
 ### **Solution**:  
 Ensure that you’ve called **pinMode(pin, mode)** for each pin in the **setup()** function before using the pin.  
 - **Example**:
@@ -148,9 +148,7 @@ Ensure that you’ve called **pinMode(pin, mode)** for each pin in the **setup()
     ```
 - This sets the pin mode to **OUTPUT**, allowing the pin to be used to send signals.
 
----
-
-## 🔹 Error: "Invalid Pin Value"  
+### 🔹 Error: "Invalid Pin Value"  
 ### **Solution**:  
 Check that the correct **pin number** is being used for the type of pin. Ensure you are using a **digital pin** (D0 to D13) for **digital operations**, and **analog pins** (A0 to A5) for **analog inputs**.  
 - **Example**:
@@ -164,7 +162,7 @@ If you're using a **digital pin** in your code, make sure the pin number is corr
 
 ---
 
-# 📢 Next Steps
+## 📢 Next Steps
 
 Now that you've learned about **pin configurations** and troubleshooting tips, you can continue exploring more advanced Arduino topics. Here are some important areas to continue your learning journey:
 
@@ -178,7 +176,7 @@ Now that you've learned about **pin configurations** and troubleshooting tips, y
     - Learn how to establish **serial communication** between Arduino and other devices, such as connecting to **PCs, other Arduino boards**, or external sensors. This allows for real-time data exchange and control of your projects.
 
 ---
-
+<!-- 
 
 
 
@@ -219,4 +217,4 @@ How to write and upload the code to Arduino:  [Upload Code Guide](https://youtu.
 
 <div align="center">
   <img width="659" alt="Image" src="https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf" />
-</div>
+</div> -->
