@@ -82,8 +82,8 @@ Before diving into using pins, let's take a look at the **Arduino board** and un
 
 ## 🎯 Arduino Pinout Image
 
-![Arduino Pinout](https://www.arduino.cc/en/uploads/Tutorial/arduino_uno_pinout.png)  
-*Image Source: [Arduino Official](https://www.arduino.cc/)*
+![Arduino Pinout](./images/Arduino_Pinout.png) 
+<!-- *Image Source: [Arduino Offiial](https://www.arduino.cc/)* -->
 
 This image shows the **pinout diagram** of an **Arduino Uno** board. The pins on your board will be used for both **input** (reading data) and **output** (sending data), which are essential for connecting sensors, motors, and other devices to your Arduino.
 
@@ -120,7 +120,6 @@ Here’s a breakdown of the key pins found on an **Arduino Uno**:
    - **3.3V**: Provides 3.3 volts, often used for low-voltage components.
    
 ---
-![Arduino Pinout](./images/Arduino_Pinout.png)
 
 <div align="center">
   <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
