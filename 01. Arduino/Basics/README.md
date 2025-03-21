@@ -78,18 +78,20 @@ void loop() {
 
 Before diving into using pins, let's take a look at the **Arduino board** and understand its different pins and their functions.
 
----
-
-## 🎯 Arduino Pinout Image
+### **🔹 Arduino Pinout Image** 
 
 ![Arduino Pinout](./images/Arduino_Pinout.png) 
 <!-- *Image Source: [Arduino Offiial](https://www.arduino.cc/)* -->
 
 This image shows the **pinout diagram** of an **Arduino Uno** board. The pins on your board will be used for both **input** (reading data) and **output** (sending data), which are essential for connecting sensors, motors, and other devices to your Arduino.
 
+For a more detailed view of the **pin diagram**, click the link below:
+
+- [Click here for a detailed Arduino pinout diagram](./image/Arduino_pinout_detailed.png)
+
 ---
 
-## 🎯 Types of Pins
+### **🔹 Types of Pins** 
 
 | **Pin Type**    | **Description**                                                       |
 |-----------------|-----------------------------------------------------------------------|
@@ -100,7 +102,7 @@ This image shows the **pinout diagram** of an **Arduino Uno** board. The pins on
 
 ---
 
-## 🎯 Pin Mapping (Arduino Uno)
+### **🔹 Pin Mapping (Arduino Uno)** 
 
 Here’s a breakdown of the key pins found on an **Arduino Uno**:
 
