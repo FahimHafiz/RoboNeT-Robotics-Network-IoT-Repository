@@ -80,7 +80,7 @@ Before diving into using pins, let's take a look at the **Arduino board** and un
 
 ### **🔹 Arduino Pinout Image** 
 
-<img src="./images/Arduino_pinout.png" alt="Arduino Pinout" width="500"/>
+<img src="./images/Arduino_Pinout.png" alt="Arduino Pinout" width="500"/>
 <!-- ![Arduino Pinout](./images/Arduino_Pinout.png)  -->
 <!-- *Image Source: [Arduino Offiial](https://www.arduino.cc/)* -->
 
