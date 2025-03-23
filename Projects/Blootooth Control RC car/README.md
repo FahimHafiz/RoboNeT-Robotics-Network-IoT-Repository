@@ -13,11 +13,11 @@ This project is an ESP32-based Bluetooth-controlled car that uses the `DabbleESP
 - Directional movement (forward, backward, left, right)
 
 ## Hardware Requirements
-- ESP32 board
-- Two DC motors
-- L298N Motor Driver or similar
-- Power supply (battery pack)
-- Bluetooth-enabled device with the Dabble app installed
+- ESP32 board [See](https://www.google.com/search?sca_esv=8febcbffea4305d2&q=esp32+board&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBkzPWUS0OtApxR2914vrjk7XZXfnfKsaRZouQANLhmphEhFjnPez7qSPLLQhF9yWQ8dLkm_Ol-IEnqfjnL8XQzNqW5K2zwAP7YQmVXybzcVPEp0dqifrVvJg86BQ21ltIP4KtZ6WfX9WxsVdJZ0RKLOPPJphk3o9WsltxNUAhFlpCv3PaQ&sa=X&ved=2ahUKEwie6tfL-6CMAxUtUWwGHV2vGY0QtKgLegQIERAB&biw=1396&bih=649&dpr=1.38#vhid=fpKIHfNHX8FbCM&vssid=mosaic)
+- Two DC motors [Details](https://images.app.goo.gl/equXpphyqMUsuiki7)
+- L298N Motor Driver or similar [Details](https://images.app.goo.gl/C38A89tKeLEadKrW8)
+- Power supply (battery pack) [Guide](https://images.app.goo.gl/1Qn7m648mhTzkCrd8)
+- Bluetooth-enabled device with the Dabble app installed (Use mobile phone)
 
 ## Software Requirements
 - Arduino IDE
