@@ -1,96 +1,121 @@
-# UNITED INTERNATIONAL UNIVERSITY (UIU)
-## Dept. of Computer Science & Engineering
+# **UNITED INTERNATIONAL UNIVERSITY (UIU)**  
+## **Dept. of Computer Science & Engineering**  
 
-## Experiment: Implementing a Pre-Trained Object Detection Model (TensorFlow Lite)
+## **Experiment: Implementing a Pre-Trained Object Detection Model (TensorFlow Lite) with PiCamera on Raspberry Pi 4B**  
 
-### Objective
-To detect objects in real time using a webcam and a TensorFlow Lite (TFLite) model optimized for Raspberry Pi.
-
-### What You Need
-- Raspberry Pi (4B) with Raspbian OS installed.
-- USB webcam.
-- Internet connection for installing packages and downloading models.
-- Monitor, keyboard, and mouse connected to Raspberry Pi.
+### **Objective**  
+To detect objects in real time using **PiCamera** and a **TensorFlow Lite (TFLite) model** optimized for **Raspberry Pi**.
 
 ---
 
-## Step 1: Initial Setup
+## **What You Need**  
+- **Raspberry Pi 4B** (4GB is ok but 8GB recommended)  
+- **Raspberry Pi OS (64-bit preferred)**  
+- **PiCamera [Link](https://www.google.com/search?q=picamera&sca_esv=8febcbffea4305d2&udm=2&biw=1396&bih=649&ei=IVngZ7HmL_easeMP0Kz-qAU&ved=0ahUKEwjx-q7A8KCMAxV3TWwGHVCWH1UQ4dUDCBE&uact=5&oq=picamera&gs_lp=EgNpbWciCHBpY2FtZXJhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiTDFCDAli8CnABeACQAQCYAakBoAHuCaoBAzAuOLgBA8gBAPgBAZgCCKAC0AqoAgDCAgoQABiABBhDGIoFwgIOEAAYgAQYsQMYgwEYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIHEAAYgAQYCpgDBZIHAzAuOKAHyCSyBwMwLji4B9AK&sclient=img#vhid=-tOsdUKBU3RGUM&vssid=mosaic) (official or compatible)**  
+- **Internet connection** (for installing packages & downloading models)  
+- **Monitor, keyboard, and mouse** (or SSH access)  
 
-### 1. Turn on Raspberry Pi and open the terminal.
-Update and upgrade the system:
+---
+
+## **Step 1: Initial Setup**  
+
+### **1. Turn on Raspberry Pi and open the terminal.**  
+Update and upgrade the system:  
 
 ```sh
 sudo apt update && sudo apt upgrade -y
 ```
 
-### 2. Install Python tools:
+### **2. Enable the PiCamera (if not already enabled).**  
+Run:  
 
 ```sh
-sudo apt install python3-pip
-pip3 install virtualenv
+sudo raspi-config
+```
+- Navigate to **Interfacing Options > Camera > Enable**  
+- Press **Enter** and **reboot** the Raspberry Pi:  
+
+```sh
+sudo reboot
 ```
 
-### 3. Set up a project folder:
+To verify that the camera is detected, run:  
+
+```sh
+vcgencmd get_camera
+```
+If the output shows `supported=1 detected=1`, your **PiCamera is ready**.
+
+### **3. Install Required System Packages**  
+
+Install Python tools and dependencies:
+
+```sh
+sudo apt install python3-pip python3-picamera python3-opencv libatlas-base-dev -y
+```
+
+### **4. Set Up the Project Folder**  
+
+Create a project directory and navigate to it:
 
 ```sh
 mkdir ~/ObjectDetection
 cd ~/ObjectDetection
 ```
 
-### 4. Create a virtual environment:
+### **5. Create and Activate a Virtual Environment**  
 
 ```sh
 python3 -m venv env
 source env/bin/activate
 ```
 
-You will see `(env)` in the terminal prompt, indicating the virtual environment is active.
+You will see `(env)` in the terminal, indicating the virtual environment is active.
 
-### 5. Install necessary libraries:
+### **6. Install Required Python Libraries**  
 
 ```sh
-pip install numpy opencv-python tflite-runtime
+pip install numpy opencv-python tflite-runtime picamera2
 ```
 
 ---
 
-## Step 2: Download Pre-Trained TFLite Model
+## **Step 2: Download the Pre-Trained TFLite Model**  
 
-### 1. Download the TFLite SSD MobileNet V2 model:
-Go to the official TensorFlow Lite model zoo: **TFLite Model Zoo**.
-Download the SSD MobileNet V2 TFLite model by running the following in the terminal:
+### **1. Download the SSD MobileNet V2 Model**
+Run:
 
 ```sh
 wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/task_library/object_detection/sample_model.tflite -O detect.tflite
 ```
 
-### 2. Download the label map file:
-This file maps the model's output to human-readable labels. Run:
+### **2. Download the Label Map File**  
 
 ```sh
 wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/task_library/object_detection/sample_labelmap.txt -O labelmap.txt
 ```
 
-Both `detect.tflite` and `labelmap.txt` will now be in your `~/ObjectDetection` folder.
+Now, both `detect.tflite` and `labelmap.txt` are in your **~/ObjectDetection** folder.
 
 ---
 
-## Step 3: Create the Python Script for Real-Time Detection
+## **Step 3: Create the Object Detection Script**  
 
-### 1. Create a Python script:
+### **1. Create a Python Script**  
 
 ```sh
 nano detect_objects.py
 ```
 
-### 2. Paste the following code:
+### **2. Paste the Following Code**  
 
 ```python
 import cv2
 import numpy as np
 import tflite_runtime.interpreter as tflite
+from picamera2 import Picamera2
 
-# Load the TFLite model
+# Load the TensorFlow Lite model
 model_path = "detect.tflite"
 label_path = "labelmap.txt"
 
@@ -98,38 +123,38 @@ label_path = "labelmap.txt"
 with open(label_path, "r") as f:
     labels = [line.strip() for line in f.readlines()]
 
-# Initialize the interpreter
+# Initialize TFLite interpreter
 interpreter = tflite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 
-# Get input and output details
+# Get input & output details
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 input_shape = input_details[0]["shape"]
 
-# Open webcam
-cap = cv2.VideoCapture(0)
+# Initialize PiCamera2
+picam2 = Picamera2()
+config = picam2.create_preview_configuration(main={"size": (640, 480)})
+picam2.configure(config)
+picam2.start()
 
 while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
+    frame = picam2.capture_array()
 
-    # Preprocess frame
+    # Preprocess frame for model
     img = cv2.resize(frame, (input_shape[2], input_shape[1]))
-    img = np.expand_dims(img, axis=0)
-    img = img.astype(np.uint8)
+    img = np.expand_dims(img, axis=0).astype(np.uint8)
 
     # Run inference
     interpreter.set_tensor(input_details[0]["index"], img)
     interpreter.invoke()
 
     # Get results
-    boxes = interpreter.get_tensor(output_details[0]["index"])[0]  # Bounding box coordinates
-    classes = interpreter.get_tensor(output_details[1]["index"])[0]  # Class index
+    boxes = interpreter.get_tensor(output_details[0]["index"])[0]  # Bounding boxes
+    classes = interpreter.get_tensor(output_details[1]["index"])[0]  # Class indices
     scores = interpreter.get_tensor(output_details[2]["index"])[0]  # Confidence scores
 
-    # Draw detections on the frame
+    # Draw detections
     height, width, _ = frame.shape
     for i in range(len(scores)):
         if scores[i] > 0.5:  # Confidence threshold
@@ -148,41 +173,56 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-cap.release()
 cv2.destroyAllWindows()
+picam2.stop()
 ```
 
-### 3. Save and exit:
+### **3. Save and Exit**
 Press `CTRL+O`, hit `ENTER`, then press `CTRL+X`.
 
 ---
 
-## Step 4: Run the Object Detection Script
+## **Step 4: Run the Object Detection Script**  
 
-Run the script:
+Ensure you are in the **ObjectDetection** folder and your virtual environment is active:
+
+```sh
+cd ~/ObjectDetection
+source env/bin/activate
+```
+
+Then, run:
 
 ```sh
 python3 detect_objects.py
 ```
 
-- The webcam will open, and real-time object detection will begin.
-- Detected objects will be highlighted with bounding boxes and labels.
-- Press `q` to quit the application.
+### **What Happens?**
+- The **PiCamera will start streaming**.
+- Objects detected will be highlighted with **bounding boxes and labels**.
+- Press **'q'** to **exit**.
 
 ---
 
-## Further Exploration
+## **Further Exploration**  
 
-### Experiment with other TFLite models:
-- Download different TFLite models from the TensorFlow Lite Model Zoo.
+### **1. Test Other TFLite Models**  
+You can try different TensorFlow Lite models from the **TFLite Model Zoo**:
+🔗 [https://www.tensorflow.org/lite/models](https://www.tensorflow.org/lite/models)  
 
-### Explore lightweight models:
-- Try models like **MobileNet** or **Tiny YOLO** for faster detection.
+### **2. Improve Performance**  
+- **Optimize model size** using `tflite_convert`  
+- **Run with Coral USB Accelerator** for **faster inference**  
 
-### Optimize for specific tasks:
-- Use models trained for specialized tasks like **face detection** or **gesture recognition**.
+### **3. Detect Specific Objects**  
+- Use **custom-trained models** for specific tasks like **face detection** or **gesture recognition**.  
 
 ---
 
-This concludes the experiment on **Implementing a Pre-Trained Object Detection Model using TensorFlow Lite on Raspberry Pi**.
+## **Conclusion**  
 
+You have successfully:  
+✅ Set up **PiCamera** with Raspberry Pi 4B.  
+✅ Installed **TensorFlow Lite** and required dependencies.  
+✅ Downloaded and used a **pre-trained object detection model**.  
+✅ Ran **real-time detection** with a **TFLite model**.  
