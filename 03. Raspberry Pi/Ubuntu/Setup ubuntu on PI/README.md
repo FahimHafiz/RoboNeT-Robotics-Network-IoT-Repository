@@ -7,7 +7,7 @@
 To install and configure Ubuntu 22.04 on a Raspberry Pi 4 using Raspberry Pi Imager. This includes downloading the OS, flashing it onto an SD card, and performing the initial setup to ensure the system is ready for further development and experimentation.
 
 ### Step 1: Download Raspberry Pi Imager
-1. Visit the official Raspberry Pi website and download **Raspberry Pi Imager** for your operating system (Windows, macOS, or Linux).
+1. Visit the official Raspberry Pi website and download **[Raspberry Pi Imager](https://www.raspberrypi.com/software/)** for your operating system (Windows, macOS, or Linux).
 2. Install Raspberry Pi Imager by opening the downloaded file and following the installation prompts.
 
 ### Step 2: Prepare the SD Card
