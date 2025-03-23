@@ -215,7 +215,9 @@ You can try different TensorFlow Lite models from the **TFLite Model Zoo**:
 - **Run with Coral USB Accelerator** for **faster inference**  
 
 ### **3. Detect Specific Objects**  
-- Use **custom-trained models** for specific tasks like **face detection** or **gesture recognition**.  
+- Use **custom-trained models** for specific tasks like **face detection** or **gesture recognition**.
+
+##You can follow this tutorial too: [Link](https://youtu.be/kX6zWqMP9U4?si=VfWYYeSmE6k9RS_m)
 
 ---
 
