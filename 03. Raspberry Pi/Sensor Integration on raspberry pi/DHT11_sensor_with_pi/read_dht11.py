@@ -1,14 +1,14 @@
 import Adafruit_DHT
-import time  # Import the time module
+import time  
 
-# Define the sensor type and GPIO pin
+# Define sensor type and GPIO pin
 SENSOR = Adafruit_DHT.DHT11
 GPIO_PIN = 4  # GPIO4 (Pin 7)
 
 try:
     while True:
-        # Read temperature and humidity from the DHT11 sensor
-        humidity, temperature = Adafruit_DHT.read(SENSOR, GPIO_PIN)
+        # Read temperature and humidity from the DHT11 sensor with retries
+        humidity, temperature = Adafruit_DHT.read_retry(SENSOR, GPIO_PIN)
 
         # Check if reading was successful
         if humidity is not None and temperature is not None:
@@ -16,7 +16,7 @@ try:
         else:
             print("Failed to retrieve data from sensor. Retrying...")
 
-        time.sleep(2)  # Wait for 2 seconds before the next reading (adjust as needed)
+        time.sleep(2)  # 2-second delay for stable readings
 
 except KeyboardInterrupt:
     print("\nProgram stopped by user.")
