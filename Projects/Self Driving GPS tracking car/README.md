@@ -14,22 +14,26 @@ This project aims to demonstrate how **GPS-based autonomous navigation** can be 
 
 ## **Hardware Components and Justifications**  
 
-### **1. ESP32 Microcontroller**  
+### **1. ESP32 Microcontroller** 
+[Link](https://images.app.goo.gl/Sx91yBGBuJbRrfrG7)
 - **Why?** The ESP32 is chosen due to its built-in **WiFi & Bluetooth**, **dual-core processing**, and **multiple GPIOs** that allow for easy integration with sensors and motor drivers.  
 - **Power Consumption:** ~160mA (active mode)  
 
-### **2. GPS Module (NEO-6M or similar)**  
+### **2. GPS Module (NEO-6M or similar)**
+[Link](https://images.app.goo.gl/YzeaGAUka7XqRg128)
 - **Why?** It provides real-time latitude and longitude data, which is essential for autonomous navigation.  
 - **Operating Voltage:** 3.3V – 5V  
 - **Power Consumption:** ~50mA  
 
 ### **3. Motor Driver (L298N or L293D)**  
+[Link](https://images.app.goo.gl/6MKFwQTkeC5m5sdP9)
 - **Why?** The ESP32 cannot directly power motors, so an **H-Bridge motor driver** is used to provide sufficient voltage and current.  
 - **Power Requirements:**  
   - **L298N:** 5V logic input, motor voltage 7V – 12V, peak current 2A  
   - **L293D:** 5V logic input, motor voltage 4.5V – 12V, max current 600mA per channel  
 
-### **4. Two DC Motors**  
+### **4. Four DC Motors**
+[Link](https://images.app.goo.gl/oJi21Bt1LuS9vT7W9)
 - **Why?** These motors drive the vehicle forward, backward, and turn to the correct direction based on GPS data.  
 - **Motor Specifications:**  
   - **Voltage:** 6V – 12V  
@@ -41,13 +45,15 @@ This project aims to demonstrate how **GPS-based autonomous navigation** can be 
 - **Power Consumption:** ~30mA  
 
 ### **6. Battery Pack (Li-ion or Li-Po, 7.4V or 12V)**  
+[Link](https://images.app.goo.gl/WE2Rad5Mmi6zy4Sg8)
 - **Why?** A rechargeable battery powers the ESP32, motors, and other components. A **step-down regulator** may be needed for stable voltage to ESP32 and sensors.  
 - **Estimated Battery Requirement:**  
   - Total estimated power consumption: **~1.5A – 2A**  
   - If using a **7.4V Li-Po battery (2500mAh)**, runtime is around **1 – 1.5 hours**.  
 
 ### **7. Chassis and Wheels**  
-- **Why?** The body structure to hold all electronic components and enable movement.  
+- **Why?** The body structure to hold all electronic components and enable movement.
+- We used a PVC board for our car
 
 ---
 
