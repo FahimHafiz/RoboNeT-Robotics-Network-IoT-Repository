@@ -31,7 +31,7 @@ For more detailed instructions, follow these links:
   - [Installation Guide link for Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/) <br>
   - [Installation Guide Link for macOS](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/) <br>
   - [Learn Arduino code](https://docs.arduino.cc/language-reference/?_gl=1*1fzdi51*_up*MQ..*_ga*MzMyOTcyNjE2LjE3MzY2MjQ1ODc.*_ga_NEXN8H46L5*MTczNjYyNDU4NC4xLjEuMTczNjYyNDU4OS4wLjAuNTMzMjg0MTkx) <br>
-  - How to write and upload the code to Arduino:  [Upload Code Guide](https://youtu.be/xQfC72VeV7Y?si=Ls96MXAMnVyEDich)
+  - How to write and upload the code to Arduino YouTube video link:  [Upload Code Guide]([https://youtu.be/xQfC72VeV7Y?si=Ls96MXAMnVyEDich](https://www.youtube.com/watch?v=y5znFDmY5V4))
 
 Once installed, you can launch the **Arduino IDE** and get ready to write your first program!
 
