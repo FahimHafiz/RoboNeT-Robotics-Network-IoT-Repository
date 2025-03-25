@@ -101,5 +101,3 @@ attachInterrupt(digitalPinToInterrupt(2), myFunction, RISING);
 
 Digital pins are essential for reading and controlling external components in Arduino projects. Understanding their function allows you to work with a variety of sensors and actuators effectively.
 
-Next, we will cover **Analog Pins** and their uses!
-
