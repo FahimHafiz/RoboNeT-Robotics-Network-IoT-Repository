@@ -9,6 +9,7 @@ This documentation provides a beginner-friendly guide to getting started with ES
 ---
 
 ## ESP32 Setup Guide:
+[ESP32 Setup Guide] (https://www.youtube.com/watch?v=AitCKcyjHuQ)
 ### Step 1: Installing the ESP32 Board in Arduino IDE
 To program the ESP32 using the Arduino IDE, follow these steps:
 
