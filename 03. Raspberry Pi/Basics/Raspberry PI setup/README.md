@@ -7,7 +7,7 @@
 To set up and configure a Raspberry Pi 4 with the necessary software and hardware to enable seamless camera functionality. This includes verifying the camera module, testing image and video capture, and ensuring the system is optimized for future image processing and object detection tasks.
 
 ### Step 1: Download Raspberry Pi OS using Raspberry Pi Imager
-1. Go to the official Raspberry Pi website and download Raspberry Pi Imager for your operating system (Windows, macOS, or Linux).
+1. Go to the official Raspberry Pi website and download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) for your operating system (Windows, macOS, or Linux).
 2. Install Raspberry Pi Imager by opening the downloaded file and following the installation prompts.
 
 ### Step 2: Prepare the SD Card

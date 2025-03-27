@@ -5,7 +5,7 @@
 
 ### Objective  
 - Capture and save images using a USB webcam.  
-- Record videos using a webcam.  
+- Record videos using a [webcam](https://images.app.goo.gl/bMqE13HdxSXXGAyC8).  
 - Process images (grayscale, resizing, thresholding, and smoothing).  
 - Automate dataset collection for machine learning applications.  
 - Use a virtual environment to manage dependencies properly.  

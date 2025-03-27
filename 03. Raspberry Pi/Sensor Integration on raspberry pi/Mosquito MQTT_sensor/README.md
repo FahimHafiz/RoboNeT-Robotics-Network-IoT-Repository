@@ -9,8 +9,8 @@ sending and receiving sensor data for IoT applications.
 **What You Need**
 
 * Raspberry Pi 4B with Raspbian OS installed.
-* Force-sensitive sensor (e.g., FSR).
-* 10kΩ resistor.
+* Force-sensitive sensor (e.g., FSR).[Link](https://images.app.goo.gl/HDH1uxgPYexEatf87)
+* 10kΩ resistor.[Link](https://www.ic-components.com/blog/understanding-10k-ohm-resistor-color-code-and-application.jsp)
 * Breadboard and jumper wires.
 * Internet connection for Raspberry Pi.
 * Monitor, keyboard, and mouse connected to Raspberry Pi.

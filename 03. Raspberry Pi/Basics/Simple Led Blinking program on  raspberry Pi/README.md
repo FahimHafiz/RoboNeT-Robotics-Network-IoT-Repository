@@ -8,10 +8,10 @@
 To demonstrate the process of controlling an LED using the Raspberry Pi 4 by writing a Python program to make the LED blink at regular intervals. This experiment introduces beginners to GPIO pin usage and basic Python coding for hardware interaction.
 
 ### Step 1: Gather Required Components
-- 1 x LED (any color)
-- 1 x Resistor (220Ω recommended)
-- Jumper wires
-- Breadboard
+- 1 x LED (any color) [See More](https://www.divilabs.com/2013/04/multi-color-leds-beginner-level-guide.html)
+- 1 x Resistor (220Ω recommended)[Learn More](https://www.ariat-tech.com/blog/the-essential-guide-to-1k-ohm-resistors-characteristics-and-uses.html)
+- Jumper wires [See More](https://blog.sparkfuneducation.com/what-is-jumper-wire)
+- Breadboard [See More](https://sfxpcb.com/how-to-use-a-breadboard-and-how-it-works/)
 
 ### Step 2: Connect the LED to Raspberry Pi
 1. Place the LED on the breadboard.

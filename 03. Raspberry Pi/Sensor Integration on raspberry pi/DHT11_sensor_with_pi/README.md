@@ -1,66 +1,94 @@
-# UNITED INTERNATIONAL UNIVERSITY (UIU)
-## Dept. of Computer Science & Engineering
+# **UNITED INTERNATIONAL UNIVERSITY (UIU)**
+## **Dept. of Computer Science & Engineering**
+## **Experiment: Sensor Integration with Raspberry Pi - Reading Data from a DHT11 Sensor**
 
-## Experiment: Sensor Integration with Raspberry Pi: Reading Data from a DHT11 Sensor
+### **Objective**  
+To demonstrate how to connect a **DHT11 temperature and humidity sensor** to a **Raspberry Pi** and use **Python** to read and display sensor data on the terminal.
 
-**Objective:** To demonstrate how to connect a DHT11 temperature and humidity sensor to a Raspberry Pi and use Python to read and display sensor data on the terminal.
+---
 
-**Step 1: Gather Required Components**
+## **Step 1: Gather Required Components**
+- **Raspberry Pi** (Any model, e.g., Raspberry Pi 4B)
+- **DHT11 Temperature and Humidity Sensor** [See details](https://nerdshed.com.ng/product/dht11-temperature-humidity-sensor-module/)
+- **10kΩ Resistor** *(optional, for stable data readings)* [See more](https://www.ic-components.com/blog/understanding-10k-ohm-resistor-color-code-and-application.jsp)
+- **Jumper Wires** [Link](https://images.app.goo.gl/XiQQWwA9xu7B6DGs5)
+- **Breadboard** *(optional for easy connections)*
 
-* Raspberry Pi (any model, e.g., Raspberry Pi 4B)
-* DHT11 Temperature and Humidity Sensor
-* 10kΩ Resistor (optional, for stable data readings)
-* Jumper wires
-* Breadboard
+---
 
-**Step 2: Connect the DHT11 Sensor to the Raspberry Pi**
+## **Step 2: Connect the DHT11 Sensor to the Raspberry Pi**
 
-| DHT11 Pin | Connection        | Raspberry Pi Pin |
-| --------- | ----------------- | ---------------- |
-| VCC       | 3.3V Power        | Pin 1            |
-| GND       | Ground            | Pin 6            |
-| DATA      | GPIO4 (Data)      | Pin 7            |
+### **Pin Connections**
+| **DHT11 Pin** | **Connection**    | **Raspberry Pi Pin** |
+|--------------|-----------------|------------------|
+| **VCC**      | 3.3V Power       | Pin 1           |
+| **GND**      | Ground           | Pin 6           |
+| **DATA**     | GPIO4 (Data)      | Pin 7           |
 
-1. Connect the VCC pin of the DHT11 to Pin 1 (3.3V) on the Raspberry Pi.
-2. Connect the GND pin of the DHT11 to Pin 6 (GND).
-3. Connect the DATA pin of the DHT11 to GPIO4 (Pin 7) on the Raspberry Pi.
-4. Use a 10kΩ resistor between the VCC and DATA pins of the DHT11 for stable signal readings.
+### **Wiring Instructions**
+1. **Connect the VCC pin** of the DHT11 to **Pin 1 (3.3V)** on the Raspberry Pi.
+2. **Connect the GND pin** of the DHT11 to **Pin 6 (GND)**.
+3. **Connect the DATA pin** of the DHT11 to **GPIO4 (Pin 7)** on the Raspberry Pi.
+4. **Use a 10kΩ pull-up resistor** between **VCC and DATA** pins to ensure stable readings.
 
-   ![raspberry-pi-4-40-pin-description-](https://github.com/user-attachments/assets/4b2b60c6-51a0-4ff7-8cd4-ea0e6e35b746)
+---
 
+## **Step 3: Update & Install Required Libraries**
 
-**Step 3: Install Required Libraries**
-
-Open the terminal on your Raspberry Pi and install the `Adafruit_DHT` library for reading DHT11 data:
+### **Update Raspberry Pi Packages**
+Before installing dependencies, update your system:
 
 ```bash
-sudo apt-get install python3-libgpiod
-pip install Adafruit-DHT
+sudo apt update && sudo apt upgrade -y
 ```
 
-**Step 4: Create a Project Folder**
+### **Install Required Python Libraries**
+```bash
+sudo apt install python3-libgpiod -y
+pip install Adafruit_DHT
+```
 
-1. On your Raspberry Pi desktop, create a folder named `dht11_project`.
-2. Inside the folder, create a new Python file named `read_dht11.py`.
+> **Note:** If `pip` is not installed, install it using:
+```bash
+sudo apt install python3-pip -y
+```
 
-**Step 5: Write the Python Code**
+---
 
-Open Thonny and load the `read_dht11.py` file.
+## **Step 4: Create a Project Folder**
+To organize your files, create a new project folder:
 
-Write the following code:
+```bash
+mkdir -p ~/dht11_project
+cd ~/dht11_project
+```
+
+---
+
+## **Step 5: Create the Python Script**
+Create a Python script file to read data from the DHT11 sensor.
+
+```bash
+nano read_dht11.py
+```
+
+---
+
+## **Step 6: Write the Python Code**
+Copy and paste the following **error-free** Python code into `read_dht11.py`:
 
 ```python
-import Adafruit_DHT.DHT11 as DHT11 
-import time  # Import the time module
+import Adafruit_DHT
+import time  
 
-# Define the sensor type and GPIO pin
+# Define sensor type and GPIO pin
 SENSOR = Adafruit_DHT.DHT11
 GPIO_PIN = 4  # GPIO4 (Pin 7)
 
 try:
     while True:
-        # Read temperature and humidity from the DHT11 sensor
-        humidity, temperature = Adafruit_DHT.read(SENSOR, GPIO_PIN)
+        # Read temperature and humidity from the DHT11 sensor with retries
+        humidity, temperature = Adafruit_DHT.read_retry(SENSOR, GPIO_PIN)
 
         # Check if reading was successful
         if humidity is not None and temperature is not None:
@@ -68,28 +96,45 @@ try:
         else:
             print("Failed to retrieve data from sensor. Retrying...")
 
-        time.sleep(2)  # Wait for 2 seconds before the next reading (adjust as needed)
+        time.sleep(2)  # 2-second delay for stable readings
 
 except KeyboardInterrupt:
     print("\nProgram stopped by user.")
 ```
 
-**Step 6: Run the Program**
+---
 
-1. Save the code in Thonny.
-2. Click the Run button (green triangle) in Thonny to execute the script.
-3. The terminal will display the temperature and humidity readings from the DHT11 sensor.
+## **Step 7: Run the Program**
+1. **Save the file** (`Ctrl + X`, then `Y`, then `Enter`).
+2. **Run the script** using:
 
-**Example output:**
-
-```
-Temperature: 24.3°C  Humidity: 56.7%
+```bash
+python3 read_dht11.py
 ```
 
-**Step 7: Troubleshooting Tips**
+---
 
-* Ensure the wiring is correct and secure.
-* If you see "Failed to retrieve data," check the resistor connection between VCC and DATA.
-* Verify that the `Adafruit_DHT` library is installed properly.
-* Consider adding a small delay using `time.sleep()` in your loop to prevent excessive sensor readings and improve stability.  I've added a 2-second delay to the code above.
-* Some DHT11 sensors can be a bit finicky.  If you continue to have trouble, try a different DHT11 sensor if you have one.
+## **Step 8: Expected Output**
+If everything is set up correctly, the terminal should display:
+
+```
+Temperature: 25.2°C  Humidity: 55.3%
+Temperature: 25.3°C  Humidity: 55.4%
+...
+```
+
+---
+
+## **Step 9: Troubleshooting**
+If you encounter **issues**, check the following:
+✅ **Wiring is correct** (Check pin numbers).  
+✅ **Ensure Python and dependencies are installed correctly**.  
+✅ **Check sensor stability** (Try adding/removing the **10kΩ resistor**).  
+✅ **Reboot the Raspberry Pi** and retry running the script.  
+
+> **If you still get errors**, run:
+```bash
+pip install --upgrade Adafruit_DHT
+```
+
+---

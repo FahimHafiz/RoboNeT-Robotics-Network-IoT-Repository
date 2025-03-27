@@ -1,75 +1,111 @@
 # United International University  
 ## Department of Computer Science and Engineering  
 
-# Self-Driving GPS Tracking Car
+# **Self-Driving GPS Tracking Car**  
 
-## Overview
-This project is an ESP32-based autonomous vehicle that navigates to preset GPS coordinates. The car utilizes an ESP32 microcontroller to process GPS data and determine its location. It then controls the movement of motors via a motor driver module to reach the target location. A Bluetooth module is used to send status updates to a mobile device.
+## **Project Overview**  
+The goal of this project is to develop an **ESP32-based autonomous vehicle** capable of navigating to predefined GPS coordinates. The car will process **real-time GPS data** to determine its location and control the movement of motors using a motor driver module. Additionally, a **Bluetooth module** will transmit navigation and status updates to a mobile device for monitoring.  
+
+This project aims to demonstrate how **GPS-based autonomous navigation** can be applied to small-scale robotic systems, which can be further enhanced with obstacle detection, real-time tracking, and wireless communication.  
 
 ![overview](https://github.com/user-attachments/assets/7c173e28-a579-42e4-b037-e9549250d14d)
 
+---
 
-## Features
-- **Autonomous navigation** using GPS coordinates
-- **Real-time location tracking** with GPS module
-- **Bluetooth communication** for status monitoring
-- **Motor control** for precise movement adjustments
-- **Distance calculation algorithm** to determine navigation strategy
-- **Direction adjustment mechanism** to correct heading errors
+## **Hardware Components and Justifications**  
 
-## Hardware Requirements
-- **ESP32** microcontroller
-- **GPS module** (e.g., NEO-6M GPS)
-- **Motor driver** (e.g., L298N or L293D)
-- **Two DC motors** for movement
-- **Battery pack** (Li-ion or Li-Po recommended)
-- **Bluetooth module** (if separate from ESP32)
-- **Chassis and wheels** for mobility
-- **Voltage regulator** (if needed to manage power supply)
+### **1. ESP32 Microcontroller** 
+[Link](https://images.app.goo.gl/Sx91yBGBuJbRrfrG7)
+- **Why?** The ESP32 is chosen due to its built-in **WiFi & Bluetooth**, **dual-core processing**, and **multiple GPIOs** that allow for easy integration with sensors and motor drivers.  
+- **Power Consumption:** ~160mA (active mode)  
 
-## Software Requirements
-- **Arduino IDE** for programming
-- **ESP32 board support package** installed in Arduino IDE
-- **TinyGPS++ library** for GPS data processing
-- **BluetoothSerial library** for Bluetooth communication
+### **2. GPS Module (NEO-6M or similar)**
+[Link](https://images.app.goo.gl/YzeaGAUka7XqRg128)
+- **Why?** It provides real-time latitude and longitude data, which is essential for autonomous navigation.  
+- **Operating Voltage:** 3.3V – 5V  
+- **Power Consumption:** ~50mA  
 
-## Wiring Diagram
-| ESP32 Pin | Connection |
-|-----------|-----------|
-| 3V3       | GPS VCC |
-| GND       | GPS GND |
-| GPS RX    | ESP32 TX |
-| GPS TX    | ESP32 RX |
+### **3. Motor Driver (L298N or L293D)**  
+[Link](https://images.app.goo.gl/6MKFwQTkeC5m5sdP9)
+- **Why?** The ESP32 cannot directly power motors, so an **H-Bridge motor driver** is used to provide sufficient voltage and current.  
+- **Power Requirements:**  
+  - **L298N:** 5V logic input, motor voltage 7V – 12V, peak current 2A  
+  - **L293D:** 5V logic input, motor voltage 4.5V – 12V, max current 600mA per channel  
+
+### **4. Four DC Motors**
+[Link](https://images.app.goo.gl/oJi21Bt1LuS9vT7W9)
+- **Why?** These motors drive the vehicle forward, backward, and turn to the correct direction based on GPS data.  
+- **Motor Specifications:**  
+  - **Voltage:** 6V – 12V  
+  - **Current:** ~300mA – 600mA per motor (depending on load)  
+  - **Power Consumption:** ~5W per motor  
+
+### **5. Bluetooth Module (Optional if not using ESP32's built-in Bluetooth)**  
+- **Why?** It allows for real-time monitoring of GPS coordinates and system status through a mobile device.  
+- **Power Consumption:** ~30mA  
+
+### **6. Battery Pack (Li-ion or Li-Po, 7.4V or 12V)**  
+[Link](https://images.app.goo.gl/WE2Rad5Mmi6zy4Sg8)
+- **Why?** A rechargeable battery powers the ESP32, motors, and other components. A **step-down regulator** may be needed for stable voltage to ESP32 and sensors.  
+- **Estimated Battery Requirement:**  
+  - Total estimated power consumption: **~1.5A – 2A**  
+  - If using a **7.4V Li-Po battery (2500mAh)**, runtime is around **1 – 1.5 hours**.  
+
+### **7. Chassis and Wheels**  
+- **Why?** The body structure to hold all electronic components and enable movement.
+- We used a PVC board for our car
+
+---
+
+## **Software Requirements**  
+- **Arduino IDE** (for programming ESP32)  
+- **ESP32 Board Support Package** (for ESP32 compatibility)  
+- **TinyGPS++ Library** (to process GPS data)  
+- **BluetoothSerial Library** (for Bluetooth communication)  
+
+---
+
+## **Wiring Diagram**  
+
+| **ESP32 Pin** | **Connection** |
+|--------------|--------------|
+| 3V3 | GPS VCC |
+| GND | GPS GND |
+| GPS RX | ESP32 TX |
+| GPS TX | ESP32 RX |
 | Motor IN1 | ESP32 GPIO X |
 | Motor IN2 | ESP32 GPIO Y |
-| Enable A  | PWM GPIO |
+| Enable A | PWM GPIO |
 | Bluetooth TX | ESP32 RX |
 | Bluetooth RX | ESP32 TX |
 
-<img width="897" alt="diagram" src="https://github.com/user-attachments/assets/5ba249dc-792b-4837-8eb4-86a1ebd24553" />
+![Wiring Diagram](https://github.com/user-attachments/assets/5ba249dc-792b-4837-8eb4-86a1ebd24553)  
 
-## Code Explanation
-### 1. Library Inclusions and Definitions
+---
+
+## **Code Explanation**  
+
+### **1. Library Inclusions and Definitions**  
 ```cpp
 #include <TinyGPS++.h>
 #include <HardwareSerial.h>
 #include <BluetoothSerial.h>
 ```
-- **`TinyGPS++`** processes GPS location data.
-- **`HardwareSerial`** establishes serial communication with the GPS module.
-- **`BluetoothSerial`** handles Bluetooth communication with an external device.
+- **TinyGPS++** processes GPS location data.  
+- **HardwareSerial** establishes serial communication with the GPS module.  
+- **BluetoothSerial** allows Bluetooth communication with a mobile device.  
 
-### 2. GPS Module Initialization
+### **2. GPS Module Initialization**  
 ```cpp
 HardwareSerial GPS_Serial(1);
 TinyGPSPlus gps;
 BluetoothSerial SerialBT;
 ```
-- **GPS_Serial** is set up to read data from the GPS module.
-- **TinyGPSPlus** object is created for parsing GPS signals.
-- **SerialBT** is initialized to send real-time data via Bluetooth.
+- **GPS_Serial** is set up to read GPS data.  
+- **TinyGPSPlus** is initialized for processing GPS signals.  
+- **SerialBT** is initialized for Bluetooth communication.  
 
-### 3. Motor Control Functions
+### **3. Motor Control Functions**  
 ```cpp
 void moveForward() {
     digitalWrite(motorPin1, HIGH);
@@ -84,9 +120,9 @@ void stopMotors() {
     digitalWrite(motorPin2, LOW);
 }
 ```
-- Functions for **moving forward, backward, and stopping** are defined.
+- Functions to **move forward, backward, and stop** the car.  
 
-### 4. GPS Data Processing
+### **4. GPS Data Processing**  
 ```cpp
 void processGPS() {
     while (GPS_Serial.available() > 0) {
@@ -94,9 +130,9 @@ void processGPS() {
     }
 }
 ```
-- Reads incoming GPS signals and updates current location.
+- Reads and updates **current GPS coordinates**.  
 
-### 5. Navigation Logic
+### **5. Navigation Logic**  
 ```cpp
 void navigateTo(float targetLat, float targetLon) {
     float currentLat = gps.location.lat();
@@ -105,11 +141,9 @@ void navigateTo(float targetLat, float targetLon) {
     adjustDirection(targetLat, targetLon, currentLat, currentLon);
 }
 ```
-- **Retrieves current GPS coordinates**.
-- **Calculates distance** to the target.
-- **Adjusts movement direction** to navigate correctly.
+- Retrieves **current coordinates**, **calculates distance**, and **adjusts movement direction**.  
 
-### 6. Distance Calculation Algorithm
+### **6. Distance Calculation Algorithm**  
 ```cpp
 float calculateDistance(float lat1, float lon1, float lat2, float lon2) {
     float dLat = radians(lat2 - lat1);
@@ -120,9 +154,9 @@ float calculateDistance(float lat1, float lon1, float lat2, float lon2) {
     return distance;
 }
 ```
-- Uses **Haversine formula** to calculate the distance between two coordinates.
+- Uses the **Haversine formula** to determine the shortest distance between two points.  
 
-### 7. Bluetooth Status Updates
+### **7. Bluetooth Status Updates**  
 ```cpp
 void sendBluetoothStatus() {
     SerialBT.print("Current Location: ");
@@ -131,21 +165,28 @@ void sendBluetoothStatus() {
     SerialBT.println(gps.location.lng(), 6);
 }
 ```
-- Sends **real-time GPS data** via Bluetooth to an external device.
+- Sends **real-time GPS data** via Bluetooth.  
 
-## Installation & Usage
-1. **Set up Arduino IDE** and install required libraries.
-2. **Connect ESP32** to the GPS module and motor driver as per the wiring diagram.
-3. **Upload the code** to the ESP32 using Arduino IDE.
-4. **Power the system** using a battery pack.
-5. **Check Bluetooth connection** to receive status updates.
-6. **Configure target GPS coordinates** within the code before deployment.
-7. **Monitor movement** and ensure it reaches the destination accurately.
+---
 
-## Future Improvements
-- **Obstacle avoidance** using ultrasonic sensors.
-- **Real-time tracking** to recieve coordinates to verify accuracy of the traversal.
+## **Installation & Usage**  
+1. **Install Arduino IDE** and required libraries.  
+2. **Assemble the hardware** following the wiring diagram.  
+3. **Upload the code** to the ESP32.  
+4. **Power the system** using the battery pack.  
+5. **Connect to Bluetooth** and monitor the data.  
+6. **Set GPS coordinates** in the code and test navigation.  
 
-## License
-This project is **open-source** and available for modification and improvement.
+---
 
+## **Future Improvements**  
+- **Obstacle avoidance** with ultrasonic sensors.  
+- **Real-time tracking** with cloud-based data logging.  
+- **WiFi-based remote control** for improved monitoring.  
+
+---
+
+## **License**  
+This project is **open-source** and available for modification and improvement.  
+
+---

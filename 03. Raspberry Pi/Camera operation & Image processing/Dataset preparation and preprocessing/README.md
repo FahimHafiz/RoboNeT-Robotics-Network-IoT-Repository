@@ -8,7 +8,7 @@ To capture images and videos using PiCamera, preprocess them (normalization, res
 
 ## What You Need
 - Raspberry Pi 4B with Raspbian OS installed.
-- PiCamera.
+- PiCamera. [Details](https://www.raspberrypi.com/products/camera-module-3/)
 - Internet connection for installing packages.
 - Monitor, keyboard, and mouse connected to Raspberry Pi.
 
