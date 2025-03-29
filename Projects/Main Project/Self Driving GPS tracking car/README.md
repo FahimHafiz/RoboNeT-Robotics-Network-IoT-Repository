@@ -15,7 +15,7 @@ This project aims to demonstrate how **GPS-based autonomous navigation** can be 
 ## **Hardware Components and Justifications**  
 
 ### **1. ESP32 Microcontroller** 
-[Link](02. ESP32)
+[Link]([02. ESP32](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/02.%20ESP32))
 - **Why?** The ESP32 is chosen due to its built-in **WiFi & Bluetooth**, **dual-core processing**, and **multiple GPIOs** that allow for easy integration with sensors and motor drivers.  
 - **Power Consumption:** ~160mA (active mode)  
 
