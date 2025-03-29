@@ -42,7 +42,7 @@ For additional details about motor drivers, check the [Motor Driver Guide](https
 
 ### **4. Four DC Motors (200 RPM Each)**  
 To know how to operate those motors using motor driver see the previously mentioned Motor driver guide.
-  The vehicle requires four motors to enable movement in **forward, backward, and turning directions**. The speed and torque of these motors allow precise navigation.
+The vehicle requires four motors to enable movement in **forward, backward, and turning directions**. The speed and torque of these motors allow precise navigation.
 - **Motor Specifications:**
   - **Voltage:** 6V – 12V  
   - **Current:** ~300mA – 600mA per motor (depending on load)  
