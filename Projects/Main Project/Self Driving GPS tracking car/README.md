@@ -41,8 +41,7 @@ For additional details about motor drivers, check the [Motor Driver Guide](https
   - **L293D:** 5V logic input, motor voltage 4.5V – 12V, max current 600mA per channel
 
 ### **4. Four DC Motors (200 RPM Each)**  
-To know how to operate those motors using motor driver see the previously mentioned [Motor driver guide](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/blob/main/01.%20Arduino/Sensors_Motors/BTS7960_Motor_Driver/README.md)
-- **Why do we need these motors?**  
+To know how to operate those motors using motor driver see the previously mentioned Motor driver guide.
   The vehicle requires four motors to enable movement in **forward, backward, and turning directions**. The speed and torque of these motors allow precise navigation.
 - **Motor Specifications:**
   - **Voltage:** 6V – 12V  
