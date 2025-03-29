@@ -15,7 +15,7 @@ This project aims to demonstrate how **GPS-based autonomous navigation** can be 
 ## **Hardware Components and Justifications**  
 
 ### **1. ESP32 Microcontroller** 
-[Link](https://images.app.goo.gl/Sx91yBGBuJbRrfrG7)
+[Link](02. ESP32)
 - **Why?** The ESP32 is chosen due to its built-in **WiFi & Bluetooth**, **dual-core processing**, and **multiple GPIOs** that allow for easy integration with sensors and motor drivers.  
 - **Power Consumption:** ~160mA (active mode)  
 
