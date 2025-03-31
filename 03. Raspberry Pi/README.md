@@ -1,7 +1,7 @@
-            ![pi4_image](https://github.com/user-attachments/assets/f79757a5-d3be-484e-a057-6f3848889fb1)
+![pi4_image](https://github.com/user-attachments/assets/f79757a5-d3be-484e-a057-6f3848889fb1)
 
 
-                    [img_srce: https://img.drz.lazcdn.com/static/bd/p/65a831828e5f3b96deeb1968565b352c.jpg_720x720q80.jpg]
+                                 [img_srce: https://img.drz.lazcdn.com/static/bd/p/65a831828e5f3b96deeb1968565b352c.jpg_720x720q80.jpg]
 
 # 🚀 Raspberry Pi - Getting Started with IoT & Embedded Systems
 
