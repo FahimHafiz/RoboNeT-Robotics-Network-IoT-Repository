@@ -32,22 +32,22 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 - 📝 Running your **first program** (LED blinking)
 - ⚙️ Basic **system configurations**
 
-### 2️⃣ **[Camera Operations](./Camera_Operations/)**
+### 2️⃣ **[Camera Operations](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/03.%20Raspberry%20Pi/Camera%20operation%20%26%20Image%20processing)**
 - 📷 Capturing **images and videos**
 - 📊 **Dataset preparation** and preprocessing
 - 💻 Using **PiCamera** with Python
 
-### 3️⃣ **[Pre-Trained Models](./Pre_Trained_Models/)**
+### 3️⃣ **[Pre-Trained Models](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/03.%20Raspberry%20Pi/Implementing%20a%20pre-trained%20object%20detection%20model)**
 - 🧠 Implementing **pre-trained AI models**
 - 🚀 Running **TensorFlow Lite** on Raspberry Pi
 - 🤖 Applications in **computer vision and AI**
 
-### 4️⃣ **[Sensor Integration](./Sensor_Integration/)**
+### 4️⃣ **[Sensor Integration](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/03.%20Raspberry%20Pi/Sensor%20Integration%20on%20raspberry%20pi)**
 - 🌡️ Interfacing with **DHT11 and other basic sensors**
 - 📊 Reading and processing **sensor data**
 - 🔗 Connecting sensors via **GPIO pins**
 
-### 5️⃣ **[Ubuntu & Webcams](./Ubuntu_Webcams/)**
+### 5️⃣ **[Ubuntu & Webcams](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/03.%20Raspberry%20Pi/Ubuntu)**
 - 💻 Setting up and using **Ubuntu** on Raspberry Pi
 - 🎥 Basic **webcam operations**
 - 🌐 Applications in **video streaming and processing**
