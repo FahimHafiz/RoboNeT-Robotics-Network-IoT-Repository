@@ -59,7 +59,7 @@ The vehicle requires four motors to enable movement in **forward, backward, and 
 - **Why do we need a chassis?** The chassis serves as the **structural frame** for mounting electronic components and enabling movement.
 - **Material Used:** **PVC Board**
 
-### **8. HMC5883 Compass Module**
+### **8. HMC5883 Compass Module** For additional details about motor drivers, check the [HMC5883L Sesor Guide](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/01.%20Arduino/Sensors_Motors/HMC5883L%20Sensor%20(Magnetometer)) .
 - **Why include a Compass Module?**
   - The compass module provides **heading information**, which is crucial for accurate navigation. The vehicle uses this heading to determine its orientation relative to the target GPS coordinates, allowing for precise turns and course corrections.
   - It allows the vehicle to maintain the correct course even when GPS signals are weak or unavailable.
