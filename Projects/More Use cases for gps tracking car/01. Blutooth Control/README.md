@@ -11,7 +11,7 @@ The existing self-driving GPS tracking car operates autonomously based on predef
 * Modify motor control logic to respond to Bluetooth commands.
 * Use a readily available mobile app to send bluetooth commands.
 
-**3. Step-by-Step Solution:**
+**3. Step-by-Step Guide:**
 
 **Step 1: Selecting a Bluetooth Serial Terminal App**
 
