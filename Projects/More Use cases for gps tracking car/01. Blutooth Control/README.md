@@ -54,6 +54,9 @@ The existing self-driving GPS tracking car operates autonomously based on predef
 
 **4. Code Modifications:**
 
+![diagram](https://github.com/user-attachments/assets/014052db-fe17-4b7f-b447-362f1318ee15)
+
+
 Students will need to make the following changes to the existing code:
 
 * **Include Bluetooth Library:**
