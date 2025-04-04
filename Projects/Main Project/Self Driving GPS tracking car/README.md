@@ -28,13 +28,25 @@ This project demonstrates how **GPS-based autonomous navigation** can be applied
 - **Power Consumption:** ~50mA
 - **Student Challenge:** _Could you use a different positioning system (e.g., GLONASS, GSM triangulation)? What benefits and limitations would that bring?_
 
-### **3. Motor Driver (L298N or L293D)** For additional details about motor drivers, check the [Motor Driver Guide](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/01.%20Arduino/Sensors_Motors/BTS7960_Motor_Driver).
+Sure! Here's your corrected and updated version of that section, keeping the original structure and integrating the **BTS7960** motor driver:
 
-- **Why do we need a motor driver?** The ESP32 cannot directly power motors due to **low output current and voltage levels**. A **motor driver (H-Bridge circuit)** is required to provide sufficient voltage and current for motor control. L298N provides higher current output compared to L293D, making it more suitable for larger motors.
-- **Power Requirements:**
- - **L298N:** 5V logic input, motor voltage 7V – 12V, peak current 2A 
- - **L293D:** 5V logic input, motor voltage 4.5V – 12V, max current 600mA per channel
-- **Student Challenge:** _What if you used BTS7960 or TB6612FNG instead? What are the benefits of using MOSFET-based drivers?_
+---
+
+**3. Motor Driver (BTS7960)**  
+*For additional details about motor drivers, check the Motor Driver Guide.*
+
+**Why do we need a motor driver?**  
+The ESP32 cannot directly power motors due to low output current and voltage levels. A motor driver (H-Bridge circuit) is required to provide sufficient voltage and current for motor control. The **BTS7960** is a MOSFET-based motor driver capable of handling high current loads, making it more efficient and powerful than traditional ICs like L298N or L293D.
+
+**Power Requirements:**  
+- **BTS7960**: 5V logic input, motor voltage 6V – 27V, continuous current up to 43A (with proper heat dissipation)
+
+**Student Challenge:**  
+*What if you used L298N or TB6612FNG instead?*  
+What are the limitations of traditional H-Bridge ICs compared to high-current MOSFET-based drivers like BTS7960?  
+What are the efficiency and thermal management benefits when using a MOSFET-based driver?
+
+---
 
 ### **4. Four DC Motors (200 RPM Each)** To know how to operate those motors using motor driver see the previously mentioned Motor driver guide.
 The vehicle requires four motors to enable movement in **forward, backward, and turning directions**. The speed and torque of these motors allow precise navigation. Compared to servo or stepper motors, DC motors offer simplicity and higher speed control.
