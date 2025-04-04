@@ -138,7 +138,7 @@ The vehicle requires four motors to enable movement in **forward, backward, and 
 
 ## **Code Explanation**
 
-![flowchart_final](https://github.com/user-attachments/assets/1ae679e9-0263-48cc-be7e-c3b89dc924c3)
+![flowchart_final](https://github.com/user-attachments/assets/b9b9481b-1d6b-4d79-a384-2c13769a8b79)
 
 
 The code uses the ESP32 to control the car's movement based on GPS and compass data. Key functions include:
