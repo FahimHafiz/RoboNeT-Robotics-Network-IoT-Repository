@@ -19,7 +19,7 @@ This project demonstrates how **GPS-based autonomous navigation** can be applied
 ### **1. ESP32 Microcontroller** To learn more about ESP32 and its usage, visit the [ESP32 Documentation](https://github.com/FahimHafiz/NetIoT-Network-IoT-Repository/tree/main/02.%20ESP32).
 
 - **Why are we using ESP32 for this project?** The ESP32 is chosen because of its built-in **WiFi & Bluetooth**, **dual-core processing**, and **multiple GPIOs** that allow for seamless integration with sensors and motor drivers. It offers an efficient solution for IoT-based projects. Compared to Arduino UNO or Nano, ESP32 offers more processing power and wireless communication features.
-- **Power Consumption:** ~160mA (active mode)
+- **Power Consumption:** ~p = (3.3V * 160mA) = 0.528W (160mA in active mode)
 - **Student Challenge:** _What other microcontrollers could be used in place of ESP32 and what would be the trade-offs?_
 
 ### **2. GPS Module (NEO-6M or similar)** For an in-depth explanation of how GPS modules work, refer to [GPS Module Guide]().
