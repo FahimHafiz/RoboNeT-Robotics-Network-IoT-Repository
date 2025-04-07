@@ -70,9 +70,11 @@ Students will need to make the following changes to the existing code:
 * **Disable GPS Navigation (Temporarily):**
     * Comment out or conditionally disable GPS-based navigation logic.
  
-##Finally the system workflow will be the following
+**Finally the system workflow will be the following**
 
-![diagram](https://github.com/user-attachments/assets/014052db-fe17-4b7f-b447-362f1318ee15)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/014052db-fe17-4b7f-b447-362f1318ee15" alt="diagram" width="500"/>
+</p>
 
 **5. Hints and Considerations:**
 
