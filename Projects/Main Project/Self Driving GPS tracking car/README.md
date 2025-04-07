@@ -2,7 +2,7 @@
 
 ## Department of Computer Science and Engineering
 
-# ** RoboQuest- A Self-Driving GPS Tracking Car**
+# **RoboQuest- A Self-Driving GPS Tracking Car**
 
 ## **Project Overview**
 
