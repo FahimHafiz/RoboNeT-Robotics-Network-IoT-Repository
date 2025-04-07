@@ -1,4 +1,4 @@
-# 🚗 RoboQuest: Smart Navigation Robot Car
+# 🚗 RoboQuest: A Self Driving GPS tracking car
 
 Welcome to the **RoboQuest** project chapter! In this module, we’ll build and program a **GPS and Bluetooth-enabled smart robot car** using ESP32. This car will be capable of manual remote control, path recording, obstacle detection, and autonomous navigation via coordinates sent from a smartphone.
 
