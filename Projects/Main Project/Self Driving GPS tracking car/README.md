@@ -26,7 +26,7 @@ This project demonstrates how **GPS-based autonomous navigation** can be applied
 
 - **Why is a GPS module necessary?** The GPS module provides **real-time latitude and longitude data**, which is crucial for autonomous navigation. The vehicle uses this information to determine its position and make navigation decisions. Alternative indoor localization systems (like IR beacons or WiFi triangulation) may not work as reliably outdoors.
 - **Operating Voltage:** 3.3V – 5V 
-- **Power Consumption:** ~50mA
+- **Power Consumption:** ~ p = (5v * 50mA) = 2.5W
 - **Student Challenge:** _Could you use a different positioning system (e.g., GLONASS, GSM triangulation)? What benefits and limitations would that bring?_
 
 Sure! Here's your corrected and updated version of that section, keeping the original structure and integrating the **BTS7960** motor driver:
@@ -54,12 +54,12 @@ The vehicle requires four motors to enable movement in **forward, backward, and 
 - **Motor Specifications:**
  - **Voltage:** 6V – 12V 
  - **Current:** ~300mA – 600mA per motor (depending on load) 
- - **Power Consumption:** ~5W per motor
+ - **Power Consumption:** ~ p = (600mA * 12V) = 7.2W per motor
 - **Student Challenge:** _Could you use geared motors, stepper motors, or brushless DC motors instead? How would that affect performance?_
 
 ### **5. Bluetooth Module (Optional if not using ESP32's built-in Bluetooth)**
 - **Why include a Bluetooth module?** Bluetooth allows for **real-time monitoring of GPS coordinates and system status** via a mobile device. It's useful during development or for debugging.
-- **Power Consumption:** ~30mA
+- **Power Consumption:** ~30mA (if using arduino, p = 3.3v * 30mA = 3.9W or around 4W)
 - **Student Challenge:** _What about using WiFi or LoRa instead of Bluetooth? In what situations would each be preferable?_
 
 ### **6. Battery Pack (Funfly 1550mAh 4S 100C 14.8V 22.94Wh Li-Po)** For a detailed explanation of Li-Po batteries, watch [Battery Information](https://youtu.be/D98e2lRe2O8?si=R-YbRmi-yAfHtEH4).
