@@ -10,7 +10,8 @@ The goal of this project is to develop an **ESP32-based autonomous vehicle** cap
 
 This project demonstrates how **GPS-based autonomous navigation** can be applied to small-scale robotic systems, which can be further enhanced with obstacle detection, real-time tracking, and wireless communication.
 
-![overview](https://github.com/user-attachments/assets/7c173e28-a579-42e4-b037-e9549250d14d)
+![overview](https://github.com/user-attachments/assets/31c49817-1425-4cdf-825a-ba1f7f668790)
+
 ---
 
 ## **Hardware Components and Justifications**
