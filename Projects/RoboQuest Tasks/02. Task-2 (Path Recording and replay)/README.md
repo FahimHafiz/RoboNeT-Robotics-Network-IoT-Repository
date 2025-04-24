@@ -65,6 +65,14 @@ Extend the functionality of the existing GPS tracking car to include the ability
     * Provide detailed instructions on how to import the `.csv` file into Google My Maps.
     * Explain how to customize the visualized path (e.g., change colors, add markers).
     * Describe how to add labels or other information to the map.
+      
 * **Hints:**
     * Highlight the importance of the correct CSV format for successful import.
     * Provide screenshots or video tutorials for the Google My Maps import process.
+ 
+###System Workflow Diagram
+This keeps the visual overview close to the objectives for context, while still leading smoothly into the detailed steps.
+
+![diagram-export-4-24-2025-11_41_36-PM](https://github.com/user-attachments/assets/401b38bf-6550-41af-adc2-6faa648a88c0)
+
+
