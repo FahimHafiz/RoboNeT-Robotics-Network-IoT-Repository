@@ -68,7 +68,8 @@ Upgrade the ESP32-based GPS tracker car by allowing users to **input destination
 
 This diagram provides a visual overview of how the Bluetooth-based coordinate input works:
 
-![send_coordinates_blutooth](https://github.com/user-attachments/assets/9be78b93-b505-4555-8aaf-1a7c5590c1eb)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9be78b93-b505-4555-8aaf-1a7c5590c1eb" alt="send_coordinates_blutooth" width="60%">
+</p>
 
 ---
