@@ -35,8 +35,6 @@ To provide a complete beginner-friendly guide on how to use Tinkercad Circuits t
   - **Servo motors** (for motion simulation)
   - **Potentiometers, buttons, sensors**
 
-<img width="1219" height="715" alt="image" src="https://github.com/user-attachments/assets/74fff4d9-188f-414f-8563-f802a905c2c6" />
-
 
 ### Step 4: Write Your Code
 - Click the **Code** button.
