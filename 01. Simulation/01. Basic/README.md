@@ -66,7 +66,6 @@ For hardware design engineers, understanding and avoiding frequent errors is cru
 ## Components Tab
 <img width="248" height="699" alt="image" src="https://github.com/user-attachments/assets/f97d57dd-d7cb-41df-b367-eb86a5042601" />
 
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
 
 ### Categories of Components
 
@@ -106,8 +105,6 @@ The code editor in Tinkercad allows users to write and manage the programs that 
 
 
 <img width="578" height="69" alt="image" src="https://github.com/user-attachments/assets/1d67b1a4-4332-46c6-85de-bea2cd314bfa" />
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
-
 ### Access and Types
 
 You can open the code editor by clicking the "Code" button located in the upper right of the circuit editor. Tinkercad offers two primary ways to program:
@@ -118,7 +115,6 @@ You can open the code editor by clicking the "Code" button located in the upper 
 <img width="372" height="519" alt="image" src="https://github.com/user-attachments/assets/5cd9daf9-7b28-4c65-ad4e-e989d6c73cb5" />
 <img width="389" height="517" alt="image" src="https://github.com/user-attachments/assets/9278ec58-356b-48ba-aee9-f8c7c6a178cf" />
 
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
 
 **Arduino Programming Syntax**: Arduino's programming syntax is very similar to C++, including common elements like comparison (IF/THEN statements), mathematical computations, loops (FOR, DO, DO/WHILE), and ending line statements (;).
 
@@ -141,7 +137,6 @@ Located at the bottom left of the programming screen, the Serial Monitor is used
 
 <img width="1015" height="400" alt="image" src="https://github.com/user-attachments/assets/0cc97384-0a20-40cf-8a91-e37f261df970" />
 
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
 
 - `Serial.begin(baudRate)`: This sets the baud rate for data transfer between the PC and the Arduino board; 9600 is a common value for English character data.
 - `Serial.print("TEXT")` or `Serial.print(variable)`: These commands print information to the Serial Monitor, keeping the cursor on the same line.
@@ -155,7 +150,7 @@ The simulation feature in Tinkercad allows users to test their circuit designs v
 <img width="494" height="75" alt="image" src="https://github.com/user-attachments/assets/72ebdd37-6652-424d-bd3d-067e6e9bb76a" />
 <img width="496" height="77" alt="image" src="https://github.com/user-attachments/assets/f3f57281-324b-4cf7-a267-e6c295c2d985" />
 
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
+
 
 ### Starting the Simulation
 
@@ -187,4 +182,4 @@ Tinkercad also offers "Starter Circuits" that can be found by selecting the "com
 Here’s a small tutorial on LED control in TinkerCAD using block-based coding:
 
 [TinkerCAD LED Control Tutorial](https://www.youtube.com/watch?v=8KTVTu9iIO0)
->>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
+
