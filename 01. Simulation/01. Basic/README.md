@@ -53,11 +53,9 @@ For hardware design engineers, understanding and avoiding frequent errors is cru
 1. Log in to TinkerCAD (you may need to create an account at [www.tinkercad.com](https://www.tinkercad.com)).
 2. Navigate to "Circuits" from the left menu.
 3. Click "Create new Circuit".
-<<<<<<< HEAD
 4. You will then be in the circuit editor, ready to place components and start designing.
 
 ## Components Tab
-=======
 
 <img width="292" height="321" alt="image" src="https://github.com/user-attachments/assets/75f042be-d2a8-44f4-abaa-61fa692f0a97" />
 <img width="339" height="314" alt="image" src="https://github.com/user-attachments/assets/a6365e61-f6dc-4a41-b4bc-cdfbf1877a4c" />
@@ -106,9 +104,7 @@ This tab is crucial for building circuits in Tinkercad, allowing users to drag a
 
 The code editor in Tinkercad allows users to write and manage the programs that control their circuits, particularly with microcontrollers like the Arduino Uno R3.
 
-<<<<<<< HEAD
-![Code Editor Interface](./media/image4.png)
-=======
+
 <img width="578" height="69" alt="image" src="https://github.com/user-attachments/assets/1d67b1a4-4332-46c6-85de-bea2cd314bfa" />
 >>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
 
@@ -119,9 +115,6 @@ You can open the code editor by clicking the "Code" button located in the upper 
 - **Blocks**: This method uses prebuilt code blocks that link together like puzzle pieces, similar to Scratch or Snap. It's a good starting point for beginners but offers less flexibility for complex computations or controlling multiple components.
 - **Text**: This option uses a C++ based programming language, allowing users to type their code. It provides a wider range and flexibility for programming intricate circuit operations. When switching to Text, a pop-up message will appear, prompting you to continue.
 
-<<<<<<< HEAD
-![Blocks Coding](./media/image5.png) ![Text Coding](./media/image6.png)
-=======
 <img width="372" height="519" alt="image" src="https://github.com/user-attachments/assets/5cd9daf9-7b28-4c65-ad4e-e989d6c73cb5" />
 <img width="389" height="517" alt="image" src="https://github.com/user-attachments/assets/9278ec58-356b-48ba-aee9-f8c7c6a178cf" />
 
@@ -146,9 +139,6 @@ You can open the code editor by clicking the "Code" button located in the upper 
 
 Located at the bottom left of the programming screen, the Serial Monitor is used for outputting information.
 
-<<<<<<< HEAD
-![Serial Monitor](./media/image7.png)
-=======
 <img width="1015" height="400" alt="image" src="https://github.com/user-attachments/assets/0cc97384-0a20-40cf-8a91-e37f261df970" />
 
 >>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
@@ -161,9 +151,7 @@ Located at the bottom left of the programming screen, the Serial Monitor is used
 
 The simulation feature in Tinkercad allows users to test their circuit designs virtually, observing how components behave according to the programmed code.
 
-<<<<<<< HEAD
-![Simulation Interface](./media/image9.png)
-=======
+
 <img width="494" height="75" alt="image" src="https://github.com/user-attachments/assets/72ebdd37-6652-424d-bd3d-067e6e9bb76a" />
 <img width="496" height="77" alt="image" src="https://github.com/user-attachments/assets/f3f57281-324b-4cf7-a267-e6c295c2d985" />
 
@@ -198,8 +186,5 @@ Tinkercad also offers "Starter Circuits" that can be found by selecting the "com
 
 Here’s a small tutorial on LED control in TinkerCAD using block-based coding:
 
-<<<<<<< HEAD
-![TinkerCAD LED Control with Block Code](./media/image10.jpg)
-=======
 [TinkerCAD LED Control Tutorial](https://www.youtube.com/watch?v=8KTVTu9iIO0)
 >>>>>>> 835434bbde0b42deed4807e32ebc147ff66161b5
