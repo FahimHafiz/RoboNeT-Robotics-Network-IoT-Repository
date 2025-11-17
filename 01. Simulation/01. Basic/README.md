@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
+
 # Getting Started with TinkerCAD Circuits
 
 [TinkerCAD](https://www.tinkercad.com/) is a web-based simulator that allows you to design and test electronic circuits, including those with Arduino boards, directly in your web browser. It is particularly beginner-friendly and is considered an excellent tool for learning electronics and coding, especially if you do not have access to physical components.

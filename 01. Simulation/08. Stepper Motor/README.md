@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
+
 # Bipolar Stepper Motor Control with Arduino (A4988 Driver)
 
 This tutorial guides you through controlling a **bipolar stepper motor** with pins **A+, A-, B+, B-** using an **Arduino Uno** and an **A4988 stepper driver** in the **Circuit Designer IDE**.

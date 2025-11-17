@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
+
 # Tinkercad 16x2 LCD with Serial Input Tutorial
 
 This tutorial guides you through using Tinkercad to simulate an Arduino with a 16x2 LCD, displaying custom messages entered via the Serial Monitor. The provided Arduino code uses the LiquidCrystal library to control the LCD and updates the display with user input on the first row, while optionally showing a seconds counter on the second row. This is ideal for learning Arduino programming and LCD interfacing without physical hardware.

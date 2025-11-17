@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
+
 # 6-Pin Gas Sensor (MQ-2) with Arduino in Tinkercad
 
 This tutorial guides you through setting up a **6-pin gas sensor** (e.g., MQ-2) with pins **A1, A2, H1, H2, B1, B2** using an **Arduino Uno** in Tinkercad to detect gas concentrations (e.g., LPG, methane, smoke). The sensor’s analog output will be read and displayed in the Serial Monitor, with an LED indicating high gas levels. This is ideal for learning about gas sensing and Arduino programming in a virtual environment.

@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
+
 # Getting Started with TinkerCAD Circuits: LED Control Tutorial
 
 This tutorial guides you through creating a simple LED circuit in TinkerCAD Circuits using block-based coding to control an LED with an Arduino Uno R3. By the end, you'll have a blinking LED and understand the basics of TinkerCAD's circuit design and simulation.
