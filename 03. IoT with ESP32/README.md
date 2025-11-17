@@ -1,7 +1,10 @@
-![esp32](https://github.com/user-attachments/assets/1cecad82-7354-42b6-be85-692708303225)
-
+<div align="center">
+  <img width="659" alt="Image" src="https://github.com/user-attachments/assets/5c8d7a11-51a1-4184-bf30-c8d81373ee44" />
+</div>
 
 # Experiment: Introduction to ESP32
+
+![esp32](https://github.com/user-attachments/assets/1cecad82-7354-42b6-be85-692708303225)
 
 ## Objective: 
 This documentation provides a beginner-friendly guide to getting started with ESP32 development. It covers the installation of the Arduino IDE, initial setup for ESP32 boards, and testing with a simple "Blink" program to ensure the setup works correctly. The goal is to empower students to build confidence in using ESP32 for future projects.
