@@ -165,4 +165,5 @@ void loop() {
 
 **[Congratulations! You have finished a chapter. Now take some time to evaluate your learning. Click here to take a test!](https://docs.google.com/forms/d/e/1FAIpQLSfl4mnLVVyRVh7tE3BKSyLd1JEw_i6A0dW5vZk9-vs4iB9dyA/viewform?usp=header)**
 
-**[Go to the next chapter](.../02.%20Arduino/)**
+[Go to the next chapter](../../02.%20Arduino/)
+
