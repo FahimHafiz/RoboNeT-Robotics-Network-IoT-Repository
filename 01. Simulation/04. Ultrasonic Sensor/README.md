@@ -147,3 +147,5 @@ Once your circuit is wired and coded, you can run the simulation.
 - **Serial Monitor Baud Rate**: Ensure the baud rate set in `Serial.begin(9600)` in your code matches the baud rate selected in the Serial Monitor window if you were using a physical Arduino (Tinkercad usually handles this automatically).
 
 By following these steps, you should be able to successfully build and simulate your distance detection system in Tinkercad.
+
+[Go to the next chapter](<./05. LCD Input & Output/>)

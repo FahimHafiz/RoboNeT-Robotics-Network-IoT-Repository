@@ -147,3 +147,5 @@ After wiring and coding, run the simulation.
 - **Serial Monitor Baud Rate**: The code’s `Serial.begin(9600)` must match the Serial Monitor’s baud rate (Tinkercad handles this automatically).
 
 By following these steps, you can successfully build and simulate a soil moisture detection system in Tinkercad.
+
+[Go to the next chapter](<./04. Ultrasonic Sensor/>)

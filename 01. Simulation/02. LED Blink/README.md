@@ -91,3 +91,5 @@ This simple LED circuit introduces key concepts:
 - Transition to text-based coding for more advanced Arduino programming.
 
 Happy tinkering!
+
+[Go to the next chapter](<./03. Soil Sensor/>)
