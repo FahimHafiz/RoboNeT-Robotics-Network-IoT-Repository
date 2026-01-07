@@ -4,17 +4,10 @@
 
 # Lab 01: ESP32 WiFi configuration
 
-  
-
-Welcome to your very first hands-on project in the world of IoT (Internet of Things) and embedded systems! 
+Welcome to your very first hands-on project in the world of IoT (Internet of Things) and embedded systems!
 This article is a compilation of useful Wi-Fi functions for the ESP32. We’ll cover the following topics: scan Wi-Fi networks, connect to a Wi-Fi network, get Wi-Fi connection strength, check connection status, reconnect to the network after a connection is lost, Wi-Fi status, Wi-Fi modes, get the ESP32 IP address, set a fixed IP address and more.
 
-  
-
-
 ## Objectives
-
-  
 
 - Configure ESP32 in WiFi Station (STA) mode to connect to existing wireless networks.
 
@@ -24,15 +17,7 @@ This article is a compilation of useful Wi-Fi functions for the ESP32. We’ll c
 
 - Implement connection timeout handling and auto-reconnect functionality for reliable IoT deployments.
 
-  
-
-
-  
-
-
 ## What You'll Learn
-
-  
 
 - ESP32 WiFi modes: Station (STA), Access Point (AP), and combination mode (STA+AP).
 
@@ -42,12 +27,7 @@ This article is a compilation of useful Wi-Fi functions for the ESP32. We’ll c
 
 - Best practices for handling WiFi credentials and connection failures in production devices.
 
-  
-
-
 ## Prerequisites
-
-  
 
 - ESP32 development board (ESP32 DevKit, NodeMCU-32S, or similar variant).
 
@@ -56,21 +36,25 @@ This article is a compilation of useful Wi-Fi functions for the ESP32. We’ll c
 - USB cable for programming and serial communication.
 
 - Access to a WiFi network with known SSID and password (2.4 GHz band required, as ESP32 does not support 5 GHz).
+
 ---
-  ## **Installing Arduino IDE**  
+
+## **Installing Arduino IDE**
 
 Before you can start programming with Arduino, you'll need to install the **Arduino IDE** on your system.
 
-### **Steps to Install Arduino IDE**  
-1. Go to the [Arduino IDE download page](https://www.arduino.cc/en/software).  
-2. Select the appropriate version for your operating system (Windows, macOS, or Linux).  
+### **Steps to Install Arduino IDE**
+
+1. Go to the [Arduino IDE download page](https://www.arduino.cc/en/software).
+2. Select the appropriate version for your operating system (Windows, macOS, or Linux).
 3. Follow the installation instructions to complete the setup.
 
 For more detailed instructions, follow these links:
-  - [Installation Guide link for Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/) <br>
-  - [Installation Guide Link for macOS](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/) <br>
-  - [Learn Arduino code](https://docs.arduino.cc/language-reference/?_gl=1*1fzdi51*_up*MQ..*_ga*MzMyOTcyNjE2LjE3MzY2MjQ1ODc.*_ga_NEXN8H46L5*MTczNjYyNDU4NC4xLjEuMTczNjYyNDU4OS4wLjAuNTMzMjg0MTkx) <br>
-  - How to write and upload the code to Arduino YouTube video link: [Upload Code Guide](https://www.youtube.com/watch?v=y5znFDmY5V4)
+
+- [Installation Guide link for Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/) <br>
+- [Installation Guide Link for macOS](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/) <br>
+- [Learn Arduino code](https://docs.arduino.cc/language-reference/?_gl=1*1fzdi51*_up*MQ..*_ga*MzMyOTcyNjE2LjE3MzY2MjQ1ODc.*_ga_NEXN8H46L5*MTczNjYyNDU4NC4xLjEuMTczNjYyNDU4OS4wLjAuNTMzMjg0MTkx) <br>
+- How to write and upload the code to Arduino YouTube video link: [Upload Code Guide](https://www.youtube.com/watch?v=y5znFDmY5V4)
 
 Once installed, you can launch the **Arduino IDE** and get ready to write your first program!
 
@@ -78,22 +62,18 @@ Once installed, you can launch the **Arduino IDE** and get ready to write your f
 
 ## Hardware Requirements
 
-  
-
 - 1× ESP32 development board (any variant with WiFi capability).
 
 - 1× USB cable (typically USB-A to Micro-USB or USB-C depending on your board).
 
 - Computer with Arduino IDE installed.
 
-  
-
 **Note:** No external components are required for this lab. The ESP32's on-board LED will indicate connection status in advanced examples.
 
-
 ## Including the WIFI library
+
 The first thing you need to do to use the ESP32 Wi-Fi functionalities is to include the WiFi.h library in your code, as follows:
-``` #include  <WiFi.h>```
+` #include  <WiFi.h>`
 
 ## ESP32 Wi‑Fi Modes
 
@@ -101,57 +81,55 @@ The ESP32 can act as a Wi‑Fi station, access point, or both. Use `WiFi.mode()`
 
 cpp
 
-`WiFi.mode(WIFI_STA);  // Station mode  WiFi.mode(WIFI_AP);  // Access Point mode  WiFi.mode(WIFI_AP_STA);  // Access Point + Station mode` 
+`WiFi.mode(WIFI_STA);  // Station mode  WiFi.mode(WIFI_AP);  // Access Point mode  WiFi.mode(WIFI_AP_STA);  // Access Point + Station mode`
 
 ## Mode Descriptions
 
--   `WIFI_STA`: The ESP32 connects to an existing access point (station mode).
-    
--   `WIFI_AP`: Other devices (stations) can connect to the ESP32 (access point mode).
-    
--   `WIFI_AP_STA`: The ESP32 acts as an access point while also connecting to another access point.
-
-
+- `WIFI_STA`: The ESP32 connects to an existing access point (station mode).
+- `WIFI_AP`: Other devices (stations) can connect to the ESP32 (access point mode).
+- `WIFI_AP_STA`: The ESP32 acts as an access point while also connecting to another access point.
 
 #### Set the ESP32 as an Access Point
+
 To set the ESP32 as an access point, set the Wi-Fi mode to access point:
 
 ```c
 WiFi.mode(WIFI_AP)
 ```
 
-And then, use the  softAP()  method as follows:
+And then, use the softAP() method as follows:
 
 ```c
 WiFi.softAP(ssid, password);
 ```
 
-ssid  is the name you want to give to the ESP32 access point, and the  password  variable is the password for the access point. If you don’t want to set a password, set it to  NULL.
+ssid is the name you want to give to the ESP32 access point, and the password variable is the password for the access point. If you don’t want to set a password, set it to NULL.
 
-There are also other optional parameters you can pass to the  softAP()  method. Here are all the parameters:
+There are also other optional parameters you can pass to the softAP() method. Here are all the parameters:
+
 ```c
 WiFi.softAP(const char* ssid, const char* password, int channel, int ssid_hidden, int max_connection)
 ```
 
--   ssid: name for the access point – maximum of 63 characters;
--   password:  **minimum of 8 characters**; set to  NULL  if you want the access point to be open;
--   channel: Wi-Fi channel number (1-13)
--   ssid_hidden: (0 = broadcast SSID, 1 = hide SSID)
--   max_connection: maximum simultaneous connected clients (1-4)
-
+- ssid: name for the access point – maximum of 63 characters;
+- password: **minimum of 8 characters**; set to NULL if you want the access point to be open;
+- channel: Wi-Fi channel number (1-13)
+- ssid_hidden: (0 = broadcast SSID, 1 = hide SSID)
+- max_connection: maximum simultaneous connected clients (1-4)
 
 ### Wi-Fi Station + Access Point
 
-The ESP32 can be set as a Wi-Fi station and access point simultaneously. Set its mode to  WIFI_AP_STA.
+The ESP32 can be set as a Wi-Fi station and access point simultaneously. Set its mode to WIFI_AP_STA.
 
 ![ESP32 Station Mode Router access point](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/02/ESP32-Station-Mode.png?resize=750%2C397&quality=100&strip=all&ssl=1)
+
 ```c
 WiFi.mode(WIFI_AP_STA);
 ```
 
 ## Scan Wi-Fi Networks
 
-The ESP32 can scan nearby Wi-Fi networks within its Wi-Fi range. In your Arduino IDE, go to  **File** >  **Examples** >  **WiFi** >  **WiFiScan**. This will load a sketch that scans Wi-Fi networks within the range of your ESP32 board.
+The ESP32 can scan nearby Wi-Fi networks within its Wi-Fi range. In your Arduino IDE, go to **File** > **Examples** > **WiFi** > **WiFiScan**. This will load a sketch that scans Wi-Fi networks within the range of your ESP32 board.
 
 ![ESP32 Scan WiFi Networks](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/02/ESP32-WiFi-Scan-Networks_Wi-Fi-Scan.png?resize=750%2C397&quality=100&strip=all&ssl=1)
 
@@ -205,10 +183,9 @@ void loop() {
 
 ```
 
-
 You can upload it to your board and check the available networks as well as the RSSI (received signal strength indicator).
 
-WiFi.scanNetworks()  returns the number of networks found.
+WiFi.scanNetworks() returns the number of networks found.
 
 ```c
 int n = WiFi.scanNetworks();
@@ -216,34 +193,34 @@ int n = WiFi.scanNetworks();
 
 After the scanning, you can access the parameters about each network.
 
-WiFi.SSID()  prints the SSID for a specific network:
+WiFi.SSID() prints the SSID for a specific network:
 
 ```c
 Serial.print(WiFi.SSID(i));
 ```
 
-WiFi.RSSI()  returns the RSSI of that network. RSSI stands for  **R**eceived  **S**ignal  **S**trength  **I**ndicator. It is an estimated measure of power level that an RF client device is receiving from an access point or router.
+WiFi.RSSI() returns the RSSI of that network. RSSI stands for **R**eceived **S**ignal **S**trength **I**ndicator. It is an estimated measure of power level that an RF client device is receiving from an access point or router.
 
 ```c
 Serial.print(WiFi.RSSI(i));
 ```
 
-Finally,  WiFi.encryptionType()  returns the network encryption type. That specific example puts a * in the case of open networks. However, that function can return one of the following options (not just open networks):
+Finally, WiFi.encryptionType() returns the network encryption type. That specific example puts a \* in the case of open networks. However, that function can return one of the following options (not just open networks):
 
--   WIFI_AUTH_OPEN
--   WIFI_AUTH_WEP
--   WIFI_AUTH_WPA_PSK
--   WIFI_AUTH_WPA2_PSK
--   WIFI_AUTH_WPA_WPA2_PSK
--   WIFI_AUTH_WPA2_ENTERPRISE
+- WIFI_AUTH_OPEN
+- WIFI_AUTH_WEP
+- WIFI_AUTH_WPA_PSK
+- WIFI_AUTH_WPA2_PSK
+- WIFI_AUTH_WPA_WPA2_PSK
+- WIFI_AUTH_WPA2_ENTERPRISE
 
 ![ESP32 Scan WiFi Networks Example Serial Monitor](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/02/Scan-WiFi-Networks-ESP32-Arduino-IDE-Serial-Monitor.png?resize=733%2C541&quality=100&strip=all&ssl=1)
 
-  ## Connect to a Wi-Fi Network
+## Connect to a Wi-Fi Network
 
 To connect the ESP32 to a specific Wi-Fi network, you must know its SSID and password. Additionally, that network must be within the ESP32 Wi-Fi range (to check that, you can use the previous example to scan Wi-Fi networks).
 
-You can use the following function to connect the ESP32 to a Wi-Fi network  initWiFi():
+You can use the following function to connect the ESP32 to a Wi-Fi network initWiFi():
 
 ```c
 void initWiFi() {
@@ -258,7 +235,7 @@ void initWiFi() {
 }
 ```
 
-The  ssid  and  password  variables hold the SSID and password of the network you want to connect to.
+The ssid and password variables hold the SSID and password of the network you want to connect to.
 
 ```c
 // Replace with your network credentials
@@ -266,7 +243,7 @@ const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 ```
 
-Then, you simply need to call the  initWiFi()  function in your  setup().
+Then, you simply need to call the initWiFi() function in your setup().
 
 **How it Works?**
 
@@ -278,13 +255,13 @@ First, set the Wi-Fi mode. If the ESP32 will connected to another network (acces
 WiFi.mode(WIFI_STA);
 ```
 
-Then, use  WiFi.begin()  to connect to a network. You must pass as arguments the network SSID and its password:
+Then, use WiFi.begin() to connect to a network. You must pass as arguments the network SSID and its password:
 
 ```c
 WiFi.begin(ssid, password);
 ```
 
-Connecting to a Wi-Fi network can take a while, so we usually add a while loop that keeps checking if the connection was already established by using  WiFi.status(). When the connection is successfully established, it returns  WL_CONNECTED.
+Connecting to a Wi-Fi network can take a while, so we usually add a while loop that keeps checking if the connection was already established by using WiFi.status(). When the connection is successfully established, it returns WL_CONNECTED.
 
 ```c
 while (WiFi.status() != WL_CONNECTED) {
@@ -292,20 +269,19 @@ while (WiFi.status() != WL_CONNECTED) {
 
 ## Get Wi-Fi Connection Status
 
-| Value | Constant               | Meaning                                    |
-|-------|------------------------|--------------------------------------------|
-| 0     | WL_IDLE_STATUS         | Temporary status assigned when WiFi.begin() is called |
-| 1     | WL_NO_SSID_AVAIL       | When no SSID are available                 |
-| 2     | WL_SCAN_COMPLETED      | Scan networks is completed                 |
-| 3     | WL_CONNECTED           | When connected to a WiFi network           |
-| 4     | WL_CONNECT_FAILED      | When the connection fails for all attempts |
-| 5     | WL_CONNECTION_LOST     | When the connection is lost                |
-| 6     | WL_DISCONNECTED        | When disconnected from a network           |
-
+| Value | Constant           | Meaning                                               |
+| ----- | ------------------ | ----------------------------------------------------- |
+| 0     | WL_IDLE_STATUS     | Temporary status assigned when WiFi.begin() is called |
+| 1     | WL_NO_SSID_AVAIL   | When no SSID are available                            |
+| 2     | WL_SCAN_COMPLETED  | Scan networks is completed                            |
+| 3     | WL_CONNECTED       | When connected to a WiFi network                      |
+| 4     | WL_CONNECT_FAILED  | When the connection fails for all attempts            |
+| 5     | WL_CONNECTION_LOST | When the connection is lost                           |
+| 6     | WL_DISCONNECTED    | When disconnected from a network                      |
 
 ## Get WiFi Connection Strength
 
-To get the WiFi connection strength, you can simply call  WiFi.RSSI()  after a WiFi connection.
+To get the WiFi connection strength, you can simply call WiFi.RSSI() after a WiFi connection.
 
 Here’s an example:
 
@@ -335,4 +311,5 @@ void setup() {
   Serial.println(WiFi.RSSI());
 }
 ```
-[Go to the next chapter](<./02. Web Server - LED Control from Browser/>)
+
+[Go to the next chapter](<./../02. Web Server - LED Control from Browser/>)
