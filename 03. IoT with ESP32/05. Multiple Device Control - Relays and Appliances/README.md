@@ -528,3 +528,5 @@ Open a browser and type the ESP32 IP address. Your web server should display the
 ![ESP32 ESP8266 Slider Web Server Control PWM Demonstration](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/08/ESP32-ESP8266-PWM-web-server-demonstration.png?resize=600%2C355&quality=100&strip=all&ssl=1)
 
 Move the slider and see the ESP32 built-in LED increasing and decreasing its brightness.
+
+[Go to the next chapter](<./06. Insert Data into MySQL Database using PHP and Arduino IDE/>)

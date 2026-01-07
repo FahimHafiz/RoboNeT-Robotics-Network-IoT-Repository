@@ -347,3 +347,5 @@ Open the spreadsheet where you’re publishing the values. You should see new va
 ![ESP32 Data Published to Google Spreadsheet](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/12/ESP32-datalogging-google-sheets.png?resize=828%2C577&quality=100&strip=all&ssl=1)
 
 We’re using the timestamp in epoch time. To convert it to a readable format, you can simply use the  [EPOCHTODATE() function](https://support.google.com/docs/answer/13193461?hl=en).
+
+[Go to the next chapter](<./08. Google Sheets via Apps Script/>)

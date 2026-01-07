@@ -272,3 +272,5 @@ Go to your project’s Firebase Realtime database, and you’ll see the values s
 ![ESP32 Store value firebase database Success](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/RealTimeDatabase-Firebase-Data-Sent-From-ESP.png?resize=760%2C357&quality=100&strip=all&ssl=1)
 
 Congratulations! You’ve successfully stored data in Firebase’s Realtime Database using the ESP32. In the next section, you’ll learn to read values from the different database node paths.
+
+[Go to the next chapter](<./10. Read From Firebase Database/>)

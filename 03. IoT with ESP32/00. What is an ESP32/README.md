@@ -90,3 +90,5 @@ To work with ESP32, install the required libraries:
 </div>
 
 This documentation should help beginners set up and start using the ESP32 in their projects efficiently.
+
+[Go to the next chapter](<./01. Wifi Configuration/>)

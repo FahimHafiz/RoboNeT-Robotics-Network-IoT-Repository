@@ -254,3 +254,5 @@ void loop() {
 **Alerts:**  Add threshold checking and LED/buzzer alerts for high temperature or humidity.
 
 **Cloud Upload:**  Combine with Lab 03 to send readings to ThingSpeak or other IoT platforms.
+
+[Go to the next chapter](<./05. Multiple Device Control - Relays and Appliances/>)

@@ -496,3 +496,5 @@ You can comment the  httpRequestData  variable above that concatenates all the B
 ```c
 String httpRequestData = "api_key=tPmAT5Ab3j7F9&sensor=BME280&location=Office&value1=24.75&value2=49.54&value3=1005.14";
 ```
+
+[Go to the next chapter](<./07. Google Sheets via Google Sheets API/>)
