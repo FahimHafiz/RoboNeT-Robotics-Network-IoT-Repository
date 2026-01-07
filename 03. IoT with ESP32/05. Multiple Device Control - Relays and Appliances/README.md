@@ -529,4 +529,4 @@ Open a browser and type the ESP32 IP address. Your web server should display the
 
 Move the slider and see the ESP32 built-in LED increasing and decreasing its brightness.
 
-[Go to the next chapter](<./06. Insert Data into MySQL Database using PHP and Arduino IDE/>)
+[Go to the next chapter](<./../06. Insert Data into MySQL Database using PHP and Arduino IDE/>)

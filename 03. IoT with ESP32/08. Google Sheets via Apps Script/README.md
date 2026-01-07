@@ -346,4 +346,4 @@ Every 30 minutes, the ESP32 or ESP8266 wakes up to take sensor readings and publ
 
 The ESP32 chip has a built-in clock, so the readings are very accurate and it publishes to the spreadsheet every 30 minutes. On the other hand, the ESP8266 publishes new readings approximately every 28 to 29 minutes.
 
-[Go to the next chapter](<./09. Getting Started with Firebase (Realtime Database)/>)
+[Go to the next chapter](<./../09. Getting Started with Firebase (Realtime Database)/>)

@@ -348,4 +348,4 @@ Open the spreadsheet where you’re publishing the values. You should see new va
 
 We’re using the timestamp in epoch time. To convert it to a readable format, you can simply use the  [EPOCHTODATE() function](https://support.google.com/docs/answer/13193461?hl=en).
 
-[Go to the next chapter](<./08. Google Sheets via Apps Script/>)
+[Go to the next chapter](<./../08. Google Sheets via Apps Script/>)

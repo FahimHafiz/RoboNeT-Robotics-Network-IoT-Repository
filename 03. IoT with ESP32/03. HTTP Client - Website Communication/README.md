@@ -707,4 +707,4 @@ http://raspberry-pi-ip-address:1880/ui
 
 ![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/04/ESP32-ESP8266-HTTP-GET-POST-Demonstration.png?resize=518%2C806&quality=100&strip=all&ssl=1)
 
-[Go to the next chapter](<./04. Sensor Web Display - DHT Temperature and Humidity/>)
+[Go to the next chapter](<./../04. Sensor Web Display - DHT Temperature and Humidity/>)

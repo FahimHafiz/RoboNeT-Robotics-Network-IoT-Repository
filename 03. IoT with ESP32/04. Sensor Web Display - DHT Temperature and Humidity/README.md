@@ -255,4 +255,4 @@ void loop() {
 
 **Cloud Upload:**  Combine with Lab 03 to send readings to ThingSpeak or other IoT platforms.
 
-[Go to the next chapter](<./05. Multiple Device Control - Relays and Appliances/>)
+[Go to the next chapter](<./../05. Multiple Device Control - Relays and Appliances/>)
