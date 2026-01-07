@@ -1070,3 +1070,5 @@ In the next tutorial, we'll learn about:
 - Configuration management
 
 Ready to store and manage data? Let's move to Tutorial 7!
+
+[Go to the next chapter](<./../07-pyqt6-data-handling/>)

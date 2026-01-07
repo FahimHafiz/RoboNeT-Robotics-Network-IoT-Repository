@@ -1926,3 +1926,5 @@ In the next tutorial, we'll build:
 This project demonstrates advanced PyQt6 techniques including custom widgets, real-time updates, complex layouts, and sophisticated device simulation. It serves as a foundation for building professional IoT control applications.
 
 Ready to monitor environmental data? Let's move to Tutorial 10!
+
+[Go to the next chapter](<./../10-iot-monitoring-system/>)

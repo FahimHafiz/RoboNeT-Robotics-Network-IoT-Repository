@@ -1253,3 +1253,5 @@ In the next tutorial, we'll start building practical IoT projects:
 - Arduino/Raspberry Pi integration
 
 Ready to build real IoT applications? Let's move to Tutorial 8!
+
+[Go to the next chapter](<./../08-iot-sensor-display/>)

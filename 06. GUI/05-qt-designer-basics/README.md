@@ -542,3 +542,5 @@ In the next tutorial, we'll learn about:
 - Error handling
 
 Ready to build more complex interfaces? Let's move to Tutorial 6!
+
+[Go to the next chapter](<./../06-pyqt6-forms-dialogs/>)

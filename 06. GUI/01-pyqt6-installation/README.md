@@ -204,3 +204,5 @@ python -c "import PyQt6; print('PyQt6 installed successfully!')"
 ```
 
 Ready to start building amazing IoT interfaces? Let's move to Tutorial 2!
+
+[Go to the next chapter](<./../02-pyqt6-first-window/>)

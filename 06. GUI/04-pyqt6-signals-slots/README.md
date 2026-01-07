@@ -548,3 +548,5 @@ In the next tutorial, we'll learn about:
 - Professional workflow
 
 Ready to design visually? Let's move to Tutorial 5!
+
+[Go to the next chapter](<./../05-qt-designer-basics/>)

@@ -36,3 +36,5 @@ In the Internet of Things (IoT) ecosystem, PyQt6 serves as an effective toolkit 
 ## Summary
 
 PyQt6 combines the simplicity of Python with the power of the Qt framework to create versatile, attractive, and efficient user interfaces. For IoT, it bridges complex sensor and device interactions with accessible visualization and control platforms, making it an excellent choice for developing modern IoT applications.
+
+[Go to the next chapter](<./../01-pyqt6-installation/>)

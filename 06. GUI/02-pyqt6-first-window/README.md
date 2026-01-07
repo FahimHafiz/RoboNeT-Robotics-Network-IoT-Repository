@@ -395,3 +395,5 @@ if __name__ == "__main__":
 ```
 
 Ready to learn about widgets and layouts? Let's move to Tutorial 3!
+
+[Go to the next chapter](<./../03-pyqt6-widgets-layouts/>)

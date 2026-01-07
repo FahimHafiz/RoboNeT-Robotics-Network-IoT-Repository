@@ -1297,3 +1297,5 @@ In the next tutorial, we'll build:
 This project serves as a foundation for more complex IoT applications. You can extend it with real sensor data, network communication, and advanced visualization features.
 
 Ready to control IoT devices? Let's move to Tutorial 9!
+
+[Go to the next chapter](<./../09-iot-led-control/>)

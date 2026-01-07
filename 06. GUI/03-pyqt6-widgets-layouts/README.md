@@ -503,3 +503,5 @@ In the next tutorial, we'll learn about:
 - Real-time updates
 
 Ready to make your widgets interactive? Let's move to Tutorial 4!
+
+[Go to the next chapter](<./../04-pyqt6-signals-slots/>)
