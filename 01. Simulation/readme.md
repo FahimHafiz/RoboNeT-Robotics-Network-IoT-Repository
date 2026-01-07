@@ -25,4 +25,6 @@ This folder contains hands-on **Arduino simulations** designed and tested in **A
 ## 🧩 How to use
 1. Open the circuit/project in **Tinkercad Circuits**. 
 2. Click **Start Simulation** to run the circuit and code. 
-3. Modify values (thresholds, delays, PWM) and observe changes in real time. 
+3. Modify values (thresholds, delays, PWM) and observe changes in real time.
+
+Start learning from [here](<./00. Learn about TinkerCAD/>) 
