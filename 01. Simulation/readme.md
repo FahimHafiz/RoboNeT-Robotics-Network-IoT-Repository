@@ -8,7 +8,7 @@ This folder contains hands-on **Arduino simulations** designed and tested in **A
 - Practice common modules used in real IoT/embedded projects (sensors, displays, motors).
 
 ## 📂 Contents
-- **01. [Basics](./01. Basics/)** — Getting familiar with Tinkercad Circuits and Arduino basics. 
+- **01. [Basics](<./01. Basics/>)** — Getting familiar with Tinkercad Circuits and Arduino basics. 
 - **02. LED Blink** — Digital output fundamentals using LED blinking patterns. 
 - **03. Soil Sensor** — Reading analog sensor values and converting them into meaningful output. 
 - **04. Ultrasonic Sensor** — Measuring distance and using the reading for control/automation logic. 
