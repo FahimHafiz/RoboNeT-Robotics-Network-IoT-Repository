@@ -38,6 +38,6 @@ Joints tell the software how separate components should interact and move togeth
    
 -----
 
-### [Next Chapter: Construction Plane ](../06.%20Construction%20Plane/README.md)
+### [Next Chapter: Construction Plane ](../06.Construction%20Plane/README.md)
 
 -----
