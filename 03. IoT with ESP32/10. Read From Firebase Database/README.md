@@ -294,4 +294,4 @@ void processData(AsyncResult &aResult){
 
 # Congratulations! You have finished a chapter and learned a lot about IoT. Now let's take a break and evaluate your learning. [Click here to take a test!](https://docs.google.com/forms/d/e/1FAIpQLSfNLHkbcBUThTXbCptlSuxECJSkINaJF_ZO9TZ1b9LNuyYeHg/viewform?usp=header)
 
-# [Let's learn about Raspberry Pi](../../04.%20Raspberry%20Pi%20%26%20Robotics/)
+# [Let's learn about Raspberry Pi](../../04.%20Raspberry%20Pi/)
