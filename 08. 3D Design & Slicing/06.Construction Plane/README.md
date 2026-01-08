@@ -53,6 +53,6 @@ These tools create things that aren't part of the final product (like planes or 
 
 -----
 
-### [Next Chapter: Slicing For 3D Printing](../0.7.Slicing%20for%203D%20Printing/README.md)
+### [Next Chapter: Slicing For 3D Printing](../07.Slicing%20for%203D%20Printing/README.md)
 
 -----
