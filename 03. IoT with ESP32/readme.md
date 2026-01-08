@@ -4,7 +4,6 @@ This folder offers a structured learning path for ESP32-based IoT projects.
 Starting with ESP32 basics and Wi-Fi setup, it progresses through web servers, sensor integration, and cloud connectivity.  
 Modules cover LED control, data logging to databases like MySQL and Firebase, and real-time monitoring.
 
-> Tip: If your folder names contain spaces, wrap the link path in angle brackets like this: `[Title](<./Folder Name/>)` to prevent broken links in Markdown. [web:25]
 
 ## ✅ What you’ll learn
 
@@ -13,7 +12,7 @@ Modules cover LED control, data logging to databases like MySQL and Firebase, an
 - Sending/receiving data using HTTP (client/server).
 - Displaying sensor readings on a web page.
 - Logging data to external services (MySQL, Google Sheets).
-- Real-time cloud communication using Firebase Realtime Database. [web:62]
+- Real-time cloud communication using Firebase Realtime Database.
 
 ## 📂 Folder Contents
 
