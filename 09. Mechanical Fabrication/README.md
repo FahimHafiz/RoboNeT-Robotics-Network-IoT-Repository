@@ -49,7 +49,7 @@ The goal of this section is to provide students with the hands-on knowledge requ
   - Managing vibration, wear, and rust prevention.
 
 ### 🧩 Phase 5: Assembly & Testing
-* **[Module 09: Putting It All Together](./09.%20Putting%20It%20All%20Together%3A%20Prototyping%20Workflow/README.md)**
+* **[Module 09: Putting It All Together Prototyping](./09.%20Putting%20It%20All%20Together_%20Prototyping%20Workflow/README.md)**
   - Full workflow: From CAD to a finished, functional assembly.
 * **[Module 10: Assembly & Troubleshooting](./10.%20Assembly%20%26%20Troubleshooting/README.md)**
   - Fixing "lashes" (looseness) and aligning shafts/joints.
