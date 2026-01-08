@@ -20,17 +20,61 @@ This section lists the 11 modules in the ESP32 IoT tutorial series.
 Each module provides hands-on projects and code examples for specific IoT concepts.  
 Topics range from ESP32 introduction to advanced database and cloud integrations.
 
-- **[What is an ESP32](<./00. What is an ESP32/>)** - Introduction to ESP32, including Arduino IDE setup and basic blink program.
-- **[Wifi Configuration](<./01. Wifi Configuration/>)** - WiFi setup for ESP32, covering network scanning, connection, and IP management.
-- **[Web Server - LED Control from Browser](<./02. Web Server - LED Control from Browser/>)** - Building a web server on ESP32 for remote LED control via browser interface.
-- **[HTTP Client - Website Communication](<./03. HTTP Client - Website Communication/>)** - Configuring ESP32 as HTTP client for sending/receiving data from websites and APIs.
-- **[Sensor Web Display - DHT Temperature and Humidity](<./04. Sensor Web Display - DHT Temperature and Humidity/>)** - Real-time temperature and humidity monitoring displayed on a web dashboard.
-- **[Multiple Device Control - Relays and Appliances](<./05. Multiple Device Control - Relays and Appliances/>)** - Remote control of multiple appliances using relays and web interface.
-- **[Insert Data into MySQL Database using PHP and Arduino IDE](<./06. Insert Data into MySQL Database using PHP and Arduino IDE/>)** - Logging sensor data to MySQL database via PHP scripts.
-- **[Google Sheets via Google Sheets API](<./07. Google Sheets via Google Sheets API/>)** - Publishing sensor readings to Google Sheets using the Google Sheets API.
-- **[Google Sheets via Apps Script](<./08. Google Sheets via Apps Script/>)** - Logging data to Google Sheets using Apps Script and IFTTT integration.
-- **[Getting Started with Firebase (Realtime Database)](<./09. Getting Started with Firebase (Realtime Database)/>)** - Introduction to Firebase Realtime Database for storing and retrieving data.
-- **[Read From Firebase Database](<./10. Read From Firebase Database/>)** - Reading and retrieving data from Firebase Realtime Database asynchronously.
+### What is an ESP32
+- Overview of ESP32 features and common IoT use-cases.
+- Installing/setting up ESP32 board support in Arduino IDE.
+- Running a first program (typically Blink) and verifying upload/serial output.
+
+### Wifi Configuration
+- Scanning nearby Wi‑Fi networks (SSID discovery).
+- Connecting ESP32 to a Wi‑Fi network (credentials + connection status).
+- Working with IP details (local IP, gateway, reconnection strategy).
+
+### Web Server - LED Control from Browser
+- Hosting a simple HTTP web server on ESP32.
+- Creating a basic web UI (buttons/toggles) to control an LED.
+- Handling URL routes (e.g., `/on`, `/off`) and updating GPIO accordingly.
+
+### HTTP Client - Website Communication
+- Sending HTTP requests (GET/POST) from ESP32 to a server/API.
+- Parsing server responses (status code, payload text/JSON if used).
+- Using HTTP client flow for cloud updates, webhooks, or REST APIs.
+
+### Sensor Web Display - DHT Temperature and Humidity
+- Reading DHT temperature/humidity values on ESP32.
+- Serving sensor data on a local webpage (live values or periodic refresh).
+- Adding thresholds/alerts or basic formatting for readability.
+
+### Multiple Device Control - Relays and Appliances
+- Controlling multiple relay channels using ESP32 GPIO.
+- Building a multi-switch web interface (per-device ON/OFF).
+- Basic safety/logic patterns (default OFF, state tracking, fail-safe behavior).
+
+### Insert Data into MySQL Database using PHP and Arduino IDE
+- Sending sensor/device data from ESP32 to a PHP endpoint (HTTP request).
+- PHP script receiving data and inserting into a MySQL table.
+- Defining database schema fields (timestamp, device id, sensor values) and verifying inserts.
+
+### Google Sheets via Google Sheets API
+- Authenticating/authorizing requests to Google Sheets API (keys/tokens depending on approach).
+- Writing new rows (timestamp + sensor values) into a spreadsheet.
+- Handling rate limits/errors and confirming data appears correctly.
+
+### Google Sheets via Apps Script
+- Using Apps Script web app (or script endpoint) to receive ESP32 data.
+- Writing received values to a Google Sheet without direct API handling on ESP32.
+- Optional automation patterns (triggers, formatting, notifications).
+
+### Getting Started with Firebase (Realtime Database)
+- Creating a Firebase project and enabling Realtime Database.
+- Writing data from ESP32 to database paths (e.g., `/devices/device1/...`).
+- Understanding real-time data structure (JSON tree) and basic read/write rules.
+
+### Read From Firebase Database
+- Reading values from Firebase paths to control ESP32 behavior.
+- Handling asynchronous updates (polling or stream-like update patterns depending on library).
+- Using cloud-controlled states (e.g., LED/relay states) and syncing local device state.
+
 
 ## 🧩 How to use
 
