@@ -20,8 +20,7 @@ This section lists the 11 modules in the ESP32 IoT tutorial series.
 Each module provides hands-on projects and code examples for specific IoT concepts.  
 Topics range from ESP32 introduction to advanced database and cloud integrations.
 
-- **[What is an ESP32](<./00. What is an ESP32/>)**
-  Introduction to ESP32, including Arduino IDE setup and basic blink program.
+- **[What is an ESP32](<./00. What is an ESP32/>)** - Introduction to ESP32, including Arduino IDE setup and basic blink program.
 - **[Wifi Configuration](<./01. Wifi Configuration/>)** - WiFi setup for ESP32, covering network scanning, connection, and IP management.
 - **[Web Server - LED Control from Browser](<./02. Web Server - LED Control from Browser/>)** - Building a web server on ESP32 for remote LED control via browser interface.
 - **[HTTP Client - Website Communication](<./03. HTTP Client - Website Communication/>)** - Configuring ESP32 as HTTP client for sending/receiving data from websites and APIs.
