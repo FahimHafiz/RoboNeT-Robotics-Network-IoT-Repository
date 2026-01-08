@@ -252,7 +252,7 @@ You will see `result_full.jpg`. Open this image to see the **Bounding Boxes** dr
 ### Excellent work! You have learned *hardware setup, operating systems, terminal skills, Python GPIO programming, networking with SSH, computer vision with OpenCV, and object detection with a pre-trained model*. Ready to test your knowledge? [Click here to take the evaluation!](https://docs.google.com/forms/d/e/1FAIpQLSfHdoqlC4ytbOAoFErrhIMYJArXgw1D1DR8fWt9YyhMMss3lw/viewform?usp=header)
 
 
-# [Let's learn about Networking](../../04.%20Raspberry%20Pi%20%26%20Robotics/)
+# [Let's learn about Networking](../../05.%20Networking/)
 
 
 [image1]: <../assets/07. Running a Pre-trained Object Detection Model/vscode.png>
