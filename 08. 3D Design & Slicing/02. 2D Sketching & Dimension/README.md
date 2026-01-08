@@ -111,6 +111,6 @@ You must use dimensions to make your shapes stay put and have the correct size.
 
 ---
 
-### [Next Chapter: 3d Featuring Modeling](./03.%203D%20Feature%20Modeling/README.md)
+### [Next Chapter: 3d Featuring Modeling](../03.%203D%20Feature%20Modeling/README.md)
 
 ---
