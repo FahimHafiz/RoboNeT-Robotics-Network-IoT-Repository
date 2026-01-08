@@ -92,4 +92,4 @@ This simple LED circuit introduces key concepts:
 
 Happy tinkering!
 
-[Go to the next chapter](<./03. Soil Sensor/>)
+[Go to the next chapter](<../03. Soil Sensor/>)

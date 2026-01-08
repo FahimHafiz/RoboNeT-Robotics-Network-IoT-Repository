@@ -104,4 +104,4 @@ void loop() {
 
 ✅ You have successfully controlled a DC motor in TinkerCAD using Arduino!
 
-[Go to the next chapter](<./07. Servo Motor Control/>)
+[Go to the next chapter](<../07. Servo Motor Control/>)

@@ -187,4 +187,4 @@ This scrolls long messages by shifting the display every 500ms.
 
 This setup lets you experiment with dynamic LCD displays in a virtual environment. For further customization or specific features, explore Tinkercad's component library or modify the code to suit your project needs.
 
-[Go to the next chapter](<./06. DC Motor Control/>)
+[Go to the next chapter](<../06. DC Motor Control/>)

@@ -168,4 +168,4 @@ void loop() {
 
 ✅ You have successfully set up and simulated a **6-pin gas sensor (MQ-2)** with Arduino in Tinkercad!
 
-[Go to the next chapter](<./10. Photodiode/>)
+[Go to the next chapter](<../10. Photodiode/>)

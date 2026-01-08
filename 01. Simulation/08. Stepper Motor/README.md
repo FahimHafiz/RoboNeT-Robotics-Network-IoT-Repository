@@ -132,4 +132,4 @@ void loop() {
 
 ✅ You have successfully controlled a **bipolar stepper motor** with Arduino using the **A4988 driver** in Circuit Designer IDE!
 
-[Go to the next chapter](<./09. Gas Sensor/>)
+[Go to the next chapter](<../09. Gas Sensor/>)

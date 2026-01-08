@@ -148,4 +148,4 @@ Once your circuit is wired and coded, you can run the simulation.
 
 By following these steps, you should be able to successfully build and simulate your distance detection system in Tinkercad.
 
-[Go to the next chapter](<./05. LCD Input & Output/>)
+[Go to the next chapter](<../05. LCD Input & Output/>)

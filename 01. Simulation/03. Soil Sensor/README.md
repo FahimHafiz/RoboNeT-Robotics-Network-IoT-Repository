@@ -148,4 +148,4 @@ After wiring and coding, run the simulation.
 
 By following these steps, you can successfully build and simulate a soil moisture detection system in Tinkercad.
 
-[Go to the next chapter](<./04. Ultrasonic Sensor/>)
+[Go to the next chapter](<../04. Ultrasonic Sensor/>)

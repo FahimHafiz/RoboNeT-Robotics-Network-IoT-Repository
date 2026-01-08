@@ -119,4 +119,4 @@ void loop() {
 
 ✅ You have successfully controlled a servo motor in TinkerCAD using Arduino!
 
-[Go to the next chapter](<./08. Stepper Motor/>)
+[Go to the next chapter](<../08. Stepper Motor/>)
