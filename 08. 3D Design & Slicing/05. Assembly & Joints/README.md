@@ -3,7 +3,7 @@
 Joints tell the software how separate components should interact and move together.
 
 <p align="center">
-<img src="../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.033.png" />
+<img width="366" height="407" alt="image" src="https://github.com/user-attachments/assets/0ce6e0c1-417c-4586-b0c3-6b0a336f4a35" />
 </p>
 
 ### 5.1 **![](../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.034.png) Joint Tool:** You pick **snap points** (like corners or center spots) on the two parts you want to connect.
@@ -38,6 +38,6 @@ Joints tell the software how separate components should interact and move togeth
    
 -----
 
-### [Next Chapter: Construction Plane ](../06.%20Construction%20Plane/README.md)
+### [Next Chapter: Construction Plane ](../06.Construction%20Plane/README.md)
 
 -----

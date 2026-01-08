@@ -6,6 +6,7 @@
 
 This part of the course focuses on the very basic design journey. Here you"ll go through the Fusion 360 and Slicing Parameters.
 Here, you’ll learn how is the software interface, basic 2D Design, Construction Plane, Basic 3D operations, Basic assembly and joints. In the Slicing Part you"ll Learn what are the parameters, How they perform under different filaments.
+
 ---
 
 ## **📌 Section Overview**
@@ -32,13 +33,13 @@ This section focuses on:
    
  * Understanding the Usser Interface
 
-[**Module 02: 2D Sketching & Dimension **](./02.%202D%20Sketching%20%26%20Dimension)
+[**Module 02: 2D Sketching & Dimension**](./02.%202D%20Sketching%20%26%20Dimension)
 
  * Basic 2D Design
 
  * Understand Dimensions
 
-### **🖨️ Phase 2: 3D Operations **
+### **🖨️ Phase 2: 3D Operations**
 
 [**Module 03:3D Feature Modeling**](./03.%203D%20Feature%20Modeling)
 
@@ -48,9 +49,9 @@ This section focuses on:
 
  * Operations of Scale, Fillet, Chamfer, Scale, Split, Combine
 
-### **🧠 Phase 3: Assembly & Construction **
+### **🧠 Phase 3: Assembly & Construction**
 
-[**Module 05: Assembly & Joints**](./05.%20Assembly%20Joints)
+[**Module 05: Assembly & Joints**](./05.%20Assembly%20%26%20Joints)
 
  * Operations of Joints, Rigit, Revolute
  
@@ -62,7 +63,7 @@ This section focuses on:
 
 ### **🛠 Phase 4: Slicing**
 
-[**Module 05: Slicing For 3D printing**](./07.Slicing%20for%203D%20Printing)
+[**Module 07: Slicing For 3D printing**](./07.Slicing%20for%203D%20Printing)
 
  * Characterestic of Slicing parameters
 
@@ -70,9 +71,9 @@ This section focuses on:
    
 ### **⚠️ Best Practices**
 
-IMPORTANT:
-✔ Understand The Interface
-✔ Get used to with the tools
-✔ Start Modeling
+#### IMPORTANT:
+ * ✔ Understand The Interface
+ * ✔ Get used to with the tools
+ * ✔ Start Modeling
 
 ---

@@ -69,11 +69,11 @@ sudo apt install python3-rpi.gpio
 
 Now that you have the basics down, it's time to build some hands-on projects:
 
-1. **[Project 1: Blinking an LED](Project%201%3A%20Blinking%20an%20LED.md)** - Learn to control GPIO output pins by making an LED blink.
+1. **[Project 1: Blinking an LED](Blinking%20an%20LED.md)** - Learn to control GPIO output pins by making an LED blink.
 
-2. **[Project 2: Reading a Sensor (Push Button)](Project%202%3A%20Reading%20a%20Sensor%20%28Push%20Button%29.md)** - Learn to read GPIO input pins by detecting button presses.
+2. **[Project 2: Reading a Sensor (Push Button)](Reading%20a%20Sensor%20%28Push%20Button%29.md)** - Learn to read GPIO input pins by detecting button presses.
 
-3. **[Project 3: Raspberry Pi - DHT11/DHT22 Temperature and Humidity](Project%203%20%3A%20Raspberry%20Pi-%20DHT11_DHT22%20Temperature%20and%20Humidity.md)** - Read temperature and humidity data from DHT sensors.
+3. **[Project 3: Raspberry Pi - DHT11/DHT22 Temperature and Humidity](Raspberry%20Pi-%20DHT11_DHT22%20Temperature%20and%20Humidity.md)** - Read temperature and humidity data from DHT sensors.
 
 ---
 
