@@ -189,6 +189,6 @@ This just opens up your folder system. It's where all your saved designs and pro
 
 -----
 
-### **[Next Chapter: 2D Sketching & Dimension ](../02.%202D%20Sketching%20%26%20Dimension /README.md)**
+### **[Next Chapter: 2D Sketching & Dimension ](../02.%202D%20Sketching%20%26%20Dimension/README.md)**
 
 -----
