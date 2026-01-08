@@ -32,7 +32,7 @@ This section focuses on:
    
  * Understanding the Usser Interface
 
-**Module 02: 2D Sketching & Dimension**
+[**Module 02: 2D Sketching & Dimension **](./02.%202D%20Sketching%20%26%20Dimension)
 
  * Basic 2D Design
 
@@ -40,29 +40,29 @@ This section focuses on:
 
 ### **🖨️ Phase 2: 3D Operations **
 
-**Module 03:3D Feature Modeling**
+[**Module 03:3D Feature Modeling**](./03.%203D%20Feature%20Modeling)
 
  * Extrude, Mirror, Pattern
 
-**Module 04: 3D Modification**
+[**Module 04: 3D Modification**](./04.%203D%20Modification)
 
  * Operations of Scale, Fillet, Chamfer, Scale, Split, Combine
 
-### **🧠 Phase 3: Slicing Workflow**
+### **🧠 Phase 3: Assembly & Construction **
 
-**Module 05: Assembly & Joints**
+[**Module 05: Assembly & Joints**](./05.%20Assembly%20Joints)
 
  * Operations of Joints, Rigit, Revolute
  
  *Animate the Joints
 
-**Module 06: Construction Lines**
+[**Module 06: Construction Lines**](./06.Construction%20Plane)
 
  * Operations of Planes, Mid Plane, Tangent Palne, Plane on edge
 
 ### **🛠 Phase 4: Slicing**
 
-**Module 05: Slicing For 3D printing**
+[**Module 05: Slicing For 3D printing**](./07.Slicing%20for%203D%20Printing)
 
  * Characterestic of Slicing parameters
 
