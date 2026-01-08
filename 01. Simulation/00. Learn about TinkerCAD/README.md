@@ -114,5 +114,5 @@ Tinkercad Circuits is a powerful, accessible tool to simulate Arduino-based proj
 
 > "Simulate. Learn. Build. Repeat!" 
 
-[Go to the next chapter](<./01. Basic/>)
+[Go to the next chapter](<../01. Basic/>)
 

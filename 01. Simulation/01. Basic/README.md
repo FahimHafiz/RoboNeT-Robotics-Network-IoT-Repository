@@ -187,4 +187,4 @@ Here’s a small tutorial on LED control in TinkerCAD using block-based coding:
 
 [TinkerCAD LED Control Tutorial](https://www.youtube.com/watch?v=8KTVTu9iIO0)
 
-[Go to the next chapter](<./02. LED Blink/>)
+[Go to the next chapter](<../02. LED Blink/>)
