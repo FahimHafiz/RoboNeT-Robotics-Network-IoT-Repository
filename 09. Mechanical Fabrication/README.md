@@ -29,7 +29,7 @@ The goal of this section is to provide students with the hands-on knowledge requ
 ### ⚙️ Phase 2: Machinery & Digital Fabrication
 * **[Module 03: Introduction to Fabrication Machines](./03.%20Introduction%20to%20Fabrication%20Machines/README.md)**
   - Overview of 3D Printers, Laser Cutters, CNCs, Lathes, and Drill Presses.
-* **[Module 04: DXF file, Laser Cutting](./04.%20DXF%20file%3F%20Laser%20Cutting/README.md)**
+* **[Module 04: DXF file, Laser Cutting](./04.%20%20DXF%20file%3F%20Laser%20Cutting/README.md)**
   - CAD to DXF conversion.
   - Understanding tolerances, kerf, and flat-pack assembly.
 
