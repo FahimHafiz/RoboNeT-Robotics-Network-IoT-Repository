@@ -134,6 +134,6 @@ After your sketch is done, you use these tools to give it volume and make copies
 
 -----
 
-### [Next Chapter: 3D Modeling ](../04.%203D%20Modeling/README.md)
+### [Next Chapter: 3D Modification ](../04.%203D%20Modification/README.md)
 
 -----
