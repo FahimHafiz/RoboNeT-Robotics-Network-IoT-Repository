@@ -8,13 +8,13 @@ Selecting a side of any object or any axis from the **origin**.Go to the toolbar
 <img width="880" height="402" alt="image" src="https://github.com/user-attachments/assets/8cb45297-6afc-4714-99ad-a0a1b8a410c7" />
 </p>
 
- **2.1 Line** (L): Drawing a straight edge between two points.
+ * **Line** (L): Drawing a straight edge between two points.
 
 <p align="center">
 <img width="814" height="716" alt="image" src="https://github.com/user-attachments/assets/29aa7f5a-3ecd-46fd-9ab6-0e6c5c81d846" />
 </p>
 
-**2.2 Two Point Rectangle**: Clicking the **first corner**, then clicking the **opposite corner** to complete the box. You can also just type in the **width** and **height** you want.
+* **Two Point Rectangle**: Clicking the **first corner**, then clicking the **opposite corner** to complete the box. You can also just type in the **width** and **height** you want.
   
 <table align="center">
   <tr>
@@ -31,7 +31,7 @@ Selecting a side of any object or any axis from the **origin**.Go to the toolbar
   </tr>
 </table>
   
-**2.3 Center Point Rectangle**: Clicking where the **center** should be, then dragging outward to define the size.
+* **Center Point Rectangle**: Clicking where the **center** should be, then dragging outward to define the size.
 
 <table align="center">
   <tr>
@@ -48,7 +48,7 @@ Selecting a side of any object or any axis from the **origin**.Go to the toolbar
   </tr>
 </table>
 
-**2.4 Center Point Circle**: Clicking the **center** spot, then pulling out to set the distance across (the **Diameter**).
+* **Center Point Circle**: Clicking the **center** spot, then pulling out to set the distance across (the **Diameter**).
 
 <table align="center">
   <tr>
@@ -65,21 +65,21 @@ Selecting a side of any object or any axis from the **origin**.Go to the toolbar
   </tr>
 </table>
   
-**2.5 Two Point Circle**: Clicking the two spots that define the total distance across the circle.
+* **Two Point Circle**: Clicking the two spots that define the total distance across the circle.
 
 ---
 
-## **2.6 Controlling Dimensions & Constraints**
+## 2.1 Controlling Dimensions & Constraints**
 
 You must use dimensions to make your shapes stay put and have the correct size.
 
-**2.7 Dimension Tool** (D): This is how you control the exact measurements.
+* **Dimension Tool** (D): This is how you control the exact measurements.
   - CLick **D** then Click a **line** or **circle** to check its length or diameter, Drag the mouse a bit, Press Enter or Left Button of the Mouse and type in a new value.
     <p align="center">
     <img width="527" height="479" alt="image" src="https://github.com/user-attachments/assets/396e8b31-06bb-4ed5-a6ca-9db90818b65b" />
     </p>
     
-**2.8 Draw a random angle:**
+* **Draw a random angle:**
 
 <p align="center">
 <img width="469" height="408" alt="image" src="https://github.com/user-attachments/assets/44c81ebd-333c-4d1c-bffe-7c8eb6af33b0" />
@@ -91,11 +91,11 @@ You must use dimensions to make your shapes stay put and have the correct size.
 <img width="852" height="738" alt="image" src="https://github.com/user-attachments/assets/905d83ce-2e3e-42f4-9a90-c4909e6d63dd" />
 </p>
   
-**2.9 Spacing Centers:** Click D and click the **center of two circles** to control how far apart they are.
+* **Spacing Centers:** Click D and click the **center of two circles** to control how far apart they are.
     
 
 
-**2.10 Quick Check:** 
+**2.3 Quick Check:** 
 
 <p align="center">
 <img width="333" height="165" alt="image" src="https://github.com/user-attachments/assets/177101f0-c7c6-4374-90b8-3ebe5cbec942" />
