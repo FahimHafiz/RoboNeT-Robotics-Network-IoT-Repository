@@ -165,17 +165,17 @@ If you're using a **digital pin** in your code, make sure the pin number is corr
 
 Now that you've learned about **pin configurations** and troubleshooting tips, you can continue exploring more advanced Arduino topics. Here are some important areas to continue your learning journey:
 
-### ✅ **[GPIO Read/Write](./GPIO/)**
+### ✅ **[GPIO Read/Write](../GPIO/)**
 - ⚡ Controlling **LEDs, buttons, and sensors**  
 - 📡 Understanding **digital & analog I/O**  
 - 🔌 Working with **Pulse Width Modulation (PWM)**  
 
-### ✅ **[Sensors & Motors](./Sensors_Motors/)**
+### ✅ **[Sensors & Motors](../Sensors_Motors/)**
 - 🤖 Interfacing with **temperature, ultrasonic, and light sensors**  
 - 🚀 Controlling **servo motors, DC motors, and stepper motors**  
 - 🔗 Connecting **multiple components for robotics and automation**  
 
-### ✅ **[Serial Communication](./Serial_Communication/)**
+### ✅ **[Serial Communication](../Serial_Communication/)**
 - 🔄 Sending & receiving **data between Arduino boards**  
 - 📡 Establishing communication with **ESP32 & Raspberry Pi**  
 - 🔗 Using **I2C, SPI, and UART protocols**  
