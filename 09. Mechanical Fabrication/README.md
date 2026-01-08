@@ -27,14 +27,14 @@ The goal of this section is to provide students with the hands-on knowledge requ
   - Understanding Engineering 3D printings: PLA, ABS, and TPU.
 
 ### ⚙️ Phase 2: Machinery & Digital Fabrication
-* **[Module 03: Introduction to Fabrication Machines](./03.%20Introduction%20to%20Fabrication%20/README.md)**
+* **[Module 03: Introduction to Fabrication Machines](./03.%20Introduction%20to%20Fabrication%20Machines/README.md)**
   - Overview of 3D Printers, Laser Cutters, CNCs, Lathes, and Drill Presses.
 * **[Module 04: DXF file, Laser Cutting](./04.%20DXF%20file,%20Laser%20Cutting/README.md)**
   - CAD to DXF conversion.
   - Understanding tolerances, kerf, and flat-pack assembly.
 
 ### 🔧 Phase 3: Hand Tools & Precision Machining
-* **[Module 05: Mechanical Tools & Safety Basics](./05.%20Mechanical%20Tools%20%26%20Safety%20B/README.md)**
+* **[Module 05: Mechanical Tools & Safety Basics](./05.%20Mechanical%20Tools%20%26%20Safety%20Basics/README.md)**
   - Proper use of Allen keys, wrenches, and impact drivers.
   - Safety practices to avoid misalignment and over-tightening.
 * **[Module 06: Welding & Lathe Operations](./06.%20Welding%20%26%20Lathe%20Operations/README.md)**
@@ -42,14 +42,14 @@ The goal of this section is to provide students with the hands-on knowledge requ
   - Lathe operations: Turning, facing, and boring.
 
 ### 🔩 Phase 4: Fasteners & Maintenance
-* **[Module 07: Nuts, Bolts, Bearings & Fastening](./07.%20Nuts,%20Bolts,%20Bearings%20%26%20Faste/README.md)**
+* **[Module 07: Nuts, Bolts, Bearings & Fastening](./07.%20Nuts,%20Bolts,%20Bearings%20%26%20Fasteners/README.md)**
   - Selecting locknuts, washers, and spacers.
   - Installing bearings and bushings with proper preload.
-* **[Module 08: Fabrication Factors & Maintenance](./08.%20Fabrication%20Factors%20%26%20Maint/README.md)**
+* **[Module 08: Fabrication Factors & Maintenance](./08.%20Fabrication%20Factors%20%26%20Maintenence/README.md)**
   - Managing vibration, wear, and rust prevention.
 
 ### 🧩 Phase 5: Assembly & Testing
-* **[Module 09: Putting It All Together](./09.%20Putting%20It%20All%20Together:%20Proto/README.md)**
+* **[Module 09: Putting It All Together](./09.%20Putting%20It%20All%20Together:%20Prototyping%20Workflow/README.md)**
   - Full workflow: From CAD to a finished, functional assembly.
 * **[Module 10: Assembly & Troubleshooting](./10.%20Assembly%20%26%20Troubleshooting/README.md)**
   - Fixing "lashes" (looseness) and aligning shafts/joints.
