@@ -1,4 +1,4 @@
-<img width="355" height="761" alt="image" src="https://github.com/user-attachments/assets/dbb08606-d3c5-4cfc-a382-58b1b9782168" />## **4. 3D Modification**
+**4. 3D Modification**
 
 These tools help you smooth out rough spots, hollow out parts, or change the overall size & move objects.
 
