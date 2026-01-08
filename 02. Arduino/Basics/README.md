@@ -170,7 +170,7 @@ Now that you've learned about **pin configurations** and troubleshooting tips, y
 - 📡 Understanding **digital & analog I/O**  
 - 🔌 Working with **Pulse Width Modulation (PWM)**  
 
-### ✅ **[Sensors & Motors](./Sensors_Motors/)**
+### ✅ **[Sensors & Motors](../Sensors_Motors/)**
 - 🤖 Interfacing with **temperature, ultrasonic, and light sensors**  
 - 🚀 Controlling **servo motors, DC motors, and stepper motors**  
 - 🔗 Connecting **multiple components for robotics and automation**  
