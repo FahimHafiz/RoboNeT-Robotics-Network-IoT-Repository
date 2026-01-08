@@ -1,9 +1,8 @@
 ## **3D Feature Creation**
 
-
 After your sketch is done, you use these tools to give it volume and make copies.
 
-### 1.1  ![](../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.020.png)**Extrude:** This is how you "pull" a **2D shape** into a **3D solid**.
+###  **3.1** ![](../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.020.png)**Extrude:** This is how you "pull" a **2D shape** into a **3D solid**.
 
 <p align="center">
 <img width="1171" height="486" alt="image" src="https://github.com/user-attachments/assets/e6a5d268-cbef-4c05-bcc1-19bdbb7ec011" />
@@ -72,7 +71,7 @@ After your sketch is done, you use these tools to give it volume and make copies
 * From the left most dialogue box you can **JOIN** or **CUT** the component.
 -----
 
-### 1.2  ![](../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.021.png)**Mirror:** Makes a perfect, identical copy flipped across a reference line or **plane**.
+### **3.2**  ![](../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.021.png)**Mirror:** Makes a perfect, identical copy flipped across a reference line or **plane**.
 
 <p align="center">
 <img width="1130" height="832" alt="image" src="https://github.com/user-attachments/assets/d157632e-620b-42d5-8c6c-156d62d379c7" />
@@ -106,7 +105,7 @@ After your sketch is done, you use these tools to give it volume and make copies
 
 ""Quick Tips:"" Its Not mandatory that only the origin could be the replection plane. It coulbe a line or constraction plane too.
 
-### **Pattern:** Instead of copying things one-by-one, you use this to make many copies (of a feature or a whole object) following a straight (**linear**) or round (**circular**) path.
+### **3.3 Pattern:** Instead of copying things one-by-one, you use this to make many copies (of a feature or a whole object) following a straight (**linear**) or round (**circular**) path.
 
 <p align="center">
 <img width="837" height="888" alt="image" src="https://github.com/user-attachments/assets/4009f3e1-88a3-4803-8903-cdee2ae41177" />
@@ -132,5 +131,9 @@ After your sketch is done, you use these tools to give it volume and make copies
 ### Same Goes For the **Rectangular Pattern.""
 
 ""Quick Tips:"" Its Not mandatory that only the origin could be the circuler point or rectangualr line. It coulbe a line or constraction plane too.
+
+-----
+
+### [Next Chapter: 3D Modeling ](../04.%203D%20Modeling/README.md)
 
 -----
