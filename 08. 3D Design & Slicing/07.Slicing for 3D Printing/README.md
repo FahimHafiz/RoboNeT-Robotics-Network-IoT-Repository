@@ -192,7 +192,7 @@ Increase slightly (102–105%) if gaps appear.
 
 ## Congatulations on finish 3d Design & Slicing!!
 
-### [Mechanical Fabrication](.../09.%20Mechanical%20Fabrication/README.md)
+### [Mechanical Fabrication](../../09.%20Mechanical%20Fabrication/README.md)
 
 ---
 
