@@ -42,7 +42,7 @@ The goal of this section is to provide students with the hands-on knowledge requ
   - Lathe operations: Turning, facing, and boring.
 
 ### 🔩 Phase 4: Fasteners & Maintenance
-* **[Module 07: Nuts, Bolts, Bearings & Fasteners](./07.%20Nuts%3F%20Bolts%2C%20Bearings%20%26%20Fasteners/README.md)**
+* **[Module 07: Nuts, Bolts, Bearings & Fasteners](./07.%20Nuts%2C%20Bolts%2C%20Bearings%20%26%20Fastening/README.md)**
   - Selecting locknuts, washers, and spacers.
   - Installing bearings and bushings with proper preload.
 * **[Module 08: Fabrication Factors & Maintenance](./08.%20Fabrication%20Factors%20%26%20Maintenence/README.md)**
