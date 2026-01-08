@@ -9,17 +9,23 @@ This folder contains hands-on **Arduino simulations** designed and tested in **A
 
 ## 📂 Simulation Contents
 
-- [00. Learn about TinkerCAD](<./00. Learn about TinkerCAD/>) 
-- [01. Basic](<./01. Basic/>)
-- [02. LED Blink](<./02. LED Blink/>)
-- [03. Soil Sensor](<./03. Soil Sensor/>)
-- [04. Ultrasonic Sensor](<./04. Ultrasonic Sensor/>)
-- [05. LCD Input & Output](<./05. LCD Input & Output/>) 
-- [06. DC Motor Control](<./06. DC Motor Control/>) 
-- [07. Servo Motor Control](<./07. Servo Motor Control/>) 
-- [08. Stepper Motor](<./08. Stepper Motor/>) 
-- [09. Gas Sensor](<./09. Gas Sensor/>) 
-- [10. Photodiode](<./10. Photodiode/>) 
+-  [Learn about TinkerCAD](<./00. Learn about TinkerCAD/>) 
+     
+- [Basic](<./01. Basic/>) - Getting familiar with Tinkercad Circuits and Arduino basics.
+
+- [LED Blink](<./02. LED Blink/>) - Digital output fundamentals using LED blinking patterns.
+
+- [Soil Sensor](<./03. Soil Sensor/>) - Reading analog sensor values and converting them into meaningful output.
+
+- [Ultrasonic Sensor](<./04. Ultrasonic Sensor/>) - Measuring distance and using the reading for control/automation logic.
+-  [LCD Input & Output](<./05. LCD Input & Output/>) - Displaying sensor/status data on an LCD for better visualization.
+-  [DC Motor Control](<./06. DC Motor Control/>) - Controlling DC motors using driver circuits and PWM concepts.
+-  [Servo Motor Control](<./07. Servo Motor Control/>) - Position control using servo signals (angle-based control).
+-  [Stepper Motor](<./08. Stepper Motor/>) - Step-by-step motion control for precision movement.
+
+-  [Gas Sensor](<./09. Gas Sensor/>) - Detecting gas/smoke-like readings and triggering actions/alerts.
+
+-  [Photodiode](<./10. Photodiode/>) - Light sensing and analog reading practice for LDR/photodiode-style circuits.
 
 
 ## 🧩 How to use
