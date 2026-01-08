@@ -1,5 +1,9 @@
 # **Module 6 — Welding & Lathe Operations**
 
+<p align="center">
+<img width="1151" height="577" alt="image" src="https://github.com/user-attachments/assets/2ce5ee26-dd65-4bc3-ae2e-8b164428f3e3" />
+</p>
+
 In robotics, you often reach a point where bolts and simple plates are not enough.  
 This is where **welding** and **lathe work** become useful.
 
@@ -39,7 +43,9 @@ When the design is stable → welding can make it stronger.
 
 ### **A) MIG welding (easy and common)**
 
-![][image24]
+<p align="center">
+<img width="604" height="391" alt="image" src="https://github.com/user-attachments/assets/f294e7d4-7d2a-4626-bc3f-c6d9f6a5e26b" />
+</p>
 
 **What it is:**  
 A welding gun feeds wire automatically, and it melts into the joint.
@@ -65,7 +71,9 @@ A welding gun feeds wire automatically, and it melts into the joint.
 
 ### **B) TIG welding (clean and precise)**
 
-![][image25]
+<p align="center">
+<img width="583" height="385" alt="image" src="https://github.com/user-attachments/assets/870dc7d3-df80-466e-bae7-ff9168f18f11" />
+</p>
 
 **What it is:**  
 You use a torch with a tungsten tip, and you add filler rod by hand (like “welding with a pen”).
@@ -91,7 +99,9 @@ You use a torch with a tungsten tip, and you add filler rod by hand (like “wel
 
 ### **C) Arc welding (stick welding)**
 
-![][image26]
+<p align="center">
+<img width="557" height="398" alt="image" src="https://github.com/user-attachments/assets/4a6a0457-2b3f-4ffc-ba77-b657c30b1995" />
+</p>
 
 **What it is:**  
 You use a “stick” electrode. The stick melts and makes the weld.
@@ -111,6 +121,39 @@ You use a “stick” electrode. The stick melts and makes the weld.
 
 * thin sheet metal  
 * clean small robotics work (can be harder and more messy)
+
+## **C) Mig Welding V/S Tig Welding **
+
+### Working Principle
+
+<p align="center">
+<img width="1152" height="841" alt="image" src="https://github.com/user-attachments/assets/72742096-6730-4b1e-aebc-1dec853fa078" />
+  <br>
+  <em> Mig V/S Tig Principle </em>
+</p>
+
+### Welding Gun
+
+<p align="center">
+<img width="565" height="318" alt="image" src="https://github.com/user-attachments/assets/dabd1fd1-7b15-46c0-bd35-ef8649677adc" />
+  <br>
+  <em> Mig V/S Tig Principle </em>
+</p>
+
+### Select Based On Your Work
+
+<div align="center">
+
+| Feature | ARC | MIG | TIG |
+| :--- | :---: | :---: | :---: |
+| **Speed** | Moderate | Fast | Slow |
+| **Cost (Cheap)** | Cheap | Moderate | High |
+| **Ease of Learning** | Moderate | Moderate | Hard |
+| **Precision** | Low | Moderate | High |
+| **Thick Material** | Yes | Yes | No |
+| **Thin Material** | No | Moderate | Yes |
+
+</div>
 
 ---
 
@@ -156,7 +199,9 @@ Big welds add weight and can warp parts more.
 
 ## **6.4 Warping (metal bending because of heat)**
 
-![][image27]
+<p align="center">
+<img width="874" height="393" alt="image" src="https://github.com/user-attachments/assets/538ed45f-8c32-4c2a-b17c-6902e24f73e0" />
+</p>
 
 This is a big welding problem in robotics.
 
@@ -177,6 +222,10 @@ Don’t “fully weld” until you are sure everything is straight.
 
 ## **6.5 Welding joints you will see a lot**
 
+<p align="center">
+<img width="1287" height="769" alt="image" src="https://github.com/user-attachments/assets/1c9b4755-42aa-4eb9-b3b4-48f3cb8e4671" />
+</p>
+
 * **Butt joint**: two pieces end-to-end  
 * **Lap joint**: one piece overlaps another  
 * **T-joint**: one piece meets another like a “T”  
@@ -187,6 +236,10 @@ For robot frames, **T-joints and corner joints** are very common.
 ---
 
 ## **6.6 Welding safety (very important)**
+
+<p align="center">
+<img width="1314" height="581" alt="image" src="https://github.com/user-attachments/assets/07b8331f-a52b-44bf-b46a-ad3535b8fe3a" />
+</p>
 
 Welding is not like normal tools. It has strong light, heat, and fumes.
 
@@ -227,7 +280,9 @@ So that part should be machined, not welded.
 
 ## **6.8 What is a lathe**
 
-![][image28]
+<p align="center">
+<img width="1229" height="609" alt="image" src="https://github.com/user-attachments/assets/0026680f-5c1f-4977-ae30-02868dfaf773" />
+</p>
 
 A **lathe** is a machine that spins a round piece (like a rod), and a cutting tool shapes it.
 
@@ -256,7 +311,9 @@ These parts sound small, but they make assemblies feel “professional.”
 
 ## **6.10 Basic lathe operations**
 
-![][image29]
+<p align="center">
+<img width="1585" height="889" alt="image" src="https://github.com/user-attachments/assets/fd69591f-bddd-49c4-8574-ecb70a5f855f" />
+</p>
 
 ### **A) Turning**
 
@@ -332,8 +389,8 @@ A lathe is dangerous if you treat it casually.
 * start at low speed if you’re unsure  
 * keep hands away from spinning parts
 
-**Lathe rule:**  
-Spinning machines don’t forgive mistakes.
+### **Lathe rule:**  
+**Spinning machines don’t forgive mistakes.**
 
 ---
 
@@ -372,3 +429,9 @@ Spinning machines don’t forgive mistakes.
 **4\) Not measuring**
 
 * Fix: measure often (diameter and length)
+
+---
+
+### [Next Chapter: Nut, Bolts, Bearings & Fasteners](../07.%20Nuts,%20Bolts,%20Bearings%20&%20Fasteners/README.md)
+
+---

@@ -1,5 +1,7 @@
 # **Module 5 — Mechanical Tools & Safety Basics** 
-
+<p align="center">
+<img width="874" height="476" alt="image" src="https://github.com/user-attachments/assets/566dfeef-8678-4b6a-b7df-43ce00b7c4b1" />
+</p>
 This module is about the **basic tools** you will use again and again in robotics.  
 If you learn these tools well, your builds will be:
 
@@ -22,6 +24,9 @@ So this module focuses on **doing the basics correctly**.
 
 ## **5.1 Safety rules**
 
+<p align="center">
+<img width="996" height="235" alt="image" src="https://github.com/user-attachments/assets/0c0da95b-e06d-47da-8ed4-4bcbce7e7b89" />
+</p>
 These rules sound obvious, but they prevent most lab accidents.
 
 ### **Always do these**
@@ -44,7 +49,9 @@ Wait for it to fully stop.
 
 ### **A) Screwdrivers**
 
-![][image7]
+<p align="center">
+<img width="396" height="389" alt="image" src="https://github.com/user-attachments/assets/315f9a0e-4bb8-4f4e-9adb-ed778f3ba509" />
+</p>
 
 **Used for:** screws (Phillips “+”, flat “-”, sometimes Torx “star”).
 
@@ -59,8 +66,9 @@ Wait for it to fully stop.
 ---
 
 ### **B) Allen keys / Hex keys**
-
-![][image8]
+<p align="center">
+<img width="568" height="402" alt="image" src="https://github.com/user-attachments/assets/bba2921c-901a-4de8-9461-9d5b88330acc" />
+</p>
 
 Robotics uses these a lot (especially for M3, M4, M5 bolts).
 
@@ -78,7 +86,21 @@ Robotics uses these a lot (especially for M3, M4, M5 bolts).
 
 ### **C) Wrenches and spanners**
 
-![][image9]      ![][image10]
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/8cfe2c97-1398-47b3-8bca-2da687418f5b" width="300" alt="wrench" />
+      <br />
+      <b>wrench</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/0b8e6a17-5011-4ae1-a4cb-00bf8c79a2ae" width="300" alt="spanner" />
+      <br />
+      <b>spanner</b>
+    </td>
+  </tr>
+</table>
+
 
 **Used for:** nuts and bolts with a flat head (hex head).
 
@@ -92,7 +114,25 @@ Robotics uses these a lot (especially for M3, M4, M5 bolts).
 
 ### **D) Socket wrench (ratchet)**
 
-![][image11]
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/df71aff1-8030-43c2-bf7e-d001d1a1f243" width="250" alt="rachet box" />
+      <br />
+      <b>rachet box</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/237303ca-1a01-48ab-9191-02307ae88789" width="250" alt="rachet socket" />
+      <br />
+      <b>rachet socket</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/ba59e81f-df31-4fd4-9883-1d7ca3e9cbb4" width="250" alt="rachet wrench" />
+      <br />
+      <b>rachet wrench</b>
+    </td>
+  </tr>
+</table>
 
 **Used for:** nuts/bolts quickly, especially when there are many.
 
@@ -107,14 +147,30 @@ Robotics uses these a lot (especially for M3, M4, M5 bolts).
 
 ---
 
-### **E) Pliers (normal, needle nose, circlip pliers, locking pliers)**
+### **E) Pliers (normal, nose pliers, circlip pliers, locking pliers)**
 
-![][image12]![][image13]  
-Normal Pliers & Nose Pliers  
-![][image14]![][image15]  
-Circlip Pliers  
-![][image16]  
-Locking Pliers
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/0211daec-3b3a-4cdd-a6af-632b15fb2950" width="250" alt="Normal Pliers" /><br />
+      <b>Normal Pliers</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/f32b7241-645a-40a8-b432-e71111e4c1ba" width="250" alt="Nose Pliers" /><br />
+      <b>Nose Pliers</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/46f7dd52-cade-4468-bb91-bd25bd2e1a38" width="250" alt="Circlip Pliers" /><br />
+      <b>Circlip Pliers</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/ba45e872-146e-4ab5-9676-b327db3f94af" width="250" alt="Lock Pliers" /><br />
+      <b>Lock Pliers</b>
+    </td>
+  </tr>
+</table>
 
 **Used for:**
 
@@ -134,8 +190,20 @@ Pliers are for **grabbing**, not for proper tightening.
 
 ### **F) Cutting tools (wire cutters, flush cutters)**
 
-![][image17]![][image18]  
-Wire cutters and Flush cutters
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/82bd73e8-9b0b-43c4-ae59-6deccc7ae64f" width="300" alt="Wire Cutter" />
+      <br />
+      <b>Wire Cutter</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/e68c2e20-40e5-4d0d-9d16-410f81415ee8" width="300" alt="Flush Cutter" />
+      <br />
+      <b>Flush Cutter</b>
+    </td>
+  </tr>
+</table>
 
 **Used for:**
 
@@ -151,11 +219,25 @@ Wire cutters and Flush cutters
 
 ### **G) Files \+ sandpaper \+ deburring tool**
 
-![][image19]  
-Files
-
-![][image20]  
-Sandpapers
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/1222d12a-ac81-4ac7-88b9-766eadc87719" width="250" alt="Files" />
+      <br />
+      <b>Files</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/9f23338c-9077-4bcf-8220-f481c2a6fd56" width="250" alt="Sandpaper" />
+      <br />
+      <b>Sandpaper</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/8cd4d681-91f2-407a-bc3b-965bb8a67777" width="250" alt="Deburring Tool" />
+      <br />
+      <b>Deburring Tool</b>
+    </td>
+  </tr>
+</table>
 
 After cutting metal or plastic, edges can be sharp.
 
@@ -175,7 +257,10 @@ After cutting metal or plastic, edges can be sharp.
 
 ### **A) Power drill**
 
-![][image21]
+<p align="center">
+<img width="392" height="395" alt="image" src="https://github.com/user-attachments/assets/e6d3e5b8-5bb5-4a25-a15a-a4920236d25f" />
+</p>
+
 
 **Used for:**
 
@@ -206,28 +291,10 @@ A drill is strong. It can also ruin parts fast if you rush.
 
 ---
 
-### **B) Impact driver**
-
-![][image22]
-
-**Used for:** driving screws fast (mainly in wood or thick materials).
-
-**Be careful**  
-Impact drivers hit hard. In robotics builds, they can:
-
-* strip screw heads  
-* strip threads  
-* crack plastic parts
-
-**Simple rule**  
-Use impact driver only when you truly need it.  
-For most robotics assembly, a drill with a clutch is safer.
-
----
-
-### **C) Drill with clutch settings (very useful)**
-
-![][image23]
+### **B) Drill with clutch settings (very useful)**
+<p align="center">
+<img width="533" height="399" alt="image" src="https://github.com/user-attachments/assets/ad3dcb04-f523-497d-ac30-57abf0e8e478" />
+</p>
 
 Many cordless drills have a **clutch ring** (numbers).
 
@@ -243,6 +310,43 @@ It prevents:
 
 **Simple tip**  
 Start with a low number and increase only if needed.
+
+---
+
+### **C) Grinder**
+
+<p align="center">
+<img width="416" height="401" alt="image" src="https://github.com/user-attachments/assets/563a307d-8fe9-474c-97c1-f9c3d5dc4cae" />
+</p>
+
+
+**Used for:**
+
+*cutting metal bars or sheets
+*grinding down welds or sharp edges
+*smoothing surfaces
+
+**Key idea:**  
+A grinder is high-speed and aggressive. It creates heat and sparks, so control is everything.
+
+**Simple tips**
+
+*Always wear eye protection and gloves.
+*Hold the tool with both hands for maximum control.
+*Let the tool reach full speed before touching the workpiece.
+*Keep the guard positioned between you and the spinning disc.
+
+**Common mistakes**
+
+*applying too much pressure
+*using a grinding disc for cutting (or vice versa)
+*ignoring the direction of the sparks
+
+**Fix**
+
+*use the correct disc for the material
+*maintain a firm, steady grip
+*always check that the guard is tight and in the right place
 
 ---
 
@@ -307,7 +411,11 @@ After assembly:
 ## **5.6 Drilling holes**
 
 ### **Step 1: Mark the center**
-
+<p align="center">
+<img width="410" height="398" alt="image" src="https://github.com/user-attachments/assets/b45f828a-0e70-4640-a003-a6bbc390b850" />
+<br>
+  <em> Center Punch Manually </em>
+</p>
 Use a marker, then make a small dent if possible (center punch).  
 This stops the drill bit from sliding.
 
@@ -376,3 +484,9 @@ Use this as a quick decision guide:
 * Sharp edges after cutting → **file / deburr**  
 * Need to drive lots of screws fast → **drill with clutch**  
 * Not sure? → start with **hand tools** (slower but safer)
+
+---
+
+### [Next Chapter: Welding & Lathe Operations](../06.%20Welding%20&%20Lathe%20Operations/README.md)
+
+---

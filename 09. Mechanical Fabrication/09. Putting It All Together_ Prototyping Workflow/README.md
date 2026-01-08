@@ -284,3 +284,9 @@ Before making final parts:
 * shaft rotation checked  
 * bolts locked for vibration  
 * nothing rubs during movement
+
+---
+
+### [Next Chapter: Assembly & Troubleshooting ](../10.%20Assembly%20&%20Troubleshooting/README.md)
+
+---

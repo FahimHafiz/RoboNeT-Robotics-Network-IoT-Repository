@@ -10,7 +10,9 @@ And most important: you will learn how to make parts that **actually fit togethe
 ---
 
 ## **4.1 What is a DXF file (simple meaning)**
-
+<p align="center">
+<img width="1095" height="636" alt="image" src="https://github.com/user-attachments/assets/f3c2ce83-7aa8-4f15-88d2-3d70cab6b5f3" />
+</p>
 A **DXF** file is a drawing file that stores **lines and shapes** (2D).
 
 Think of it like this:
@@ -53,23 +55,66 @@ So even though DXF is “flat”, you can build a strong 3D robot body from flat
 
 ## **4.3 How to export DXF from Fusion 360**
 
-Different CAD software has different buttons, but the idea is always the same:
+Different CAD software has different buttons, but the idea is always the same. As we have completed Autodesk Fusion 360 so:
 
 ### **Step 1: Choose the flat face / sketch**
 
-* Select the top face for sketch (mandatory)  
+<p align="center">
+<img width="658" height="611" alt="image" src="https://github.com/user-attachments/assets/d3fa441d-8604-4bfa-b36e-410d085821fe" />
+</p>
+* Select the top face for sketch (mandatory)
+<p align="center">
+<img width="580" height="719" alt="image" src="https://github.com/user-attachments/assets/378e8818-5e63-46db-834f-11240834c269" />
+</p>
 * Design the sketch or use the project tool for the component to get the outline.
+
+**IF IT'S A COMPONENT**
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5e16ef00-bbd3-4839-bb60-4b5dfa1803eb" width="800" alt="Assembled Component" />
+      <br />
+      <b>Assembled Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4b171325-f875-4dd9-8ed1-3e0ec6c5c7b5" width="800" alt="Disassembled Component" />
+      <br />
+      <b>Disassembled Component</b>
+    </td>
+  </tr>
+</table>
+
+* Cut the component into pieces imagining the assembly process.
+* Arrange all of the in a flat plate. Obviously maintain the top face.
+<p align="center">
+<img width="1003" height="683" alt="image" src="https://github.com/user-attachments/assets/fc9b42c4-5446-4b2b-846b-b73b58ff6f23" />
+</p>
+* Use Project tool and project all components. Finish Sketch
 
 ### **Step 2: Export as DXF**
 
 Common export names:
-
+<p align="center">
+<img width="1417" height="796" alt="image" src="https://github.com/user-attachments/assets/3a76a6c3-fbcc-4eac-a98f-a91b66ccdc5f" />
+</p>
 * “Export DXF”  
-* “Save as DXF”  
+* “Save as DXF”
+  
+**IF IT'S A F3D,STEP,STP,F3Z,SLDASM,SLDRPT File**
+<p align="center">
+<img width="1316" height="754" alt="image" src="https://github.com/user-attachments/assets/26f3e1a5-3f92-4dda-9896-7a473c89ae6e" />
+</p>
+* Select the specific sketch number from the browser panel.
+* Press the right Button of the mouse.
 * “Export sketch to DXF”
 
 ### **Step 3: Check units (very important)**
-
+<p align="center">
+<img width="386" height="347" alt="image" src="https://github.com/user-attachments/assets/15425174-2931-410e-bc6c-4abd58a8fcd9" />
+</p>
 If your design is in **mm**, export in **mm**.  
 If it exports in **inches** by mistake, your part size becomes wrong.
 
@@ -93,7 +138,11 @@ Remove:
 * random points
 
 ###  **Closed shapes are better**
-
+<p align="center">
+<img width="830" height="658" alt="image" src="https://github.com/user-attachments/assets/54734639-baff-4221-b4e2-3efe1816751e" />
+<br>
+<em> Blue means the boundaries are closed </em>
+</p>
 For cutting, the outline should be a **closed loop** (like one clean boundary).
 
 If the outline has small gaps, the machine may:
@@ -109,6 +158,31 @@ Some labs like using layers such as:
 * CUT  
 * ENGRAVE (marking lines)  
 * SCORE (light cut for fold/bend)
+  
+  <table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/34e49e0d-d192-492f-b245-12d46d78f901" width="250" alt="CUT" />
+      <br />
+      <b>CUT</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/0a4469e2-90f6-4344-bc7a-f235aa8c3620" width="250" alt="ENGRAVE" />
+      <br />
+      <b>ENGRAVE</b>
+      <br />
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/686db640-04cc-4657-99bf-cd5aff607240" width="250" alt="SCORE" />
+      <br />
+      <b>SCORE</b>
+      <br />
+      <sub>(light cut for fold/bend)</sub>
+    </td>
+  </tr>
+</table>
+
+
 
 If you don’t need layers, keep it simple—just make clean cutting lines.
 
@@ -131,6 +205,9 @@ You place a sheet material on the bed (like acrylic, wood, thin metal if your ma
 
 ## **4.6 The kerf problem (why parts don’t fit)**
 
+<p align="center">
+<img width="1118" height="312" alt="image" src="https://github.com/user-attachments/assets/662215cb-05ca-44bf-bf3d-2e5f38ae3e01" />
+</p>
 When a laser cuts, it removes a tiny bit of material.  
 That removed width is called **kerf** or **offset**
 
@@ -158,7 +235,11 @@ Every machine \+ material \+ setting can change kerf.
 ---
 
 ## **4.7 Tolerance**
-
+<p align="center">
+<img width="581" height="398" alt="image" src="https://github.com/user-attachments/assets/8a1d3710-e4d4-4cd3-9fb4-275fc14c6002" />
+  <br>
+  <em>±.005 is kerf / offset </em>
+</p>
 **Tolerance** means: how much “extra space” or “tightness” you allow so parts can fit.
 
 Real life is not perfect. Even if CAD is perfect.
@@ -218,8 +299,9 @@ Start with **normal fit**, then adjust after a test cut.
 Tab-slot is the most common way to build 3D structures from flat plates.
 
 ### **What is it?**
-
-![][image6]
+<p align="center">
+<img width="458" height="399" alt="image" src="https://github.com/user-attachments/assets/e54b6aab-ae2d-42c5-8088-9ed900ff86f2" />
+</p>
 
 * **Tab** \= the sticking-out part  
 * **Slot** \= the hole that tab goes into
@@ -247,6 +329,9 @@ Example idea:
 
 * If bolt is 5 mm, you often design a hole slightly bigger (so it goes in easily)
 
+Solution:
+* Using Kerf Principle
+
 Why?
 
 * drilling/cutting is not perfect  
@@ -273,7 +358,9 @@ Leave room for:
 A design can look perfect but become impossible to tighten.
 
 ### **2\) Use spacers and standoffs**
-
+<p align="center">
+<img width="594" height="403" alt="image" src="https://github.com/user-attachments/assets/67c7af96-8f6d-4868-8824-a2eba34c344f" />
+</p>
 Spacers help:
 
 * keep plates parallel  
@@ -324,3 +411,9 @@ Before cutting any real part:
 * Bolt holes are slightly bigger than bolt  
 * Tool access space exists (wrench/Allen key)  
 * Plan how parts will assemble
+
+---
+
+### [Next Chapter: Mechanical Tools & Safety Basics ](../05.%20Mechanical%20Tools%20&%20Safety%20Basics/README.md)
+
+---

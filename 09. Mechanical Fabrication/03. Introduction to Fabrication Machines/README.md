@@ -1,12 +1,28 @@
 # **Module 3 — Introduction to Fabrication Machines**
 
 In this module, I’ll explain the most common machines used in robotics fabrication:
-
-* **3D Printer**  
-* **Laser Cutter**  
-* **CNC Machine**  
-* **Lathe**  
-* **Drill Press**
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/f0a5b7ab-fdf9-42ae-8699-5b01ebd7f125" width="250" alt="3D Printer" /><br />
+      <b>3D Printer</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/1b7d1973-4813-41eb-82e5-cc6113843152" width="250" alt="Laser Cutter" /><br />
+      <b>Laser Cutter</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/a6b2f044-dd8c-4882-b933-81176e3803bd" width="250" alt="Lathe" /><br />
+      <b>Lathe</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/20772bbb-5b7d-4e3c-9d70-3539957b6891" width="250" alt="Drill Press" /><br />
+      <b>Drill Press</b>
+    </td>
+  </tr>
+</table>
 
 The goal is simple:  
 When you look at a robot part, you should know **which machine to use**, **why**, and **what problems to watch out for**.
@@ -29,8 +45,9 @@ Think like this:
 ---
 
 ## **3.2 3D Printer (FDM) — “Print plastic parts”**
-
-![][image1]
+<p align="center">
+<img width="1513" height="525" alt="image" src="https://github.com/user-attachments/assets/703f6a62-e11f-46dd-816a-713d2f45e796" />
+</p>
 
 ### **What it does**
 
@@ -70,8 +87,9 @@ A 3D printer makes parts by melting plastic and putting it down layer by layer.
 ---
 
 ## **3.3 Laser Cutter — “Cut flat parts fast”**
-
-![][image2]
+<p align="center">
+<img width="1160" height="481" alt="image" src="https://github.com/user-attachments/assets/9cbac304-75b7-4d13-b858-ab88e97d6849" />
+</p>
 
 ### **What it does**
 
@@ -114,55 +132,10 @@ Always check your lab rules.
 
 ---
 
-## **3.4 CNC Machine — “Cut strong parts accurately”**
-
-![][image3]
-
-### **What it does**
-
-CNC is a computer-controlled machine that cuts material using spinning tools (like an automatic milling machine).
-
-In simple words:  
-**CNC removes material to shape your part.**
-
-### **Best used for**
-
-* strong metal parts (aluminum is very common)  
-* accurate holes and flat surfaces  
-* gearbox plates, motor plates, bearing plates  
-* parts where alignment matters a lot
-
-### **Not great for**
-
-* fast “same day quick part” if setup time is long  
-* very thin sheets (laser can be quicker)  
-* super complex shapes without experience
-
-### **Materials it can cut**
-
-* aluminum (very common)  
-* plastics (like acrylic, Delrin, etc.)  
-* wood (sometimes)  
-* steel (depends on machine power)
-
-### **Simple design tips**
-
-* Leave space for bolts and tools (wrench/allen key clearance).  
-* Plan how the part will be held (clamps or vise).  
-* Try to avoid super tiny features if you’re new.
-
-### **Safety**
-
-* Wear eye protection.  
-* Keep hands away from the spinning tool.  
-* Tie hair, avoid loose clothing.  
-* Chips can be sharp and hot.
-
----
-
-## **3.5 Lathe — “Make round parts”**
-
-### **![][image4]**
+## **3.4 Lathe — “Make round parts”**
+<p align="center">
+<img width="694" height="351" alt="image" src="https://github.com/user-attachments/assets/66991fe8-8fb4-441d-acd0-c7511cdedf61" />
+</p>
 
 ### **What it does**
 
@@ -200,9 +173,10 @@ A lathe makes these parts clean and accurate.
 
 ---
 
-## **3.6 Drill Press — “Make straight clean holes”**
-
-![][image5]
+## **3.5 Drill Press — “Make straight clean holes”**
+<p align="center">
+<img width="455" height="401" alt="image" src="https://github.com/user-attachments/assets/730e951b-575a-4c0d-8dd7-b51ec79cb008" />
+</p>
 
 ### **What it does**
 
@@ -234,7 +208,7 @@ A drill press makes holes straight down, with much better control than handheld 
 
 ---
 
-## **3.7 Quick guide: which machine should I use?**
+## **3.6 Quick guide: which machine should I use?**
 
 Here’s an easy decision guide:
 
@@ -246,7 +220,7 @@ Here’s an easy decision guide:
 
 ---
 
-## **3.8 Real robotics examples**
+## **3.7 Real robotics examples**
 
 ### **Example 1: Motor mount plate**
 
@@ -270,7 +244,7 @@ Here’s an easy decision guide:
 
 ---
 
-## **3.9 Common beginner mistakes**
+## **3.8 Common beginner mistakes**
 
 ### **Mistake 1: Printing a “structural part” in PLA and expecting it to act like metal**
 
@@ -287,3 +261,9 @@ Fix: leave tool access space for bolts and screws.
 ### **Mistake 4: Drilling by hand and getting angled holes**
 
 Fix: use a drill press and clamp the part.
+
+---
+
+### [Next Chapter: DXF file, Laser Cutting](../04.%20%20DXF%20file,%20Laser%20Cutting/README.md)
+
+---

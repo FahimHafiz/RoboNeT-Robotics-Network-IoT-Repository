@@ -1,5 +1,9 @@
 # **Module 7 — Nuts, Bolts, Bearings & Fasteners**
 
+<p align="center">
+<img width="1232" height="526" alt="image" src="https://github.com/user-attachments/assets/715c6d93-d15e-47fb-a31b-0dee01cf9b10" />
+</p>
+
 This module is about the small parts that hold your robot together:
 
 * nuts and bolts  
@@ -25,7 +29,9 @@ A lot of robots fail because of:
 
 ## **7.1 Nuts and bolts (basic idea)**
 
-![][image30]
+<p align="center">
+<img width="852" height="806" alt="image" src="https://github.com/user-attachments/assets/075213ec-3f28-450c-a42a-4a7d73387316" />
+</p>
 
 A **bolt** goes through holes and holds parts together.  
 A **nut** goes on the end of the bolt to clamp the parts.
@@ -80,7 +86,9 @@ Common bolt heads:
 
 ## **7.3 Washers**
 
-![][image31]
+<p align="center">
+<img width="908" height="761" alt="image" src="https://github.com/user-attachments/assets/22c22c1e-ab4a-44e5-84c5-11eadeebb681" />
+</p>
 
 A washer is a simple metal ring, but it helps a lot.
 
@@ -110,7 +118,9 @@ So bolts slowly loosen if you don’t lock them.
 
 ### **A) Locknut (nyloc nut)**
 
-![][image32]
+<p align="center">
+  <img width="402" height="395" alt="image" src="https://github.com/user-attachments/assets/db937ddb-42e5-48bf-998a-b2dddf2e28fc" />
+</p>
 
 This is the nut with a blue/white nylon ring inside.
 
@@ -133,7 +143,9 @@ After many uses, nylon wears out. Replace if it feels too easy to turn.
 
 ### **B) Spring washer (split washer)**
 
-![][image33]
+<p align="center">
+<img width="397" height="396" alt="image" src="https://github.com/user-attachments/assets/305f6324-f61f-43f8-89f5-c586019cdfdf" />
+</p>
 
 Looks like a cut ring.
 
@@ -147,7 +159,10 @@ Many teams prefer locknuts or threadlocker instead.
 
 ### **C) Threadlocker (like Loctite)**
 
-![][image34]
+<p align="center">
+<img width="400" height="388" alt="image" src="https://github.com/user-attachments/assets/9adef4aa-25b9-477d-a5a5-a4da9a3ae6c2" />
+</p>
+
 
 This is a liquid you put on threads to stop loosening.
 
@@ -171,7 +186,9 @@ Use it only when you’re sure you won’t need quick removal.
 
 ### **Spacer (simple meaning)**
 
-![][image35]
+<p align="center">
+<img width="601" height="397" alt="image" src="https://github.com/user-attachments/assets/dd94e2b5-00e7-4784-b7b1-faed0de28623" />
+</p>
 
 A spacer is a small tube (metal or plastic) that keeps distance between parts.
 
@@ -184,7 +201,9 @@ A spacer is a small tube (metal or plastic) that keeps distance between parts.
 
 ### **Standoff**
 
-![][image36]
+<p align="center">
+<img width="402" height="400" alt="image" src="https://github.com/user-attachments/assets/58feaadc-4407-494d-bfad-14a16ba963d5" />
+</p>
 
 A standoff is like a spacer with threads (often used for electronics boards).
 
@@ -199,7 +218,10 @@ Spacers and standoffs make your robot look clean and also reduce mistakes.
 
 ## **7.6 Bearings**
 
-![][image37]
+<p align="center">
+<img width="1593" height="742" alt="image" src="https://github.com/user-attachments/assets/f5caab83-1bea-4b5e-869c-620be2366fce" />
+</p>
+
 
 A **bearing** lets a shaft spin smoothly with less friction.
 
@@ -221,7 +243,9 @@ If bearings are installed wrong, you will feel:
 
 ## **7.7 Bearings vs bushings**
 
-![][image38]
+<p align="center">
+<img width="905" height="387" alt="image" src="https://github.com/user-attachments/assets/9cc08529-a09f-4bf3-ac2e-56133d89b505" />
+</p>
 
 ### **Bearing**
 
@@ -349,3 +373,10 @@ If too tight:
 * Plastic part → **bolt \+ large washer**  
 * Something you remove often → **bolt \+ washer \+ locknut** (or normal nut if you check often)  
 * Rotating shaft area → **bearing \+ spacer \+ correct preload**
+
+
+---
+
+### [Next Chapter: Fabrication Factors & Maintenence ](../08.%20Fabrication%20Factors%20&%20Maintenance/README.md)
+
+---

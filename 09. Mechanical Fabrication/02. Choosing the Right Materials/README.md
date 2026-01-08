@@ -101,7 +101,25 @@ Most robotics failures I’ve seen are either:
 ## **2.4 Material deep dive (what to use, when, and why)**
 
 ### **A) Mild Steel**
-
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/dfd75c1e-bd25-49f9-8516-01e41c211bf5" width="250" alt="ms sheet" />
+      <br />
+      <b>ms sheet</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/19503272-dd0f-43ce-84c6-fc7a516b5562" width="250" alt="ms pipe" />
+      <br />
+      <b>ms pipe</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/a3f78ffb-31af-43a0-b2e0-36636ffd3fbd" width="250" alt="ms shaft" />
+      <br />
+      <b>ms shaft</b>
+    </td>
+  </tr>
+</table>
 **How it behaves:** strong, stiff, forgiving, but heavy.  
 **Why people love it:** cheap and welds well.
 
@@ -133,6 +151,26 @@ Most robotics failures I’ve seen are either:
 
 ### **B) Stainless Steel**
 
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/be5ff9c7-a207-4101-95de-3cf7bcc1dea4" width="250" alt="ss sheet" />
+      <br />
+      <b>ss sheet</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/5cbf0c5b-e2e2-49ac-a0cb-3f9a4470e755" width="250" alt="ss pipe" />
+      <br />
+      <b>ss pipe</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/17559e75-131c-4e9e-bc68-bed576e83f75" width="250" alt="ss shaft" />
+      <br />
+      <b>ss shaft</b>
+    </td>
+  </tr>
+</table>
+
 **How it behaves:** strong and corrosion resistant, but more annoying to machine.
 
 **Pros**
@@ -159,8 +197,22 @@ Most robotics failures I’ve seen are either:
 
 ---
 
-### **C) Aluminum (common: 6061, 5052\)**
+### **C) Aluminum **
 
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/38d4a59c-495f-4831-8f86-ab52f54a88b0" width="300" alt="Aluminum Profiles" />
+      <br />
+      <b>Aluminum Profiles</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/6493e9ee-4e07-42ef-b993-d3a43422135a" width="300" alt="Aluminum Sheets" />
+      <br />
+      <b>Aluminum Sheets</b>
+    </td>
+  </tr>
+</table>
 **How it behaves:** light, easy to machine, great for most robot structures.
 
 **Pros**
@@ -194,9 +246,28 @@ Most robotics failures I’ve seen are either:
 
 ---
 
-### **D) Carbon Fiber Sheet (typically carbon fiber \+ resin laminate)**
+### **D) Carbon Fiber (typically carbon fiber \+ resin laminate)**
 
-**How it behaves:** extremely stiff for its weight in the sheet plane, but edges can chip and it’s not “friendly” like metal.
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/3c4b9b23-4d3d-435f-9042-69d8bd000896" width="250" alt="Carbon Fiber Sheet" />
+      <br />
+      <b>Carbon Fiber Sheet</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/d50b406d-301e-46fb-9f42-f1907531f1ad" width="250" alt="Carbon Fiber Rectangular Tube" />
+      <br />
+      <b>Carbon Fiber Rectangular Tube</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/aab99d1c-b421-4c0c-af16-47684c95d88e" width="250" alt="Carbon Fiber Tube" />
+      <br />
+      <b>Carbon Fiber Tube</b>
+    </td>
+  </tr>
+</table>
+**How it behaves:** extremely stiff , but edges can chip and it’s not “friendly” like metal.
 
 **Pros**
 
@@ -229,7 +300,9 @@ Most robotics failures I’ve seen are either:
 ---
 
 ### **E) PLA (3D printing)**
-
+<p align="center">
+<img width="278" height="402" alt="image" src="https://github.com/user-attachments/assets/e40d40fd-3f02-48e9-9833-1273f289f2be" />
+</p>
 **How it behaves:** prints easily, holds shape well, but can crack and softens with heat.
 
 **Pros**
@@ -259,7 +332,9 @@ Most robotics failures I’ve seen are either:
 ---
 
 ### **F) ABS (3D printing)**
-
+<p align="center">
+<img width="287" height="403" alt="image" src="https://github.com/user-attachments/assets/a5e4a5d2-b643-474b-aecb-665524b03e76" />
+</p>
 **How it behaves:** tougher than PLA and better with heat, but printing is harder (warping).
 
 **Pros**
@@ -285,11 +360,25 @@ Most robotics failures I’ve seen are either:
 * enclosure helps a lot  
 * design with thicker walls and ribs  
 * use inserts for bolts if the part gets removed often
+---
 
+### **Characteristic of PLA V/S ABS**
+
+| Feature | ABS | PLA |
+| :--- | :---: | :---: |
+| **Strength** | High | Moderate |
+| **Flexibility** | Moderate | High |
+| **Heat Resistance** | High | Low |
+| **Printability** | Hard | Excellent |
+| **Health Concerns** | High | Moderate |
+| **Affordability** | Moderate | Low |
+| **Eco-Friendliness** | Low | High |
 ---
 
 ### **G) TPU (3D printing)**
-
+<p align="center">
+<img width="683" height="376" alt="image" src="https://github.com/user-attachments/assets/2d2cde6e-0a6c-4c12-8f36-a9181cfa0b64" />
+</p>
 **How it behaves:** flexible rubber-like plastic. Great for damping and grip, not for stiff structures.
 
 **Pros**
@@ -362,40 +451,45 @@ Geometry upgrades are often cheaper than material upgrades.
 ## **2.6 Real robotics examples**
 
 ### **Example 1: Mobile robot chassis plate (indoor)**
-
+<p align="center">
+<img width="401" height="395" alt="image" src="https://github.com/user-attachments/assets/a509ea7d-b3f5-45d2-bf06-5cb412586849" />
+</p>
 * Goal: stiff enough, not too heavy, easy to mount components  
 * Good choice: **laser-cut aluminum**  
 * If budget is tight: **plywood** (prototype) then upgrade  
 * Avoid: PLA chassis (it flexes and cracks around bolts)
 
 ### **Example 2: Motor mount for drivetrain**
-
+<p align="center">
+<img width="391" height="332" alt="image" src="https://github.com/user-attachments/assets/4e3d1158-be8b-4008-ad24-dfb45c6f1450" />
+</p>
 * Risk: vibration \+ torque \+ alignment  
 * Good choice: **aluminum (thicker) or mild steel**  
 * Extra tip: use **through-bolts \+ locknuts** and add ribs if it flexes
 
 ### **Example 3: Lightweight arm link**
-
+<p align="center">
+<img width="399" height="396" alt="image" src="https://github.com/user-attachments/assets/2d8f8270-fab8-422c-8a4a-aba5a8c8f00a" />
+</p>
 * Risk: bending stiffness, weight  
 * Good choice: **aluminum tube/plate** or **carbon fiber sheet** (if you can fabricate it safely)  
 * Avoid: thin PLA (it creeps and flexes over time)
 
 ### **Example 4: Protective electronics cover**
-
+<p align="center">
+<img width="644" height="378" alt="image" src="https://github.com/user-attachments/assets/f8b9f4be-f335-4bf0-a95e-669279b1d1bf" />
+</p>
 * Risk: impacts \+ convenience  
 * Good choice: **PLA (easy)** or **ABS (tougher)**  
 * TPU is also nice as a gasket or edge bumper
 
 ### **Example 5: Wheels / tires**
-
+<p align="center">
+<img width="563" height="360" alt="image" src="https://github.com/user-attachments/assets/b838425b-3ad6-4fb9-bc75-ef82f732e174" />
+</p>
 * Need: grip \+ shock handling  
 * Good choice: **TPU** for printed tires (or TPU tread on rigid hub)  
 * Hub itself: PLA/ABS or aluminum depending on load
-
-### **Example 6: Outdoor robot fasteners and exposed brackets**
-
-* Risk: rust  
-* Good choice: **stainless fasteners**, aluminum brackets, or coated steel
 
 ---
 
@@ -424,3 +518,9 @@ Plastic threads wear out fast. Use:
 ### **Mistake 5: Thin aluminum with tapped holes**
 
 Threads strip. If it must be removable, use nuts or inserts, or go thicker.
+
+---
+
+### [Next Chapter: Introduction to Fabrication Machines](../03.%20Introduction%20to%20Fabrication%20Machines/README.md)
+
+---

@@ -340,3 +340,9 @@ If someone follows these 10 modules and actually tries the mini tasks, they will
 * how to make parts fit  
 * how to assemble correctly  
 * how to troubleshoot real mechanical problems
+
+---
+
+**Congatulations!! You have finished the whole Module**
+
+---
