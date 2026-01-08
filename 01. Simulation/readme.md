@@ -1,36 +1,91 @@
 # 🧪 Simulation (Tinkercad)
 
-This folder contains hands-on **Arduino simulations** designed and tested in **Autodesk Tinkercad Circuits**, so you can learn hardware interfacing even without physical components. Tinkercad Circuits allows you to build circuits, write Arduino code, and run them using the **Start Simulation** button in the browser.
+This folder offers a structured learning path for Arduino simulations in Tinkercad.  
+Starting with Tinkercad basics and Arduino fundamentals, it progresses through sensors, motors, and displays.  
+Modules cover virtual circuit building, coding, and testing without physical hardware.
 
 ## ✅ What you’ll learn
-- Build Arduino circuits virtually (wiring + components).   
-- Write and test code instantly using Tinkercad’s simulation environment.  
+
+- Build Arduino circuits virtually (wiring + components).
+- Write and test code instantly using Tinkercad’s simulation environment.
 - Practice common modules used in real IoT/embedded projects (sensors, displays, motors).
 
-## 📂 Simulation Contents
+## 📂 Folder Contents
 
--  [Learn about TinkerCAD](<./00. Learn about TinkerCAD/>) 
-     
-- [Basic](<./01. Basic/>) - Getting familiar with Tinkercad Circuits and Arduino basics.
+This section lists the 11 modules in the Simulation tutorial series.  
+Each module provides hands-on projects and code examples for specific Arduino concepts.  
+Topics range from Tinkercad introduction to advanced motor control and sensing.
 
-- [LED Blink](<./02. LED Blink/>) - Digital output fundamentals using LED blinking patterns.
+### [00. Learn about TinkerCAD](<./00. Learn about TinkerCAD/>)
 
-- [Soil Sensor](<./03. Soil Sensor/>) - Reading analog sensor values and converting them into meaningful output.
+- Introduction to Tinkercad Circuits as a web-based Arduino simulation tool.
+- Key features: drag-and-drop components, code editor, real-time simulation.
+- Getting started: account creation, creating circuits, basic navigation.
 
-- [Ultrasonic Sensor](<./04. Ultrasonic Sensor/>) - Measuring distance and using the reading for control/automation logic.
--  [LCD Input & Output](<./05. LCD Input & Output/>) - Displaying sensor/status data on an LCD for better visualization.
--  [DC Motor Control](<./06. DC Motor Control/>) - Controlling DC motors using driver circuits and PWM concepts.
--  [Servo Motor Control](<./07. Servo Motor Control/>) - Position control using servo signals (angle-based control).
--  [Stepper Motor](<./08. Stepper Motor/>) - Step-by-step motion control for precision movement.
+### [01. Basic](<./01. Basic/>)
 
--  [Gas Sensor](<./09. Gas Sensor/>) - Detecting gas/smoke-like readings and triggering actions/alerts.
+- Overview of Tinkercad Circuits as a beginner-friendly Arduino simulator.
+- Key features: drag-and-drop interface, simulation, coding modes (blocks/text).
+- Benefits for learning electronics and coding without physical hardware.
 
--  [Photodiode](<./10. Photodiode/>) - Light sensing and analog reading practice for LDR/photodiode-style circuits.
+### [02. LED Blink](<./02. LED Blink/>)
 
+- Setting up a basic LED circuit with Arduino, breadboard, resistor.
+- Wiring connections and component properties.
+- Writing block-based code to make the LED blink.
+
+### [03. Soil Sensor](<./03. Soil Sensor/>)
+
+- Setting up Arduino with soil moisture sensor in Tinkercad.
+- Reading analog values and controlling LEDs based on moisture levels.
+- Displaying results in Serial Monitor.
+
+### [04. Ultrasonic Sensor](<./04. Ultrasonic Sensor/>)
+
+- Setting up Arduino with ultrasonic range finder in Tinkercad.
+- Measuring distance and displaying in Serial Monitor.
+- Using sensor for control logic.
+
+### [05. LCD Input & Output](<./05. LCD Input & Output/>)
+
+- Setting up Arduino with 16x2 LCD in Tinkercad.
+- Displaying custom messages from Serial input.
+- Controlling LCD with LiquidCrystal library.
+
+### [06. DC Motor Control](<./06. DC Motor Control/>)
+
+- Setting up circuit with transistor for DC motor control.
+- Using PWM for speed control.
+- Basic on/off and speed adjustment.
+
+### [07. Servo Motor Control](<./07. Servo Motor Control/>)
+
+- Wiring servo motor to Arduino.
+- Using Servo library for angle control.
+- Sweeping servo through positions.
+
+### [08. Stepper Motor](<./08. Stepper Motor/>)
+
+- Setting up bipolar stepper motor with A4988 driver circuit.
+- Controlling step-by-step motion.
+- Using Stepper library or manual stepping.
+
+### [09. Gas Sensor](<./09. Gas Sensor/>)
+
+- Setting up gas sensor (MQ-2) circuit with Arduino.
+- Reading analog values for gas concentration.
+- Triggering alerts based on thresholds.
+
+### [10. Photodiode](<./10. Photodiode/>)
+
+- Setting up photodiode circuit for light sensing.
+- Reading analog values and controlling LED brightness with PWM.
+- Displaying light levels in Serial Monitor.
 
 ## 🧩 How to use
-1. Open the circuit/project in **Tinkercad Circuits**. 
-2. Click **Start Simulation** to run the circuit and code. 
-3. Modify values (thresholds, delays, PWM) and observe changes in real time.
 
-Start learning from [here](<./00. Learn about TinkerCAD/>) 
+1. Start with: [00. Learn about TinkerCAD](<./00. Learn about TinkerCAD/>)
+2. Then complete basic setup: [01. Basic](<./01. Basic/>)
+3. Move forward step-by-step (LED → Sensors → Motors → Displays).
+
+Start learning from here: [00. Learn about TinkerCAD](<./00. Learn about TinkerCAD/>)
