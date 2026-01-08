@@ -81,7 +81,7 @@ When you open the program for the first time, it'll ask you about setting up a "
 
 -----
 
-### **Units for the Current File**
+### **2. Units for the Current File**
 
 <p align="center">
 <img width="384" height="331" alt="image" src="https://github.com/user-attachments/assets/68af3c1d-83a8-44c5-9cdf-7c9e07ceac47" />
@@ -93,10 +93,10 @@ When you open the program for the first time, it'll ask you about setting up a "
 
 -----
 
-### **Grid Settings**
+### **3. Grid Settings**
 
 <p align="center">
-<img src="../images/Aspose.Words.b9c50f4e-82b8-47a2-a7bc-6be21e76a9ea.012.png" />
+<img width="452" height="305" alt="image" src="https://github.com/user-attachments/assets/0414c246-36cc-48c0-82c6-e378d90e259f" />
 </p>
 
 1. Bottom toolbar → **Grids & Snaps**.
@@ -105,7 +105,7 @@ When you open the program for the first time, it'll ask you about setting up a "
 
 -----
 
-## **Understanding The Interface**
+## **4. Understanding The Interface**
 
 ### **Toolbar**
 
@@ -119,7 +119,7 @@ This is just your tool collection. It’s got all the buttons. Drawing stuff, bu
 
 -----
 
-### **Browser Panel**
+### **5. Browser Panel**
 
 <p align="center">
 <img width="387" height="511" alt="image" src="https://github.com/user-attachments/assets/ec4d52d7-f898-4719-b068-0475ac2b40c8" />
@@ -131,7 +131,7 @@ Okay, so you build stuff, right? This list is your running list of literally eve
 
 -----
 
-### **Canvas Area**
+### **6. Canvas Area**
 **(The large space)**
 
 <p align="center">
@@ -142,7 +142,7 @@ Well, this is the main spot. Your digital desk. Everything you build—that’s 
 
 -----
 
-### **ViewCube**
+### **7. ViewCube**
 
 **(The small box, top right)**
 
@@ -154,7 +154,7 @@ I call this the camera holder. You click it to look at the top, or the front, or
 
 -----
 
-### **Navigation Bar**
+### **8. Navigation Bar**
 <p align="center">
 <img width="481" height="157" alt="image" src="https://github.com/user-attachments/assets/d985e811-5fff-4dea-ad60-06feb537d4b0" />
 </p>
@@ -165,7 +165,7 @@ These are just the controls for your view. They let you slide the picture around
 
 -----
 
-### **Timeline**
+### **9. Timeline**
 
 **(The bar way down at the bottom)**
 
@@ -177,7 +177,7 @@ This thing is awesome. It's your undo history on steroids. Every single action i
 
 -----
 
-### **Data Panel**
+### **10. Data Panel**
 
 **(The button top-left)**
 
@@ -189,6 +189,6 @@ This just opens up your folder system. It's where all your saved designs and pro
 
 -----
 
-### [Next Chapter: 2D Sketching & Dimension ](../02.%202D%20Sketching%20%26%20Dimension /README.md)
+### **[Next Chapter: 2D Sketching & Dimension ](../02.%202D%20Sketching%20%26%20Dimension /README.md)**
 
 -----
