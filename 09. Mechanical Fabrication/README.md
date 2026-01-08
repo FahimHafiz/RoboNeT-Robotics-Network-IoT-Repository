@@ -20,6 +20,7 @@ The goal of this section is to provide students with the hands-on knowledge requ
 
 ### 🚀 Phase 1: Fundamentals & Materials
 * **[Module 01: Why Fabrication Matters?](./01.%20Why%20Fabrication%20Matters3F/README.md)**
+* **[Module 01: Why Fabrication Matters?](./01.%20Why%20Fabrication%20Matters%3F/README.md)**
   - Importance of physical prototypes in engineering.
   - Improving designs through iterative making and testing.
 * **[Module 02: Choosing the Right Materials](/02.%20Choosing%20the%20Right%20Materials/README.md)**
