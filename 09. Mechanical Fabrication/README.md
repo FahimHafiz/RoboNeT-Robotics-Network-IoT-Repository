@@ -62,3 +62,6 @@ The goal of this section is to provide students with the hands-on knowledge requ
 
 
 ---
+
+
+## Just in case, if you have missed to evaluate yourself before getting started, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8). Otherwise, you can skip this step.
