@@ -80,6 +80,8 @@
 - Deploy lightweight AI models on your Raspberry Pi for object detection tasks.
 - Learn to leverage pre-trained models for real-time inference and IoT applications.
 
+## Just in case, if you have missed to evaluate yourself before getting started, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8). Otherwise, you can skip this step.
+
 [image1]: <assets/root/image1.png>
 
 [image2]: <assets/root/image2.png>
