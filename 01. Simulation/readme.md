@@ -88,4 +88,6 @@ Topics range from Tinkercad introduction to advanced motor control and sensing.
 2. Then complete basic setup: [01. Basic](<./01. Basic/>)
 3. Move forward step-by-step (LED → Sensors → Motors → Displays).
 
+## Just in case, if you have missed to evaluate yourself before getting started, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8). Otherwise, you can skip this step.
+
 Start learning from here: [00. Learn about TinkerCAD](<./00. Learn about TinkerCAD/>)
