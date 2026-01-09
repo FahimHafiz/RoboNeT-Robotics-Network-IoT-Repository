@@ -343,6 +343,6 @@ If someone follows these 10 modules and actually tries the mini tasks, they will
 
 ---
 
-**Congatulations!! You have finished the whole Module**
+## Congratulations! You have finished a chapter. Now take some time to evaluate your learning. [Click here to take a test!](https://forms.gle/odjcUNFZoojEtmDF9)
 
 ---
