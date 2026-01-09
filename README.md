@@ -31,8 +31,6 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ## 📂 Repository Contents
 
-## 📂 Repository Contents
-
 ### 1️⃣ **[Simulation](<./01. Simulation/>)**  
 🛠️ **Virtual Prototyping**: Build and test circuits online using **Tinkercad Circuits** without physical hardware.  
 🔌 **Component Basics**: Learn wiring for LEDs, sensors (ultrasonic, temperature), and motors safely.  
