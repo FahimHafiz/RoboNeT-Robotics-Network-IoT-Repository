@@ -129,7 +129,7 @@ cd NetIoT-Network-IOT-Repository
 ```
 ## 3️⃣ Follow the tutorials & start building!
 
-## 4️⃣ [Start your first lesson!](<./01. Simulation/>)
+# [Start your first lesson!](<./01. Simulation/>)
 ---
 
 ## 📢 Contributing
