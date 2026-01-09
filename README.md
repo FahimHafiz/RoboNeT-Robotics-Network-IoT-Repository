@@ -127,7 +127,7 @@ git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
 ```sh
 cd NetIoT-Network-IOT-Repository
 ```
-3️⃣ Follow the tutorials & start building!
+## 3️⃣ Follow the tutorials & start building!
 
 ## 4️⃣ [Start your first lesson!](<./01. Simulation/>)
 ---
