@@ -223,3 +223,4 @@ How to write and upload the code to Arduino:  [Upload Code Guide](https://youtu.
 <div align="center">
   <img width="659" alt="Image" src="https://github.com/user-attachments/assets/a5a063ee-f4db-4244-9c25-fe15577c0fdf" />
 </div> -->
+## [Next](./blink_example/)

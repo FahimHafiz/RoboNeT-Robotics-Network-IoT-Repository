@@ -128,6 +128,6 @@ UART is a simple and reliable communication protocol used in many embedded appli
 
 Now, you have a solid understanding of **UART Communication**! 
 
-# Congratulations! You have learned a lot about arduino! Now evaluate your Arduino knowledge. [Click here to take a test!](https://docs.google.com/forms/d/e/1FAIpQLSfl4mnLVVyRVh7tE3BKSyLd1JEw_i6A0dW5vZk9-vs4iB9dyA/viewform?usp=header)
+# Congratulations! You have learned a lot about arduino! Now evaluate your Arduino knowledge. [Click here to take a test!](https://docs.google.com/forms/d/e/1FAIpQLSc54u7LoO7I9UgcDviOkWiNZJW-pDjsQmS6iMdAjepsYA0ABw/viewform?usp=header)
 
 # Okay! Hold your breath! It's time to [learn about IoT.](../../../03.%20IoT%20with%20ESP32/)
