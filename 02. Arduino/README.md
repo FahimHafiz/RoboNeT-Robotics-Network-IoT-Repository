@@ -40,6 +40,8 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 - 📡 Establishing communication with **ESP32 & Raspberry Pi**  
 - 🔗 Using **I2C, SPI, and UART protocols**  
 
+## Just in case, if you have missed to evaluate yourself before getting started, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8). Otherwise, you can skip this step.
+
 ## Start Learning [Basics](./Basics/)
 
 
