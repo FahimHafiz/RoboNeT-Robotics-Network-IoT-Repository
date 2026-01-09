@@ -79,3 +79,4 @@ This setup helps in understanding digital inputs and outputs in Arduino.
 
 Now you’re ready to control an LED with a button using Arduino! 😊
 
+## [Next](../Understanding_Analog_Pins/)

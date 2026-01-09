@@ -83,3 +83,4 @@ This setup ensures smooth motor control with adjustable speed and direction.
 
 Now you’re ready to use the BTS7960 motor driver with Arduino! Have fun building amazing motor control projects! 😊
 
+## [Next](../DS18B20_Temperature_Sensor/)

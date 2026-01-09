@@ -86,3 +86,4 @@ This simple setup ensures the sensor communicates with the Arduino to measure te
 
 Now you’re ready to use the DHT11 temperature and humidity sensor with Arduino! Enjoy building cool projects! 😊
 
+## [Next](../../Serial_Communication/Serial_Print_and_Serial_Read/)

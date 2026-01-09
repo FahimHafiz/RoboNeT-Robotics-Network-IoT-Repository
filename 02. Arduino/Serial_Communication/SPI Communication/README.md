@@ -129,3 +129,4 @@ SPI is widely used in various devices, and Arduino provides built-in SPI support
 SPI is a powerful and fast communication protocol that is widely used for interfacing microcontrollers with sensors, memory modules, and displays. By using the SPI library in Arduino, we can easily communicate with multiple devices at high speeds.
 
 
+## [Next](../RS232%20Communication/)

@@ -100,3 +100,4 @@ This setup ensures accurate detection of gas levels using the MQ-2 sensor.
 
 Now you’re ready to use the HMC58*3L sensor with Arduino! Have fun building safety or monitoring systems! 😊
 
+## [Next](../Magnetic_Encoder/)

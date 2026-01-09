@@ -72,3 +72,4 @@ This setup ensures accurate light intensity measurements using the LDR sensor.
 
 Now you’re ready to use the LDR sensor with Arduino! Have fun exploring light-based projects! 😊
 
+## [Next](../BTS7960_Motor_Driver/)

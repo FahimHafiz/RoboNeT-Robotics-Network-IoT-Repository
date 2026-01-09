@@ -57,3 +57,5 @@ Most Arduino boards use **8-bit PWM**, meaning values range from **0 (0%)** to *
 
 ## 5. Conclusion
 PWM pins enable precise control over devices using digital signals. Understanding their functionality helps in projects like motor control, LED fading, and sound generation.
+
+## [Next](../../Sensors_Motors/01.%20LDR%20(Light%20Dependent%20Resistor)/)

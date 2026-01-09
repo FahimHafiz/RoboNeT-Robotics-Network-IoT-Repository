@@ -106,3 +106,4 @@ This setup ensures accurate communication between the Arduino and the fingerprin
 
 Now you’re ready to use the Fingerprint Sensor with Arduino for secure biometric projects! 😊
 
+## [Next](../Force_Sensitive_Resistor/)

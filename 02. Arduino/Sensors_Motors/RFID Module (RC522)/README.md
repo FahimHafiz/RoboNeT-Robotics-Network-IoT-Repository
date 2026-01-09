@@ -91,3 +91,4 @@ This setup ensures smooth communication between the Arduino and the RFID module.
 
 Now you’re ready to use the RFID Module (RC522) with Arduino for exciting projects like access control systems! 😊
 
+## [Next](../Soil%20Moisture%20Sensor/)

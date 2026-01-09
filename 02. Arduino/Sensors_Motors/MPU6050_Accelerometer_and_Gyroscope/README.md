@@ -90,3 +90,4 @@ This simple setup ensures the sensor communicates with the Arduino using I2C pro
 
 Now you’re ready to use the MPU6050 accelerometer and gyroscope sensor with Arduino! Enjoy exploring motion and orientation! 😊
 
+## [Next](../MQ-2%20Gas%20Sensor/)

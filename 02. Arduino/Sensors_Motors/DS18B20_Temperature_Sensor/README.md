@@ -78,3 +78,4 @@ This simple setup ensures the sensor communicates with the Arduino to measure te
 
 Now you’re ready to use the DS18B20 temperature sensor with Arduino! Enjoy building amazing temperature-based projects! 😊
 
+## [Next](../Fingerprint%20Sensor/)

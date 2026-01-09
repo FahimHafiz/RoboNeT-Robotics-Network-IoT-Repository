@@ -73,3 +73,5 @@ void loop() {
 
 # Conclusion: 
 This documentation provides a straightforward introduction to Arduino Uno development. By following the outlined steps, beginners can set up the Arduino IDE, familiarize themselves with basic features, and successfully execute a "Blink" program to test their hardware setup. This foundational knowledge empowers students to confidently explore and develop more complex projects using the Arduino platform.
+
+## [Next](../../GPIO/button_led_control/)

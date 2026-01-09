@@ -39,4 +39,3 @@ This section provides **step-by-step tutorials, code examples, and real-world pr
 - 🔄 Sending & receiving **data between Arduino boards**  
 - 📡 Establishing communication with **ESP32 & Raspberry Pi**  
 - 🔗 Using **I2C, SPI, and UART protocols**  
-

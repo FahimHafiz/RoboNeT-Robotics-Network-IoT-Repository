@@ -66,3 +66,4 @@ This simple setup ensures the sensor communicates with the Arduino to measure fo
 
 Now you’re ready to use the Force Sensitive Resistor (FSR) sensor with Arduino! Enjoy building amazing pressure-based projects! 
 
+## [Next](../HMC5883L%20Sensor%20(Magnetometer)/)

@@ -58,3 +58,4 @@ This setup ensures seamless communication between the Arduino and the computer.
 
 Now you’re ready to use Serial Print and Serial Read functions for debugging and interaction in your Arduino projects! 😊
 
+## [Next](../I2C%20(Inter-Integrated%20Circuit)%20Communication/)

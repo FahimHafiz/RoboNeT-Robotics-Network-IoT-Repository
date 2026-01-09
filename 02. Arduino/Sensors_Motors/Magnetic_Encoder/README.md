@@ -79,3 +79,4 @@ This setup ensures accurate position and angle measurement using a magnetic enco
 
 Now you’re ready to use a magnetic encoder with Arduino! Have fun building amazing projects! 😊
 
+## [Next](../MPU6050_Accelerometer_and_Gyroscope/)

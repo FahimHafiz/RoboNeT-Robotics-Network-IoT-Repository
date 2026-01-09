@@ -143,3 +143,4 @@ I2C is a powerful and efficient communication protocol for connecting multiple d
 
 Now, you have a complete understanding of **I2C Communication**! 
 
+## [Next](../SPI%20Communication/)

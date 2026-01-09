@@ -69,3 +69,4 @@ This setup ensures accurate detection of gas levels using the MQ-2 sensor.
 
 Now you’re ready to use the MQ-2 gas sensor with Arduino! Have fun building safety or monitoring systems! 😊
 
+## [Next](../RFID%20Module%20(RC522)/)

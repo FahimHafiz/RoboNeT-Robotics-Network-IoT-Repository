@@ -81,3 +81,4 @@ This setup ensures accurate soil moisture measurements using the sensor.
 
 Now you’re ready to use the Soil Moisture Sensor with Arduino! Have fun building smart gardening projects! 😊
 
+## [Next](../Temperature%20and%20Humidity%20DHT11%20Sensor/)

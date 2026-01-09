@@ -105,3 +105,4 @@ Serial.println("AT\r\n"); // Example AT command
 ## Conclusion
 RS232 remains an essential communication protocol for interfacing Arduino with legacy devices, industrial machines, and some modern sensors. By using the MAX232 level shifter, Arduino can easily communicate with RS232 devices. This documentation provides a full guide on RS232 communication, its wiring, and example codes for implementation. 
 
+## [Next](../UART%20(Universal%20Asynchronous%20Receiver-Transmitter)%20Communication/)

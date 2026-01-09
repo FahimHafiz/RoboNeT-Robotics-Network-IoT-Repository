@@ -69,3 +69,4 @@ digitalWrite(A0, HIGH); // Works like a digital pin
 Analog pins are essential for working with sensors and measuring real-world signals. Understanding their function enables better control and data acquisition in Arduino projects.
 
 
+## [Next](../Understanding_Digital_Pins/)
