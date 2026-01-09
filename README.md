@@ -31,57 +31,86 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ## 📂 Repository Contents
 
-### 1️⃣ **Arduino**
-- 🛠️ **Basics**: Setting up the Arduino IDE, running your first program, and understanding pin configurations.  
-- ⚡ **GPIO Read/Write**: Controlling digital and analog input/output for real-world applications.  
-- 🤖 **Sensors & Motors**: Integrating sensors and motors for robotics and automation.  
-- 🔄 **Serial Communication**: Enabling data exchange between multiple Arduino boards.
+## 📂 Repository Contents
 
-➡️ [Explore Arduino](./02.%20Arduino)  
-
----
-
-### 2️⃣ **ESP32**  
-- 🌐 **Basics**: Setting up Wi-Fi, controlling GPIOs, and enabling Bluetooth communication.  
-- 🤖 **Sensors & Motors**: Implementing real-world applications using sensors and motor drivers.  
-- 🔄 **Serial Communication**: Establishing ESP32-to-ESP32 and ESP32-to-Arduino data exchange.  
-
-➡️ [Explore IoT with ESP32](./03.%20ESP32)  
+### 1️⃣ **[Simulation](<./01. Simulation/>)**  
+🛠️ **Virtual Prototyping**: Build and test circuits online using **Tinkercad Circuits** without physical hardware.  
+🔌 **Component Basics**: Learn wiring for LEDs, sensors (ultrasonic, temperature), and motors safely.  
+💻 **Code & Debug**: Write and verify Arduino code in a simulated environment before real-world deployment.  
+➡️ [Explore Simulation](<./01. Simulation/>)
 
 ---
 
-### 3️⃣ **Raspberry Pi**  
-- 💻 **Setup**: Installing Raspberry Pi OS, configuring GPIO, and writing basic Python scripts.  
-- 📷 **Image Processing**: Capturing and processing images using **PiCamera** or a webcam.  
-- 🌍 **IoT**: Setting up **MQTT** for IoT applications and integrating local servers.  
-- 🔗 **Networking**: Implementing **SSH, VNC, and local server hosting** for remote access.  
-
-➡️ [Explore Raspberry Pi](./04.%20Raspberry%20Pi)  
+### 2️⃣ **[Arduino](<./02. Arduino/>)**  
+🤖 **Microcontroller Basics**: Complete guide to the Arduino ecosystem, pinout, and IDE setup.  
+📡 **Sensors & Actuators**: Hands-on examples for interfacing relays, displays (LCD/OLED), and environmental sensors.  
+⚡ **Projects**: Step-by-step tutorials for building line-followers, weather stations, and automation tools.  
+➡️ [Explore Arduino](<./02. Arduino/>)
 
 ---
 
-### 4️⃣ **Networking & Communication**  
-- 🔐 **Secure Remote Access**: Use **SSH** for remote control and administration.  
-- 🖥️ **Remote Desktop**: Connect to IoT devices via **VNC** for graphical access.  
-- 🌍 **Local Server Hosting**: Set up servers to manage IoT applications efficiently.  
-
-➡️ [Explore Networking](./05.%20Networking)  
-
----
-
-### 5️⃣ **GUI Development**  
-- 🎨 **Building Graphical Interfaces**: Create interactive dashboards using Python’s `Tkinter` library.  
-- 🖥️ **IoT Device Control**: Manage and monitor IoT devices through a custom graphical interface.  
-
-➡️ [Explore GUI](./06.%20GUI)  
+### 3️⃣ **[IoT with ESP32](<./03. IoT with ESP32/>)**  
+🌐 **Wi-Fi & Connectivity**: Connect devices to the internet, creating local web servers and Access Points.  
+☁️ **Cloud Integration**: Send sensor data to cloud platforms (Firebase, Google Sheets, HTTP/MQTT).  
+🔄 **Wireless Control**: Remotely control appliances and monitor data from anywhere in the world.  
+➡️ [Explore ESP32 IoT](<./03. IoT with ESP32/>)
 
 ---
 
-### 6️⃣ **Projects & Real-World Applications**  
-- 🚗 **Car Robot Control**: Develop a remotely controlled robot car using **Raspberry Pi & Arduino**.  
-- 🛤️ **Line Following Robot**: Implement autonomous movement using **sensors & motor drivers**.  
+### 4️⃣ **[Raspberry Pi](<./04. Raspberry Pi/>)**  
+🖥️ **Mini-Computer Setup**: Configuring Raspberry Pi OS, SSH headless setup, and remote desktop (VNC).  
+🐍 **Python for IoT**: Writing Python scripts for GPIO control, automation, and data logging.  
+📷 **Computer Vision**: Basic image processing and camera module integration for surveillance or AI projects.  
+➡️ [Explore Raspberry Pi](<./04. Raspberry Pi/>)
 
-➡️ [Explore Projects](./Projects)  
+---
+
+### 5️⃣ **[Networking](<./05. Networking/>)**  
+🔗 **Connectivity Protocols**: Deep dive into **HTTP, MQTT, I2C, SPI, and UART** communication standards.  
+📡 **Network Security**: Best practices for securing local IoT networks and managing IP addresses.  
+🌍 **Server Hosting**: Setting up local servers to centralize data from multiple sensor nodes.  
+➡️ [Explore Networking](<./05. Networking/>)
+
+---
+
+### 6️⃣ **[Graphical User Interface](<./06. Graphical User Interface/>)**  
+🎨 **Desktop Apps**: Build custom control panels using **Python (Tkinter/PyQt)**.  
+📊 **Visual Dashboards**: Create real-time graphs and buttons to monitor and control your IoT devices from a PC.  
+🖥️ **User Experience**: Design user-friendly interfaces for your hardware projects.  
+➡️ [Explore GUI](<./06. Graphical User Interface/>)
+
+---
+
+### 7️⃣ **[Important! How to Debug](<./07. Important! How to Debug/>)**  
+🐛 **Troubleshooting 101**: Systematic strategies to find and fix hardware/software errors.  
+📉 **Serial Debugging**: Using Serial Monitor and plotters to visualize data and catch logic flaws.  
+⚡ **Hardware Checks**: How to use a multimeter to diagnose power issues, short circuits, and faulty wiring.  
+➡️ [Learn Debugging](<./07. Important! How to Debug/>)
+
+---
+
+### 8️⃣ **[3D Design & Slicing](<./08. 3D Design & Slicing/>)**  
+🧊 **CAD Basics**: Introduction to designing custom enclosures and robot parts (Tinkercad/Fusion 360).  
+🖨️ **Slicing for Print**: Configuring slicer settings (Cura) for optimal strength, supports, and print quality.  
+⚙️ **Prototyping**: Turning digital concepts into physical plastic parts for your projects.  
+➡️ [Explore 3D Design](<./08. 3D Design & Slicing/>)
+
+---
+
+### 9️⃣ **[Mechanical Fabrication](<./09. Mechanical Fabrication/>)**  
+🔩 **Robot Chassis**: Assembling frames, wheels, and motors for mobile robots.  
+🛠️ **Tools & Techniques**: Basic workshop skills—soldering, fastening, and structural assembly.  
+⚙️ **Moving Parts**: Understanding gears, servos, and mechanical linkages for movement.  
+➡️ [Explore Fabrication](<./09. Mechanical Fabrication/>)
+
+---
+
+### 🔟 **[Projects](<./Projects/>)**  
+🏆 **Capstone Builds**: Complete, documented projects combining all the skills above (e.g., Smart Home, Autonomous Car).  
+📝 **Source Code**: Full codebases, wiring diagrams, and parts lists for replication.  
+🚀 **Real-World Use**: Practical applications of IoT solving real problems.  
+➡️ [View Projects](<./Projects/>)
+
 
 ---
 
