@@ -114,6 +114,8 @@ Through structured tutorials and engaging projects, this repository will guide y
 
 ## 🛠️ Getting Started
 
+### Before you start, take a moment to fill up [this form ]([https://docs.google.com/forms/d/e/1FAIpQLSfl4mnLVVyRVh7tE3BKSyLd1JEw_i6A0dW5vZk9-vs4iB9dyA/viewform?usp=header](https://forms.gle/L5fhzizU8tFqtJZK8)) so that you can evaluate yourself
+
 1️⃣ **Clone the repository**  
 ```sh
 git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
