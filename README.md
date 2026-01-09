@@ -37,7 +37,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🤖 **Sensors & Motors**: Integrating sensors and motors for robotics and automation.  
 - 🔄 **Serial Communication**: Enabling data exchange between multiple Arduino boards.
 
-➡️ [Explore Arduino](./01.%20Arduino)  
+➡️ [Explore Arduino](./02.%20Arduino)  
 
 ---
 
@@ -46,7 +46,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🤖 **Sensors & Motors**: Implementing real-world applications using sensors and motor drivers.  
 - 🔄 **Serial Communication**: Establishing ESP32-to-ESP32 and ESP32-to-Arduino data exchange.  
 
-➡️ [Explore ESP32](./02.%20ESP32)  
+➡️ [Explore IoT with ESP32](./03.%20ESP32)  
 
 ---
 
@@ -56,7 +56,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🌍 **IoT**: Setting up **MQTT** for IoT applications and integrating local servers.  
 - 🔗 **Networking**: Implementing **SSH, VNC, and local server hosting** for remote access.  
 
-➡️ [Explore Raspberry Pi](./03.%20Raspberry%20Pi)  
+➡️ [Explore Raspberry Pi](./04.%20Raspberry%20Pi)  
 
 ---
 
@@ -65,7 +65,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🖥️ **Remote Desktop**: Connect to IoT devices via **VNC** for graphical access.  
 - 🌍 **Local Server Hosting**: Set up servers to manage IoT applications efficiently.  
 
-➡️ [Explore Networking](./04.%20Networking)  
+➡️ [Explore Networking](./05.%20Networking)  
 
 ---
 
@@ -73,7 +73,7 @@ Through structured tutorials and engaging projects, this repository will guide y
 - 🎨 **Building Graphical Interfaces**: Create interactive dashboards using Python’s `Tkinter` library.  
 - 🖥️ **IoT Device Control**: Manage and monitor IoT devices through a custom graphical interface.  
 
-➡️ [Explore GUI](./05.%20GUI)  
+➡️ [Explore GUI](./06.%20GUI)  
 
 ---
 
