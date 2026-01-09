@@ -116,9 +116,11 @@ Explore the folders below to start your journey into connected devices, smart au
 
 ## 🛠️ Getting Started
 
-### Before you start, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8) so that you can evaluate yourself.
+## Before you start, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8) so that you can evaluate yourself.
 
-1️⃣ **Clone the repository**  
+1️⃣ ## Before you start, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8) so that you can evaluate yourself.
+
+**Clone the repository**  
 ```sh
 git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
 ```
@@ -128,6 +130,7 @@ cd NetIoT-Network-IOT-Repository
 ```
 3️⃣ Follow the tutorials & start building!
 
+## 4️⃣ [Start your first lesson!](<./01. Simulation/>)
 ---
 
 ## 📢 Contributing
