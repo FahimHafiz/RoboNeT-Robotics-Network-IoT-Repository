@@ -143,12 +143,6 @@ Feel free to fork the repository, make your changes, and submit a Pull Request (
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License, which means you are free to use, modify, and distribute it with proper attribution.
-
----
-
 ## ⭐ Stay Connected!
 
 If you find this repository useful, don’t forget to:
