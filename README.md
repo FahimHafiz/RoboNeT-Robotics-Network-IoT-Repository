@@ -38,6 +38,7 @@ Explore the folders below to start your journey into connected devices, smart au
 🔌 **Component Basics**: Learn wiring for LEDs, sensors (ultrasonic, temperature), and motors safely.  
 💻 **Code & Debug**: Write and verify Arduino code in a simulated environment before real-world deployment.  
 ➡️ [Explore Simulation](<./01. Simulation/>)
+[Simulation evaluation form](https://forms.gle/WjBYUk2cM1LL26co6)
 
 ---
 
@@ -46,7 +47,7 @@ Explore the folders below to start your journey into connected devices, smart au
 📡 **Sensors & Actuators**: Hands-on examples for interfacing relays, displays (LCD/OLED), and environmental sensors.  
 ⚡ **Projects**: Step-by-step tutorials for building line-followers, weather stations, and automation tools.  
 ➡️ [Explore Arduino](<./02. Arduino/>)
-
+[Arduino evaluation form](https://forms.gle/KS98gFbcjFcjwbXMA)
 ---
 
 ### 3️⃣ **[IoT with ESP32](<./03. IoT with ESP32/>)**  
@@ -54,7 +55,7 @@ Explore the folders below to start your journey into connected devices, smart au
 ☁️ **Cloud Integration**: Send sensor data to cloud platforms (Firebase, Google Sheets, HTTP/MQTT).  
 🔄 **Wireless Control**: Remotely control appliances and monitor data from anywhere in the world.  
 ➡️ [Explore ESP32 IoT](<./03. IoT with ESP32/>)
-
+[IoT with ESP32 evaluation form](https://forms.gle/ENzKLmvZyGA6Wupx7)
 ---
 
 ### 4️⃣ **[Raspberry Pi](<./04. Raspberry Pi/>)**  
@@ -62,7 +63,7 @@ Explore the folders below to start your journey into connected devices, smart au
 🐍 **Python for IoT**: Writing Python scripts for GPIO control, automation, and data logging.  
 📷 **Computer Vision**: Basic image processing and camera module integration for surveillance or AI projects.  
 ➡️ [Explore Raspberry Pi](<./04. Raspberry Pi/>)
-
+[Raspberry Pi evaluation form](https://forms.gle/Zwo2V3Yn4RALHrBp7)
 ---
 
 ### 5️⃣ **[Networking](<./05. Networking/>)**  
@@ -70,7 +71,6 @@ Explore the folders below to start your journey into connected devices, smart au
 📡 **Network Security**: Best practices for securing local IoT networks and managing IP addresses.  
 🌍 **Server Hosting**: Setting up local servers to centralize data from multiple sensor nodes.  
 ➡️ [Explore Networking](<./05. Networking/>)
-
 ---
 
 ### 6️⃣ **[Graphical User Interface](<./06. Graphical User Interface/>)**  
@@ -78,7 +78,7 @@ Explore the folders below to start your journey into connected devices, smart au
 📊 **Visual Dashboards**: Create real-time graphs and buttons to monitor and control your IoT devices from a PC.  
 🖥️ **User Experience**: Design user-friendly interfaces for your hardware projects.  
 ➡️ [Explore GUI](<./06. Graphical User Interface/>)
-
+[GUI evaluation form](https://forms.gle/YpiwVR7wU68izF1n6)
 ---
 
 ### 7️⃣ **[Important! How to Debug](<./07. Important! How to Debug/>)**  
@@ -86,7 +86,6 @@ Explore the folders below to start your journey into connected devices, smart au
 📉 **Serial Debugging**: Using Serial Monitor and plotters to visualize data and catch logic flaws.  
 ⚡ **Hardware Checks**: How to use a multimeter to diagnose power issues, short circuits, and faulty wiring.  
 ➡️ [Learn Debugging](<./07. Important! How to Debug/>)
-
 ---
 
 ### 8️⃣ **[3D Design & Slicing](<./08. 3D Design & Slicing/>)**  
@@ -94,7 +93,6 @@ Explore the folders below to start your journey into connected devices, smart au
 🖨️ **Slicing for Print**: Configuring slicer settings (Cura) for optimal strength, supports, and print quality.  
 ⚙️ **Prototyping**: Turning digital concepts into physical plastic parts for your projects.  
 ➡️ [Explore 3D Design](<./08. 3D Design & Slicing/>)
-
 ---
 
 ### 9️⃣ **[Mechanical Fabrication](<./09. Mechanical Fabrication/>)**  
@@ -102,7 +100,7 @@ Explore the folders below to start your journey into connected devices, smart au
 🛠️ **Tools & Techniques**: Basic workshop skills—soldering, fastening, and structural assembly.  
 ⚙️ **Moving Parts**: Understanding gears, servos, and mechanical linkages for movement.  
 ➡️ [Explore Fabrication](<./09. Mechanical Fabrication/>)
-
+[Mechanical Fabrication and 3D Design evaluation form](https://forms.gle/5e35zRsDkEXiZRjSA)
 ---
 
 ### 🔟 **[Projects](<./Projects/>)**  
