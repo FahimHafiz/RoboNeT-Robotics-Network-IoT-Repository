@@ -3,13 +3,13 @@
 </div>
 
 
-# 🛫 NetIoT - IoT Networking & Data Communication Repository
+# 🛫 RoboNeT - Robotics, Networking, IoT & Data Communication Repository
 
 Welcome to the **NetIoT** repository! 🎉  
 
 This project is a **comprehensive learning hub** for students, developers, and hobbyists passionate about **Internet of Things (IoT)**, **Embedded Systems**, and **Engineering**. We go beyond just code—covering the entire lifecycle of an IoT product, from **simulation and software** to **mechanical fabrication and 3D design**.
 
-Whether you are simulating circuits, coding for the cloud, or building physical robot chassis, this repository offers structured guidance across:
+Whether you are simulating circuits, coding for the cloud, or building a physical robot chassis, this repository offers structured guidance across:
 
 - **Hardware Cores**: Arduino, ESP32, and Raspberry Pi.
 - **Software & Control**: Python GUIs, Networking Protocols (HTTP/MQTT), and Cloud Databases.
