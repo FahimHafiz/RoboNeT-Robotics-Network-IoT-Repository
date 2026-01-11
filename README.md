@@ -147,6 +147,8 @@ We welcome contributions! Whether you're a beginner or an expert, you can help i
 
 Feel free to fork the repository, make your changes, and submit a Pull Request (PR)! 🚀
 
+## Have a feedback?
+Fill up this [Feedback form.](https://forms.gle/1bCwJVivFexUFszr8)
 ---
 
 ## ⭐ Stay Connected!
