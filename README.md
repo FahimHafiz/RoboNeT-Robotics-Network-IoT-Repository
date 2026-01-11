@@ -5,7 +5,7 @@
 
 # 🛫 RoboNeT - Robotics, Networking, IoT & Data Communication Repository
 
-Welcome to the **NetIoT** repository! 🎉  
+Welcome to the **RoboNeT** repository! From United International University (Department of CSE), we have started an initiative to democratize Robotics, IoT, and Network System learning as well as implementing via this open source repository. 🎉  
 
 This project is a **comprehensive learning hub** for students, developers, and hobbyists passionate about **Internet of Things (IoT)**, **Embedded Systems**, and **Engineering**. We go beyond just code—covering the entire lifecycle of an IoT product, from **simulation and software** to **mechanical fabrication and 3D design**.
 
