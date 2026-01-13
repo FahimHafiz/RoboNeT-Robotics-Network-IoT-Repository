@@ -5,7 +5,7 @@
 
 # 🛫 RoboNeT - Robotics, Networking, IoT & Data Communication Repository
 
-Welcome to the **RoboNeT** repository! From United International University (Department of CSE), we have started an initiative to democratize Robotics, IoT, and Network System learning as well as implementing via this open source repository. 🎉  
+Welcome to the **RoboNeT** repository! From the Center for Emerging Networks and Technologies Research, United International University (Department of CSE), we have started an initiative to democratize Robotics, IoT, and Network systems learning as well as implementing via this open source repository. 🎉  
 
 This project is a **comprehensive learning hub** for students, developers, and hobbyists passionate about **Internet of Things (IoT)**, **Embedded Systems**, and **Engineering**. We go beyond just code—covering the entire lifecycle of an IoT product, from **simulation and software** to **mechanical fabrication and 3D design**.
 
@@ -138,16 +138,41 @@ cd NetIoT-Network-IOT-Repository
 # [Start your first lesson!](<./01. Simulation/>)
 ---
 
-## 📢 Contributing
+## 👥 Contributors and Advisors
 
-We welcome contributions! Whether you're a beginner or an expert, you can help improve this repository. If you have:
-- ✔️ New project ideas
-- ✔️ Improvements for existing documentation
-- ✔️ Code optimizations
+### Contributors
+- **Shorower Hossain** — Student, Department of CSE, United International University  
+- **Aranya Kishor Das** — Student, Department of CSE, United International University  
+- **Athin Hossain** — Student, Department of CSE, United International University  
+- **Siam Bin Rashid** — Student, Department of CSE, United International University  
+- **Emon Hossain** — Student, Department of CSE, United International University  
+- **Fahim Hafiz** — Lecturer, Department of CSE, United International University  
+- **Saifur Rahman** — Lecturer, Department of CSE, United International University  
+- **Taki Yashir** — Lecturer, Department of CSE, United International University  
+- **Next → Could be you!**  
+  Interested in joining this voluntary project? Email **Mr. Fahim Hafiz** at *fahimhafiz@cse.uiu.ac.bd*.  
+  Please include:
+  - A short paragraph on how you’d like to contribute  
+  - Your CV  
 
-Feel free to fork the repository, make your changes, and submit a Pull Request (PR)! 🚀
+---
 
-## Have a feedback?
+### Advisors
+- **Mohammad Mamun Elahi** — Assistant Professor, Department of CSE, United International University  
+- **Fahim Hafiz** — Lecturer, Department of CSE, United International University  
+
+---
+
+### 💡 How You Can Contribute
+We welcome contributions from **beginners and experts alike**! You can help improve this repository by:
+- ✔️ **Proposing new project ideas**  
+- ✔️ **Improving existing documentation**  
+- ✔️ **Optimizing code and workflows**  
+
+📩 To get involved, email **Mr. Fahim Hafiz** at *fahimhafiz@cse.uiu.ac.bd* with a short description of your intended contribution and your CV.
+
+
+## Have any feedback?
 Fill up this [Feedback form.](https://forms.gle/1bCwJVivFexUFszr8)
 ---
 
