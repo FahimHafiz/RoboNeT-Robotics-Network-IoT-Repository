@@ -168,8 +168,16 @@ Whether you’re a contributor, advisor, or just curious, this is the place to:
 - **Collaborate** on ongoing projects  
 - **Stay updated** with announcements and discussions  
 
-## Have any feedback for any experiment?
-Fill up this [Feedback form.](https://forms.gle/1bCwJVivFexUFszr8)
+## 📝 Feedback
+
+Have any feedback on our experiments?  
+We’d love to hear from you! Please fill out this [Feedback Form](https://forms.gle/1bCwJVivFexUFszr8).  
+
+Your input helps us:
+- **Improve experiments** with better design and documentation  
+- **Identify issues** and optimize workflows  
+- **Shape future projects** with community insights
+
 ---
 
 ## ⭐ Stay Connected!
