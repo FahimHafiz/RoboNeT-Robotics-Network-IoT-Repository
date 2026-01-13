@@ -123,20 +123,7 @@ Explore the folders below to start your journey into connected devices, smart au
 # 🛠️ Getting Started
 
 
-## 1️⃣ Before you start, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8) so that you can evaluate yourself.
-
-**Clone the repository**  
-```sh
-git clone https://github.com/yourusername/NetIoT-Network-IOT-Repository.git
-```
-## 2️⃣ Navigate to your area of interest
-```sh
-cd NetIoT-Network-IOT-Repository
-```
-## 3️⃣ Follow the tutorials & start building!
-
-# [Start your first lesson!](<./01. Simulation/>)
----
+## Before you start, take a moment to fill up [this form ](https://forms.gle/L5fhzizU8tFqtJZK8) so that you can evaluate yourself.
 
 ## 👥 Contributors and Advisors
 
@@ -172,7 +159,16 @@ We welcome contributions from **beginners and experts alike**! You can help impr
 📩 To get involved, email **Mr. Fahim Hafiz** at *fahimhafiz@cse.uiu.ac.bd* with a short description of your intended contribution and your CV.
 
 
-## Have any feedback?
+## 💬 Community & Communication
+We’ve opened a **Discord Channel** for day‑to‑day communications, collaboration, and community building.  
+Join us here: [RoboNeT Discord Community](https://discord.gg/KGcuAKNGjF)  
+
+Whether you’re a contributor, advisor, or just curious, this is the place to:
+- **Share ideas** and get feedback  
+- **Collaborate** on ongoing projects  
+- **Stay updated** with announcements and discussions  
+
+# Have any feedback?
 Fill up this [Feedback form.](https://forms.gle/1bCwJVivFexUFszr8)
 ---
 
