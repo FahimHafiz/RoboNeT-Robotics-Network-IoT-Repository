@@ -130,7 +130,7 @@ Explore the folders below to start your journey into connected devices, smart au
 ### Contributors
 - **Shorower Hossain** — Student, Department of CSE, United International University  
 - **Aranya Kishor Das** — Student, Department of CSE, United International University  
-- **Athin Hossain** — Student, Department of CSE, United International University  
+- **Nazmul Hasan Athin** — Student, Department of CSE, United International University  
 - **Siam Bin Rashid** — Student, Department of CSE, United International University  
 - **Emon Hossain** — Student, Department of CSE, United International University  
 - **Fahim Hafiz** — Lecturer, Department of CSE, United International University  
