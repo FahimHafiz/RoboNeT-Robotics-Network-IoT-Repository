@@ -33,3 +33,6 @@ Once a model is trained, Roboflow makes it easy to deploy to various environment
 * **Cloud APIs:** For scalable web-based inference.
 * **Edge Devices:** Deployment to NVIDIA Jetson, Raspberry Pi, and mobile devices (iOS/Android).
 * **Web Browsers:** Using Roboflow.js for real-time inference in the browser.
+
+<img width="1916" height="931" alt="image" src="https://github.com/user-attachments/assets/0471baad-5bd0-4704-bea8-263837f0fc8f" />
+
