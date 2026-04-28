@@ -58,10 +58,3 @@ You will be presented with several options. It is important to choose the one th
    * **Use Cases:** Autonomous driving or satellite analysis.
 
 ---
-
-## Step 4: Starting with Object Detection
-For this tutorial, we will proceed with **Object Detection**. Enter your project details such as the project name and the name of the object you are detecting.
-
-<img width="733" height="656" alt="Configure Object Detection" src="https://github.com/user-attachments/assets/5aef98b8-5d44-41e5-93e4-7764f32cdf0b" />
-
-**Action:** Select "Object Detection" from the list and fill in the required project information to get started!
