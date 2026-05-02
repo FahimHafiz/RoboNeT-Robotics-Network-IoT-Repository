@@ -54,10 +54,6 @@ Since this is an **Object Detection** project, the **Bounding Box (B)** tool is 
 * **Completeness:** Label every instance of the object in the image. If you miss one, the model might learn that the object is "background."
 <img width="188" height="209" alt="image" src="https://github.com/user-attachments/assets/f7492c42-5d90-4abd-9762-d68e900b8755" />
 
-# Finalizing Annotations and Class Management
-
-Once you have drawn your bounding boxes, you must assign them to a **Class**. This tells the model not just *where* an object is, but *what* it is.
-
 ## 5. Creating and Assigning Classes
 When you finish drawing a box, a pop-up will appear asking you to identify the object.
 
