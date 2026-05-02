@@ -74,3 +74,6 @@ After you have meticulously annotated every object in your image, the status of 
 * **Occlusion:** If an object is partially hidden (like a car behind a tree), box the visible portion and ensure your project settings handle occlusions if necessary.
 
 Once your images are fully annotated, you are ready to proceed to the **Generate** and **Train** phases to build your artificial intelligence model!
+
+<img width="607" height="794" alt="image" src="https://github.com/user-attachments/assets/66883428-d331-4ce7-9c7d-fe0eea11c456" />
+
